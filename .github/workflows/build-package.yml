@@ -29,11 +29,14 @@ jobs:
         # Plain pacman/makepkg can't resolve AUR-only dependencies like
         # kseexpr-qt6-git. paru walks the AUR dependency chain itself, so
         # future new AUR deps in krita-git's PKGBUILD keep working without
-        # us touching this workflow. paru-bin ships a prebuilt binary, so
-        # this step doesn't need to compile anything.
+        # us touching this workflow. Building from source (not paru-bin)
+        # so it links against whatever libalpm this image actually has -
+        # paru-bin is a prebuilt binary pinned to a specific libalpm ABI
+        # and breaks whenever that drifts from the image's pacman version.
         run: |
-          sudo -u builder git clone https://aur.archlinux.org/paru-bin.git /home/builder/paru-bin
-          cd /home/builder/paru-bin
+          pacman -S --needed --noconfirm rust
+          sudo -u builder git clone https://aur.archlinux.org/paru.git /home/builder/paru
+          cd /home/builder/paru
           sudo -u builder makepkg -si --noconfirm --skippgpcheck
 
       - name: Fetch krita-git PKGBUILD from the AUR
