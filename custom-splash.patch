@@ -1,0 +1,35 @@
+diff --git a/libs/ui/kis_splash_screen.cpp b/libs/ui/kis_splash_screen.cpp
+index 2bcfff5..1e51321 100644
+--- a/libs/ui/kis_splash_screen.cpp
++++ b/libs/ui/kis_splash_screen.cpp
+@@ -14,6 +14,8 @@
+ #include <QCheckBox>
+ #include <kis_debug.h>
+ #include <QFile>
++#include <QFileInfo>
++#include <QStandardPaths>
+ #include <QScreen>
+ #include <QWindow>
+ #include <QSvgWidget>
+@@ -271,6 +273,21 @@ void KisSplashScreen::setLoadingText(QString text)
+ KisSplashScreen::Source KisSplashScreen::getImageSource()
+ {
+     QString artistCredit = i18nc("Normal splash artist name", "Tyson Tan");
++
++    // --- custom splash override ------------------------------------------
++    // Drop a PNG/JPG at $KRITA_CUSTOM_SPLASH, or at
++    // <config dir>/custom_splash.png (e.g. ~/.config/krita/custom_splash.png
++    // on Linux), to replace the splash image without recompiling Krita.
++    QString customPath = qEnvironmentVariable("KRITA_CUSTOM_SPLASH");
++    if (customPath.isEmpty()) {
++        customPath = QStandardPaths::writableLocation(QStandardPaths::AppConfigLocation)
++                + QStringLiteral("/custom_splash.png");
++    }
++    if (QFileInfo::exists(customPath)) {
++        return Source{customPath, QString()};
++    }
++    // -----------------------------------------------------------------------
++
+     // Loading the ginormous 4K PNG splash image increases the startup time on
+     // Android by several seconds and at the same time looks really bad when
+     // scaled down to a dinky size. Instead of overengineering this into an
