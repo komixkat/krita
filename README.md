@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="https://krita.org/images/krita-logo-light.svg" alt="Krita" width="360">
-</p>
-
-<p align="center">
   <img src="https://krita.org/images/hero-image-50.webp" alt="Krita" width="100%">
 </p>
 
