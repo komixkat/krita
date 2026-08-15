@@ -1,0 +1,68 @@
+name: Build Arch package
+
+on:
+  workflow_run:
+    workflows: ["Sync with upstream Krita"]
+    types: [completed]
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Base system + build tools
+        run: |
+          pacman -Syu --noconfirm
+          pacman -S --needed --noconfirm base-devel git sudo
+
+      - name: Create unprivileged build user
+        # makepkg refuses to run as root
+        run: |
+          useradd -m builder
+          echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+          chown -R builder:builder /github/workspace
+
+      - name: Fetch krita-git PKGBUILD from the AUR
+        run: |
+          sudo -u builder git clone https://aur.archlinux.org/krita-git.git /home/builder/krita-git
+        working-directory: /home/builder
+
+      - name: Point PKGBUILD at this fork
+        # Swap the upstream git source for this fork/branch so the AUR
+        # recipe's dependency list and cmake flags (which the AUR maintainer
+        # keeps current) are reused unmodified, we just change *what* is built.
+        run: |
+          cd /home/builder/krita-git
+          sed -i \
+            -e "s#invent.kde.org/graphics/krita.git#github.com/${{ github.repository }}.git#g" \
+            -e "s#github.com/KDE/krita.git#github.com/${{ github.repository }}.git#g" \
+            -e "s#branch=master#branch=master#g" \
+            PKGBUILD
+          chown -R builder:builder /home/builder/krita-git
+
+      - name: makepkg
+        run: |
+          cd /home/builder/krita-git
+          sudo -u builder makepkg -s --noconfirm --skippgpcheck
+
+      - name: Collect built package
+        run: |
+          mkdir -p /github/workspace/out
+          cp /home/builder/krita-git/*.pkg.tar.zst /github/workspace/out/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: krita-custom-splash-pkg
+          path: out/*.pkg.tar.zst
+          retention-days: 14
+
+      - name: Publish rolling release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rolling
+          name: "Latest build"
+          prerelease: true
+          files: out/*.pkg.tar.zst

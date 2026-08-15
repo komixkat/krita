@@ -1,0 +1,67 @@
+name: Sync with upstream Krita
+
+# Runs on a schedule, and can also be triggered manually from the Actions tab.
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # every Monday, 03:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://invent.kde.org/graphics/krita.git || true
+          git fetch upstream master
+
+      - name: Merge upstream/master into local branch
+        id: merge
+        run: |
+          set -e
+          git checkout master
+          if git merge --no-edit upstream/master; then
+            echo "merged=clean" >> "$GITHUB_OUTPUT"
+          else
+            echo "merged=conflict" >> "$GITHUB_OUTPUT"
+            git merge --abort || true
+            exit 1
+          fi
+
+      - name: Push updated branch
+        if: steps.merge.outputs.merged == 'clean'
+        run: git push origin master
+
+      - name: File an issue on conflict
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Upstream sync failed - merge conflict",
+              body: [
+                "The scheduled sync with `invent.kde.org/graphics/krita` (mirrored on ",
+                "GitHub as `KDE/krita`) hit a merge conflict, almost certainly in ",
+                "`libs/ui/kis_splash_screen.cpp` where the custom-splash patch lives.",
+                "",
+                "To fix: pull upstream locally, merge, resolve the conflict in that ",
+                "file (keep the '--- custom splash override ---' block), push, then ",
+                "re-run this workflow or close this issue once `main` is green again."
+              ].join("\n")
+            });
