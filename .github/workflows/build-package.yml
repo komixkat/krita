@@ -48,12 +48,15 @@ jobs:
         # Swap the upstream git source for this fork/branch so the AUR
         # recipe's dependency list and cmake flags (which the AUR maintainer
         # keeps current) are reused unmodified, we just change *what* is built.
+        # Also swap kseexpr-qt6-git (orphaned/unresolvable on the AUR) for
+        # the official extra/kseexpr package, which provides the same lib.
         run: |
           cd /home/builder/krita-git
           sed -i \
             -e "s#invent.kde.org/graphics/krita.git#github.com/${{ github.repository }}.git#g" \
             -e "s#github.com/KDE/krita.git#github.com/${{ github.repository }}.git#g" \
             -e "s#branch=master#branch=master#g" \
+            -e "s#kseexpr-qt6-git#kseexpr#g" \
             PKGBUILD
           chown -R builder:builder /home/builder/krita-git
 
