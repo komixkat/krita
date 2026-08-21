@@ -73,11 +73,23 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/out"
           cp /home/builder/krita-git/*.pkg.tar.zst "$GITHUB_WORKSPACE/out/"
 
+      - name: Build repo database
+        # Generates komixkat.db.tar.zst / komixkat.files.tar.zst so pacman
+        # can treat this release as a real repo, plus plain-named copies
+        # (no .tar.zst suffix) since that's the literal filename pacman
+        # requests over HTTP.
+        run: |
+          pacman -S --needed --noconfirm pacman-contrib
+          cd "$GITHUB_WORKSPACE/out"
+          repo-add komixkat.db.tar.zst *.pkg.tar.zst
+          cp -L komixkat.db.tar.zst komixkat.db
+          cp -L komixkat.files.tar.zst komixkat.files
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: krita-custom-splash-pkg
-          path: out/*.pkg.tar.zst
+          path: out/*
           retention-days: 14
 
       - name: Publish rolling release
@@ -86,4 +98,4 @@ jobs:
           tag_name: rolling
           name: "Latest build"
           prerelease: false
-          files: out/*.pkg.tar.zst
+          files: out/*
