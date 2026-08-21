@@ -8,6 +8,25 @@ This is a fork of [Krita](https://krita.org), the free and open source digital p
 
 Built for Arch Linux via GitHub Actions. See [`NOTICE-CUSTOM-SPLASH.md`](./NOTICE-CUSTOM-SPLASH.md) for what changed and [`custom-splash.patch`](./custom-splash.patch) for the exact diff.
 
+## Install
+
+Add this repo to `/etc/pacman.conf`:
+
+```
+[komixkat]
+SigLevel = Optional TrustAll
+Server = https://github.com/komixkat/krita/releases/download/rolling
+```
+
+Then:
+
+```
+sudo pacman -Sy
+sudo pacman -S krita-git
+```
+
+New builds land here weekly and show up in a normal `sudo pacman -Syu`, no manual downloads needed.
+
 ## Usage
 
 ```
