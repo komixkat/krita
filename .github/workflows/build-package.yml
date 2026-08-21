@@ -85,5 +85,5 @@ jobs:
         with:
           tag_name: rolling
           name: "Latest build"
-          prerelease: true
+          prerelease: false
           files: out/*.pkg.tar.zst
