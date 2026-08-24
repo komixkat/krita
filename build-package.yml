@@ -1,0 +1,178 @@
+name: Build Arch package
+on:
+  workflow_run:
+    workflows: ["Sync with upstream Krita"]
+    types: [completed]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    container: archlinux:latest
+    steps:
+      - name: Base system + build tools
+        run: |
+          pacman -Syu --noconfirm
+          pacman -S --needed --noconfirm base-devel git sudo ccache
+
+      - name: Check if fork HEAD changed since last successful build
+        # Avoids burning ~2h on a no-op sync (sync workflow ran but there was
+        # nothing new upstream, or the change was trivial). Keys a tiny cache
+        # entry on the fork's current commit SHA - if we've already built
+        # this exact SHA before, cache-hit is true and we skip the heavy
+        # steps below. workflow_dispatch always forces a full rebuild so you
+        # can manually re-run regardless of this check.
+        id: head_sha
+        run: |
+          sha=$(git ls-remote https://github.com/${{ github.repository }}.git refs/heads/master | cut -f1)
+          echo "sha=$sha" >> "$GITHUB_OUTPUT"
+
+      - name: Restore build marker for this commit
+        id: marker
+        uses: actions/cache@v4
+        with:
+          path: /tmp/built-marker
+          key: built-${{ steps.head_sha.outputs.sha }}
+
+      - name: Set should-build flag
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ steps.marker.outputs.cache-hit }}" != "true" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Fork HEAD ${{ steps.head_sha.outputs.sha }} already built, skipping."
+          fi
+
+      # ---- Everything below only runs when there's actually something new ----
+
+      - name: Restore ccache
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: /home/builder/.ccache
+          key: ccache-krita-${{ github.run_id }}
+          restore-keys: |
+            ccache-krita-
+
+      - name: Restore pacman package cache
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: /var/cache/pacman/pkg
+          key: pacman-pkg-${{ github.run_id }}
+          restore-keys: |
+            pacman-pkg-
+
+      - name: Create unprivileged build user
+        # makepkg (and paru) refuse to run as root
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          useradd -m builder
+          echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+          mkdir -p "$GITHUB_WORKSPACE"
+          chown -R builder:builder "$GITHUB_WORKSPACE"
+          mkdir -p /home/builder/.ccache
+          chown -R builder:builder /home/builder/.ccache
+
+      - name: Configure ccache for makepkg
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          sed -i 's/^BUILDENV=(\(.*\))/BUILDENV=(\1)/' /etc/makepkg.conf
+          sed -i 's/!ccache/ccache/' /etc/makepkg.conf
+          echo 'export CCACHE_DIR=/home/builder/.ccache' >> /etc/makepkg.conf
+          echo 'export PATH="/usr/lib/ccache/bin:$PATH"' >> /etc/makepkg.conf
+
+      - name: Install paru (AUR helper)
+        # Plain pacman/makepkg can't resolve AUR-only dependencies like
+        # kseexpr-qt6-git. paru walks the AUR dependency chain itself, so
+        # future new AUR deps in krita-git's PKGBUILD keep working without
+        # us touching this workflow. Building from source (not paru-bin)
+        # so it links against whatever libalpm this image actually has -
+        # paru-bin is a prebuilt binary pinned to a specific libalpm ABI
+        # and breaks whenever that drifts from the image's pacman version.
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          pacman -S --needed --noconfirm rust
+          sudo -u builder git clone https://aur.archlinux.org/paru.git /home/builder/paru
+          cd /home/builder/paru
+          sudo -u builder makepkg -si --noconfirm --skippgpcheck
+
+      - name: Fetch krita-git PKGBUILD from the AUR
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          sudo -u builder git clone https://aur.archlinux.org/krita-git.git /home/builder/krita-git
+        working-directory: /home/builder
+
+      - name: Point PKGBUILD at this fork
+        # Swap the upstream git source for this fork/branch so the AUR
+        # recipe's dependency list and cmake flags (which the AUR maintainer
+        # keeps current) are reused unmodified, we just change *what* is built.
+        # Also swap kseexpr-qt6-git (orphaned/unresolvable on the AUR) for
+        # the official extra/kseexpr package, which provides the same lib.
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          cd /home/builder/krita-git
+          sed -i \
+            -e "s#invent.kde.org/graphics/krita.git#github.com/${{ github.repository }}.git#g" \
+            -e "s#github.com/KDE/krita.git#github.com/${{ github.repository }}.git#g" \
+            -e "s#branch=master#branch=master#g" \
+            -e "s#kseexpr-qt6-git#kseexpr#g" \
+            PKGBUILD
+          chown -R builder:builder /home/builder/krita-git
+
+      - name: Build with paru (resolves AUR deps automatically)
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          cd /home/builder/krita-git
+          sudo -u builder bash -c 'export CCACHE_DIR=/home/builder/.ccache && export PATH="/usr/lib/ccache/bin:$PATH" && paru -Ui --noconfirm --skipreview --removemake'
+
+      - name: Show ccache stats
+        if: steps.gate.outputs.run == 'true'
+        run: sudo -u builder ccache -s
+        continue-on-error: true
+
+      - name: Collect built package
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/out"
+          cp /home/builder/krita-git/*.pkg.tar.zst "$GITHUB_WORKSPACE/out/"
+
+      - name: Build repo database
+        # Generates komixkat.db.tar.zst / komixkat.files.tar.zst so pacman
+        # can treat this release as a real repo, plus plain-named copies
+        # (no .tar.zst suffix) since that's the literal filename pacman
+        # requests over HTTP. repo-add creates komixkat.db/.files as
+        # symlinks by default, so we remove those before copying real
+        # files over the same names.
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          pacman -S --needed --noconfirm pacman-contrib
+          cd "$GITHUB_WORKSPACE/out"
+          repo-add komixkat.db.tar.zst *.pkg.tar.zst
+          rm -f komixkat.db komixkat.files
+          cp komixkat.db.tar.zst komixkat.db
+          cp komixkat.files.tar.zst komixkat.files
+
+      - name: Record build marker
+        if: steps.gate.outputs.run == 'true'
+        run: echo "${{ steps.head_sha.outputs.sha }}" > /tmp/built-marker
+
+      - name: Upload artifact
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: krita-custom-splash-pkg
+          path: out/*
+          retention-days: 14
+
+      - name: Publish rolling release
+        if: steps.gate.outputs.run == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rolling
+          name: "Latest build"
+          prerelease: false
+          files: out/*
