@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-08-15 00:43+0000\n"
-"PO-Revision-Date: 2026-08-08 20:50+0200\n"
+"POT-Creation-Date: 2026-08-19 16:03+0000\n"
+"PO-Revision-Date: 2026-08-18 17:59+0200\n"
 "Last-Translator: Valter Mura <valtermura@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -21299,7 +21299,7 @@ msgid "Node Rename"
 msgstr "Rinomina nodo"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:16
-#: libs/image/kis_image.cc:869
+#: libs/image/kis_image.cc:867
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "Ridimensiona immagine"
@@ -21337,11 +21337,9 @@ msgid "Change Clone Layers"
 msgstr "Cambia livelli dei cloni"
 
 #: libs/image/commands_new/KisChangeImageHdrMetadataCommand.cpp:16
-#, fuzzy
-#| msgid "HDR Metadata..."
 msgctxt "(qtundo-format)"
 msgid "Set HDR Metadata"
-msgstr "Metadati HDR..."
+msgstr "Imposta i metadati HDR"
 
 #: libs/image/commands_new/KisImageAnimSettingCommand.cpp:13
 msgctxt "(qtundo-format)"
@@ -21555,38 +21553,34 @@ msgid "Pass Through"
 msgstr "Attraverso"
 
 #: libs/image/kis_hdr_metadata_models.cpp:51
-#, fuzzy, kde-format
-#| msgid " cd/m²"
+#, kde-format
 msgctxt "Image reference white value"
 msgid "%1 cd/m²"
-msgstr " cd/m²"
+msgstr "%1 cd/m²"
 
 #: libs/image/kis_hdr_metadata_models.cpp:63
-#, fuzzy, kde-format
-#| msgid "Luminance"
+#, kde-format
 msgctxt "CLLI calculation type"
 msgid "XYZ Luminance"
-msgstr "Luminanza"
+msgstr "Luminanza XYZ"
 
 #: libs/image/kis_hdr_metadata_models.cpp:64
-#, fuzzy, kde-format
-#| msgid "Rec 2020 PQ"
+#, kde-format
 msgctxt "CLLI calculation type"
 msgid "Rec 2020 Per Component"
-msgstr "Rec 2020 PQ"
+msgstr "Rec 2020 per componente"
 
 #: libs/image/kis_hdr_metadata_models.cpp:65
-#, fuzzy, kde-format
-#| msgid "Components:"
+#, kde-format
 msgctxt "CLLI calculation type"
 msgid "RGB Per Component"
-msgstr "Componenti"
+msgstr "RGB per componente"
 
 #: libs/image/kis_hdr_metadata_models.cpp:67
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Calculate the brightness in nits against XYZ luminance."
-msgstr ""
+msgstr "Calcola la luminosità in nit rispetto alla luminanza XYZ."
 
 #: libs/image/kis_hdr_metadata_models.cpp:68
 #, kde-format
@@ -21595,6 +21589,7 @@ msgid ""
 "Calculate the brightness in nits by testing the components in linear rec "
 "2020."
 msgstr ""
+"Calcola la luminosità in nit analizzando i componenti in Rec 2020 lineare."
 
 #: libs/image/kis_hdr_metadata_models.cpp:69
 #, kde-format
@@ -21603,6 +21598,8 @@ msgid ""
 "Calculate the brightness in nits by testing the components in linear RGB, if "
 "possible, falls back to using XYZ luminance."
 msgstr ""
+"Calcola la luminosità in nit analizzando i componenti in RGB lineare, se "
+"possibile, ritorna a utilizzare la luminanza XYZ."
 
 #: libs/image/kis_hdr_metadata_models.cpp:117
 #, kde-format
@@ -21626,70 +21623,69 @@ msgstr "Configurabile"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset color volume to the values defined by Rec. 2100 PQ"
-msgstr ""
+msgstr "Ripristina il volume dei colori ai valori definiti da Rec. 2100 PQ"
 
 #: libs/image/kis_hdr_metadata_models.cpp:122
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset color volume to the values defined by DCI-P3 D65"
-msgstr ""
+msgstr "Ripristina il volume dei colori ai valori definiti da DCI-P3 D65"
 
 #: libs/image/kis_hdr_metadata_models.cpp:123
-#, fuzzy, kde-format
-#| msgid "Use color palette for ... colors or less"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Use custom values for color volume"
-msgstr "Usa tavolozza dei colori per ... colori o meno"
+msgstr "Usa valori personalizzati per il volume dei colori"
 
-#: libs/image/kis_image.cc:422
+#: libs/image/kis_image.cc:420
 #, kde-format
 msgid "Imported Image"
 msgstr "Immagine importata"
 
 #. i18n.
-#: libs/image/kis_image.cc:765 libs/ui/kis_import_catcher.cc:50
+#: libs/image/kis_image.cc:763 libs/ui/kis_import_catcher.cc:50
 #: libs/ui/KisDocument.cpp:2711 plugins/impex/psd/psd_loader.cpp:221
 #, kde-format
 msgctxt "Name for the bottom-most layer in the layerstack"
 msgid "Background"
 msgstr "Sfondo"
 
-#: libs/image/kis_image.cc:769 libs/ui/kis_layer_manager.cc:686
+#: libs/image/kis_image.cc:767 libs/ui/kis_layer_manager.cc:686
 #, kde-format
 msgid "Paint Layer"
 msgstr "Livello Disegno"
 
-#: libs/image/kis_image.cc:868
+#: libs/image/kis_image.cc:866
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "Ritaglia immagine"
 
-#: libs/image/kis_image.cc:915
+#: libs/image/kis_image.cc:913
 msgctxt "(qtundo-format)"
 msgid "Purge Unused Data"
 msgstr "Elimina dati non utilizzati"
 
-#: libs/image/kis_image.cc:1019
+#: libs/image/kis_image.cc:1017
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "Ritaglia livello"
 
-#: libs/image/kis_image.cc:1020
+#: libs/image/kis_image.cc:1018
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "Ritaglia maschera"
 
-#: libs/image/kis_image.cc:1057
+#: libs/image/kis_image.cc:1055
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "Scala l'immagine"
 
-#: libs/image/kis_image.cc:1058
+#: libs/image/kis_image.cc:1056
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "Cambia risoluzione dell'immagine"
 
-#: libs/image/kis_image.cc:1108
+#: libs/image/kis_image.cc:1106
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
@@ -21697,17 +21693,17 @@ msgid_plural "Scale %1 Layers"
 msgstr[0] "Scala livello"
 msgstr[1] "Scala %1 livelli"
 
-#: libs/image/kis_image.cc:1247
+#: libs/image/kis_image.cc:1245
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "Ruota l'immagine"
 
-#: libs/image/kis_image.cc:1257
+#: libs/image/kis_image.cc:1255
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "Ruota la maschera"
 
-#: libs/image/kis_image.cc:1260
+#: libs/image/kis_image.cc:1258
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
@@ -21715,12 +21711,12 @@ msgid_plural "Rotate %1 Layers"
 msgstr[0] "Ruota livello"
 msgstr[1] "Ruota %1 livelli"
 
-#: libs/image/kis_image.cc:1361
+#: libs/image/kis_image.cc:1359
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "Deforma la maschera"
 
-#: libs/image/kis_image.cc:1365
+#: libs/image/kis_image.cc:1363
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
@@ -21728,42 +21724,42 @@ msgid_plural "Shear %1 Layers"
 msgstr[0] "Deforma livello"
 msgstr[1] "Deforma %1 livelli"
 
-#: libs/image/kis_image.cc:1372
+#: libs/image/kis_image.cc:1370
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "Deforma immagine"
 
-#: libs/image/kis_image.cc:1390
+#: libs/image/kis_image.cc:1388
 msgctxt "(qtundo-format)"
 msgid "Convert Layer Color Space"
 msgstr "Converti lo spazio dei colori del livello"
 
-#: libs/image/kis_image.cc:1441
+#: libs/image/kis_image.cc:1439
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "Converti lo spazio dei colori dell'immagine"
 
-#: libs/image/kis_image.cc:1442
+#: libs/image/kis_image.cc:1440
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "Converti lo spazio dei colori della proiezione"
 
-#: libs/image/kis_image.cc:1494
+#: libs/image/kis_image.cc:1492
 msgctxt "(qtundo-format)"
 msgid "Unify Layers Color Space"
 msgstr "Unifica lo spazio dei colori dei livelli"
 
-#: libs/image/kis_image.cc:1524
+#: libs/image/kis_image.cc:1522
 msgctxt "(qtundo-format)"
 msgid "Assign Profile to Layer"
 msgstr "Assegna profilo a un livello"
 
-#: libs/image/kis_image.cc:1565
+#: libs/image/kis_image.cc:1563
 msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr "Assegna profilo"
 
-#: libs/image/kis_image.cc:2637
+#: libs/image/kis_image.cc:2635
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "Ritaglia le selezioni"
@@ -22410,18 +22406,14 @@ msgstr ""
 "supportato. Il livello sarà convertito in un livello di disegno."
 
 #: libs/impex/HdrMetaDataCheck.h:22
-#, fuzzy, kde-format
-#| msgctxt "image conversion warning"
-#| msgid ""
-#| "This image has <b>animated layers</b>. Animation cannot be saved to this "
-#| "format."
+#, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "This image has <b>HDR metadata</b>. HDR metadata cannot be saved to this "
 "format."
 msgstr ""
-"Questa immagine contiene <b>livelli animati</b>. L'animazione non può essere "
-"salvata in questo formato."
+"Questa immagine contiene <b>metadati HDR</b>. I metadati HDR non possono "
+"essere salvati in questo formato."
 
 #: libs/impex/IntegralFrameDuration.h:32
 #, kde-format
@@ -27470,22 +27462,17 @@ msgid "Center"
 msgstr "Centro"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:339
-#, fuzzy, kde-format
-#| msgctxt "toolbar position string"
-#| msgid "Top"
+#, kde-format
 msgid "Top"
 msgstr "In alto"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:340
-#, fuzzy, kde-format
-#| msgctxt "JPEG-XL encoder options"
-#| msgid "Top left"
+#, kde-format
 msgid "Top Left"
 msgstr "In alto a sinistra"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:341
-#, fuzzy, kde-format
-#| msgid "Top Right"
+#, kde-format
 msgid "Top Right"
 msgstr "In alto a destra"
 
@@ -30736,13 +30723,13 @@ msgstr "Spazio aggiuntivo per il confronto"
 #, kde-format
 msgid "Enable Zoom Preview (Pixel-Perfect Color Sampler)"
 msgstr ""
+"Abilita anteprima ingrandimento (campionatore dei colori Pixel-Perfect)"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblColorSamplerZoomPreviewScale)
 #: libs/ui/forms/wdggeneralsettings.ui:1040
-#, fuzzy, kde-format
-#| msgid "No Preview"
+#, kde-format
 msgid "Zoom Preview Scale:"
-msgstr "Nessuna anteprima"
+msgstr "Scala anteprima ingrandimento:"
 
 #. i18n: ectx: property (suffix), widget (KisSliderSpinBox, m_ssbColorSamplerZoomPreviewScale)
 #. i18n: ectx: property (text), widget (QLabel, rowsColumnsXLabel)
@@ -30756,10 +30743,9 @@ msgstr "x"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblColorSamplerPreviewCirclePosition)
 #: libs/ui/forms/wdggeneralsettings.ui:1066
-#, fuzzy, kde-format
-#| msgid "Color Sampler Tool"
+#, kde-format
 msgid "Color Sampler Position:"
-msgstr "Strumento Campionatore dei colori"
+msgstr "Posizione del campionatore dei colori:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, Tools)
 #: libs/ui/forms/wdggeneralsettings.ui:1094
@@ -31390,54 +31376,47 @@ msgstr "Memorizza la configurazione di prova colore nell'immagine"
 
 #. i18n: ectx: attribute (title), widget (QWidget, grpHdrMeta)
 #: libs/ui/forms/wdgimageproperties.ui:302
-#, fuzzy, kde-format
-#| msgid "HDR Metadata..."
+#, kde-format
 msgid "HDR Metadata"
-msgstr "Metadati HDR..."
+msgstr "Metadati HDR"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbxHdrReferenceWhite)
 #: libs/ui/forms/wdgimageproperties.ui:308
-#, fuzzy, kde-format
-#| msgid "Reference images"
+#, kde-format
 msgid "HDR Reference White"
-msgstr "Immagini di riferimento"
+msgstr "Bianco di riferimento HDR"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbxContentLightLevel)
 #: libs/ui/forms/wdgimageproperties.ui:326
-#, fuzzy, kde-format
-#| msgid "Document Information"
+#, kde-format
 msgid "Content Light Level Information"
-msgstr "Informazioni sul documento"
+msgstr "Informazioni livello di luminosità contenuti"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: libs/ui/forms/wdgimageproperties.ui:338
-#, fuzzy, kde-format
-#| msgid "Change List Level"
+#, kde-format
 msgid "Max Content Light Level:"
-msgstr "Cambia il livello dell'elenco"
+msgstr "Livello max luminosità dei contenuti:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: libs/ui/forms/wdgimageproperties.ui:345
-#, fuzzy, kde-format
-#| msgid "<html><head/><body><p><br/></p></body></html>"
+#, kde-format
 msgid "<html><head/><body><p>Max Frame Average Light Level:</p></body></html>"
-msgstr "<html><head/><body><p><br/></p></body></html>"
+msgstr ""
+"<html><head/><body><p>Livello max luminosità media fotogrammi:</p></body></"
+"html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnCalculateClli)
 #: libs/ui/forms/wdgimageproperties.ui:362
-#, fuzzy, kde-format
-#| msgctxt "@label:button"
-#| msgid "Calculate"
+#, kde-format
 msgid "Calculate"
 msgstr "Calcola"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbxColorVolume)
 #: libs/ui/forms/wdgimageproperties.ui:404
-#, fuzzy, kde-format
-#| msgctxt "Rearrange the positions of the pixels under the cursor"
-#| msgid "Color Deformation"
+#, kde-format
 msgid "Color Volume Information"
-msgstr "Deformazione cromatica"
+msgstr "Informazioni sul Volume dei colori"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QLabel, GreenLabel)
@@ -31495,17 +31474,15 @@ msgstr "Bianco:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #: libs/ui/forms/wdgimageproperties.ui:566
-#, fuzzy, kde-format
-#| msgid "Max Luminance:"
+#, kde-format
 msgid "Maximum Luminance:"
-msgstr "Luminanza max.:"
+msgstr "Luminanza massima:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #: libs/ui/forms/wdgimageproperties.ui:589
-#, fuzzy, kde-format
-#| msgid "Min Luminance:"
+#, kde-format
 msgid "Minimum Luminance:"
-msgstr "Luminanza min.:"
+msgstr "Luminanza minima:"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: libs/ui/forms/wdgimageproperties.ui:634
@@ -65620,8 +65597,8 @@ msgstr "Attiva pennello preimpostato 9"
 #: plugins/python/tenbrushes/tenbrushes.action:138
 #, kde-format
 msgctxt "action"
-msgid "Activate Brush Preset 10"
-msgstr "Attiva pennello preimpostato 10"
+msgid "Activate Brush Preset 0"
+msgstr "Attiva pennello preimpostato 0"
 
 #: plugins/python/tenbrushes/tenbrushes.py:34
 msgid "Ten Brushes"
@@ -65678,81 +65655,85 @@ msgstr ""
 "scorciatoia</i> all'interno delle impostazioni di Krita."
 
 #. i18n: context: text @ Actions (Scripts), ActionCollection (Scripts)
+#. i18n: context: text @ Action (ten_scripts), Actions (Scripts), ActionCollection (Scripts)
+#. i18n: context: text @ Actions (Scripts), ActionCollection (Scripts)
+#. i18n: context: text @ Action (ten_scripts), Actions (Scripts), ActionCollection (Scripts)
 #: plugins/python/tenscripts/tenscripts.action:4
+#: plugins/python/tenscripts/tenscripts.action:8
 #, kde-format
 msgctxt "action"
 msgid "Ten Scripts"
 msgstr "Dieci script"
 
 #. i18n: context: text @ Action (execute_script_1), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:7
+#: plugins/python/tenscripts/tenscripts.action:21
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 1"
 msgstr "Esegui script 1"
 
 #. i18n: context: text @ Action (execute_script_2), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:19
+#: plugins/python/tenscripts/tenscripts.action:33
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 2"
 msgstr "Esegui script 2"
 
 #. i18n: context: text @ Action (execute_script_3), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:31
+#: plugins/python/tenscripts/tenscripts.action:45
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 3"
 msgstr "Esegui script 3"
 
 #. i18n: context: text @ Action (execute_script_4), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:43
+#: plugins/python/tenscripts/tenscripts.action:57
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 4"
 msgstr "Esegui script 4"
 
 #. i18n: context: text @ Action (execute_script_5), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:55
+#: plugins/python/tenscripts/tenscripts.action:69
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 5"
 msgstr "Esegui script 5"
 
 #. i18n: context: text @ Action (execute_script_6), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:67
+#: plugins/python/tenscripts/tenscripts.action:81
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 6"
 msgstr "Esegui script 6"
 
 #. i18n: context: text @ Action (execute_script_7), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:79
+#: plugins/python/tenscripts/tenscripts.action:93
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 7"
 msgstr "Esegui script 7"
 
 #. i18n: context: text @ Action (execute_script_8), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:91
+#: plugins/python/tenscripts/tenscripts.action:105
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 8"
 msgstr "Esegui script 8"
 
 #. i18n: context: text @ Action (execute_script_9), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:103
+#: plugins/python/tenscripts/tenscripts.action:117
 #, kde-format
 msgctxt "action"
 msgid "Execute Script 9"
 msgstr "Esegui script 9"
 
-#. i18n: context: text @ Action (execute_script_10), Actions (Scripts), ActionCollection (Scripts)
-#: plugins/python/tenscripts/tenscripts.action:115
+#. i18n: context: text @ Action (execute_script_0), Actions (Scripts), ActionCollection (Scripts)
+#: plugins/python/tenscripts/tenscripts.action:129
 #, kde-format
 msgctxt "action"
-msgid "Execute Script 10"
-msgstr "Esegui script 10"
+msgid "Execute Script 0"
+msgstr "Esegui script 0"
 
 #: plugins/python/tenscripts/tenscripts.py:27
 msgid "Ten Scripts"

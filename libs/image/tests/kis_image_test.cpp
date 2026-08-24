@@ -1305,6 +1305,7 @@ void KisImageTest::testPaintOverlayMask()
 
 void KisImageTest::testHdrReferenceWhite_data()
 {
+    #if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
     QTest::addColumn<const KoColorSpace*>("srcSpace");
     QTest::addColumn<const KoColorSpace*>("dstSpace");
     QTest::addColumn<double>("expectedOriginalHdrReferenceWhite");
@@ -1377,10 +1378,12 @@ void KisImageTest::testHdrReferenceWhite_data()
     QTest::addRow("rec2020pq_203-to-srgb")
         << rec2020pqu16_203 << sRGBu8
         << 203.0 << noHdrReferenceWhite << noHdrReferenceWhite;
+    #endif
 }
 
 void KisImageTest::testHdrReferenceWhite()
 {
+#if (QT_VERSION >= QT_VERSION_CHECK(6, 0, 0))
     auto optionalFromDouble = [] (double value) {
         return value >= 0 ? std::make_optional(value) : std::optional<double>();
     };
@@ -1409,6 +1412,7 @@ void KisImageTest::testHdrReferenceWhite()
     image->waitForDone();
 
     QCOMPARE(image->hdrReferenceWhiteLightLevel(), optionalFromDouble(expectedDstHdrReferenceWhite));
+#endif
 }
 
 void KisImageTest::testHdrReferenceWhiteCloning()
