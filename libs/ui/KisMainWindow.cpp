@@ -105,6 +105,7 @@
 #include <KisAndroidUtils.h>
 #endif
 
+#include <KisScopedPerformanceLogger.h>
 #include <KisUsageLogger.h>
 #include <brushengine/kis_paintop_settings.h>
 #include "dialogs/kis_about_application.h"
@@ -363,6 +364,8 @@ KisMainWindow::KisMainWindow(QUuid uuid)
     : KXmlGuiWindow()
     , d(new Private(this, uuid))
 {
+    KisScopedPerformanceLogger perfLog(QStringLiteral("KisMainWindow::KisMainWindow"));
+
     KAcceleratorManager::setNoAccel(this);
 
     d->workspacemodel = new KisResourceModel(ResourceType::Workspaces, this);
@@ -419,8 +422,8 @@ KisMainWindow::KisMainWindow(QUuid uuid)
     if (toolbox) {
         dockwidgetActions[toolbox->toggleViewAction()->text()] = toolbox->toggleViewAction();
     }
-    Q_FOREACH (const QString & docker, KoDockRegistry::instance()->keys()) {
-        KoDockFactoryBase *factory = KoDockRegistry::instance()->value(docker);
+
+    for (KoDockFactoryBase *factory : KoDockRegistry::instance()->sortedDockWidgetFactories()) {
         QDockWidget *dw = createDockWidget(factory);
         if (dw) {
             dockwidgetActions[dw->toggleViewAction()->text()] = dw->toggleViewAction();
@@ -2443,6 +2446,7 @@ QDockWidget* KisMainWindow::createDockWidget(KoDockFactoryBase* factory)
     const bool showTitlebars = KisConfig(false).showDockerTitleBars();
 
     if (!d->dockWidgetsMap.contains(factory->id())) {
+        KisScopedPerformanceLogger perfLog(QStringLiteral("KisMainWindow::createDockWidget(%1)").arg(factory->id()));
         dockWidget = factory->createDockWidget();
         KAcceleratorManager::setNoAccel(dockWidget);
 
@@ -3381,49 +3385,7 @@ void KisMainWindow::applyActionIconOverridesFromLocalXML()
 void KisMainWindow::synchronizeDynamicActions()
 {
     // Add all actions with a menu property to the main window
-    Q_FOREACH(QAction *action, this->actionCollection()->actions()) {
-        QString menuLocation = action->property("menulocation").toString();
-        if (!menuLocation.isEmpty()) {
-            QAction *found = 0;
-            QList<QAction *> candidates = this->menuBar()->actions();
-            Q_FOREACH(const QString &name, menuLocation.split("/")) {
-                Q_FOREACH(QAction *candidate, candidates) {
-                    if (candidate->objectName().toLower() == name.toLower()) {
-                        found = candidate;
-                        candidates = candidate->menu()->actions();
-                        break;
-                    }
-                }
-                if (candidates.isEmpty()) {
-                    break;
-                }
-            }
-
-            if (found && found->menu()) {
-                QList<QAction *> existingActions = found->menu()->actions();
-
-                if (std::find_if(existingActions.begin(),
-                                 existingActions.end(),
-                                 kismpl::mem_equal_to(&QAction::objectName, action->objectName()))
-                    == existingActions.end()) {
-
-                    if (std::is_sorted(existingActions.begin(),
-                                       existingActions.end(),
-                                       kismpl::mem_less(&QAction::objectName))) {
-
-                        auto it = std::upper_bound(existingActions.begin(),
-                                                   existingActions.end(),
-                                                   action->objectName(),
-                                                   kismpl::mem_less(&QAction::objectName));
-                        found->menu()->insertAction(it != existingActions.end() ? *it : nullptr, action);
-
-                    } else {
-                        found->menu()->addAction(action);
-                    }
-                }
-            }
-        }
-    }
+    KisActionManager::synchronizeDynamicActions(this->actionCollection()->actions(), this->menuBar()->actions());
 }
 
 #include <moc_KisMainWindow.cpp>
