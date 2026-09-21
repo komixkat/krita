@@ -160,6 +160,7 @@
 #include "KisToolBarStateModel.h"
 #include <config-qmdiarea-always-show-subwindow-title.h>
 #include <config-qt-patches-present.h>
+#include <KisPlatformPluginInterfaceFactory.h>
 
 #include <mutex>
 
@@ -782,6 +783,26 @@ void KisMainWindow::showView(KisView *imageView, QMdiSubWindow *subwin)
             QMdiSubWindow *currentSubWin = d->mdiArea->currentSubWindow();
             bool shouldMaximize = currentSubWin ? currentSubWin->isMaximized() : true;
             subwin = d->mdiArea->addSubWindow(imageView);
+
+            /**
+             * We set Qt::WA_DontCreateNativeAncestors in KisOpenGLCanvas2,
+             * so the parents will not receive native surfaces automatically.
+             * That is a problem for MDI-subwindows, since they may overlap.
+             * This overlapping cannot be resolved when the MDI-subwindow
+             * is an alien widget, but the wrapped widget is a native widget.
+             * The docorations of any subwindow will always be lower than
+             * the content of any of the subwindows.
+             *
+             * Therefore we explicitly create a native surface for every
+             * MDI-subwindow.
+             */
+            const bool osManagedSurfacePresent = KisPlatformPluginInterfaceFactory::instance()->surfaceColorManagedByOS();
+            const bool useNativeSurfaceForCanvas = KisConfig(true).effectiveShouldUseNativeSurfaceForCanvas(osManagedSurfacePresent);
+            if (useNativeSurfaceForCanvas) {
+                subwin->setAttribute(Qt::WA_DontCreateNativeAncestors);
+                subwin->setAttribute(Qt::WA_NativeWindow);
+            }
+
             if (shouldMaximize) {
                 subwin->setWindowState(Qt::WindowMaximized);
             }
@@ -991,7 +1012,8 @@ void KisMainWindow::customizeTabBar()
     QString tabStyleSheet = QStringLiteral(R"(
             QTabBar::close-button {
                 image: url(%1);
-                padding-top: 3px;
+                padding: 1.5px;
+                border-radius: 3px;
             }
             QTabBar::close-button:hover {
                 background-color: %2;
@@ -2879,6 +2901,9 @@ void KisMainWindow::configChanged()
     KisConfig cfg(true);
     QMdiArea::ViewMode viewMode = (QMdiArea::ViewMode)cfg.readEntry<int>("mdi_viewmode", (int)QMdiArea::TabbedView);
     d->mdiArea->setViewMode(viewMode);
+    //Do it here to avoid the wrong icon briefly flashing
+    customizeTabBar();
+
     Q_FOREACH (QMdiSubWindow *subwin, d->mdiArea->subWindowList()) {
         subwin->setOption(QMdiSubWindow::RubberBandMove, cfg.readEntry<int>("mdi_rubberband", cfg.useOpenGL()));
         subwin->setOption(QMdiSubWindow::RubberBandResize, cfg.readEntry<int>("mdi_rubberband", cfg.useOpenGL()));

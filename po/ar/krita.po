@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-08 00:43+0000\n"
-"PO-Revision-Date: 2026-09-01 17:46+0400\n"
+"POT-Creation-Date: 2026-09-18 00:43+0000\n"
+"PO-Revision-Date: 2026-09-14 19:10+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -8265,7 +8265,7 @@ msgctxt "action"
 msgid ""
 "Opens a file browser at the location Krita saves resources such as brushes "
 "to."
-msgstr "يفتح متصفّح الملفّات عند المكان الذي يحفظ فيه كريتا الموارد مثل الفُرش."
+msgstr "يفتح متصفّح الملفات عند المكان الذي يحفظ فيه كريتا الموارد مثل الفُرش."
 
 #. i18n: context: text @ Action (windows_cascade), Actions (General), ActionCollection (Krita)
 #: krita/krita.action:19
@@ -8328,7 +8328,7 @@ msgstr "أنشئ حزمة موارد"
 #, kde-format
 msgctxt "action"
 msgid "Show File Toolbar"
-msgstr "اعرض شريط أدوات الملفّ"
+msgstr "اعرض شريط أدوات الملف"
 
 #. i18n: context: text @ Action (lock_toolbars), Actions (General), ActionCollection (Krita)
 #. i18n: context: toolTip @ Action (lock_toolbars), Actions (General), ActionCollection (Krita)
@@ -11658,7 +11658,7 @@ msgstr "أضِف طبقة ملف جديدة"
 #, kde-format
 msgctxt "action"
 msgid "File Layer"
-msgstr "طبقة ملفّ"
+msgstr "طبقة ملف"
 
 #. i18n: context: text @ Action (add_new_transparency_mask), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2662
@@ -12281,7 +12281,7 @@ msgstr "حوِّل إلى طبقة &ملف..."
 #, kde-format
 msgctxt "action"
 msgid "Saves out the layers into a new image and then references that image."
-msgstr "يحفظ الطّبقات في صورة جديدة وبعدها يُشير إلى تلك الصّورة."
+msgstr "يحفظ الطّبقات في صورة جديدة وبعدها يُشير إلى تلك الصورة."
 
 #. i18n: context: iconText @ Action (convert_to_file_layer), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3061
@@ -12953,7 +12953,7 @@ msgstr "سطّح الصّور&ة"
 #, kde-format
 msgctxt "action"
 msgid "Flatten image"
-msgstr "سطّح الصّورة"
+msgstr "سطّح الصورة"
 
 #. i18n: context: text @ Action (layer_style), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3538
@@ -13144,7 +13144,7 @@ msgstr "&ملف"
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:11
 #, kde-format
 msgid "&Edit"
-msgstr "ت&حرير"
+msgstr "&حرّر"
 
 #: krita/krita5.xmlgui:70
 #, kde-format
@@ -13289,7 +13289,7 @@ msgstr "م&ساعدة"
 #: plugins/tools/svgtexttool/svgtexttool.xmlgui:40
 #, kde-format
 msgid "File"
-msgstr "ملفّ"
+msgstr "ملف"
 
 #: krita/krita5.xmlgui:441
 #, kde-format
@@ -13316,7 +13316,7 @@ msgstr "شريط أدوات مخصص 2"
 #, kde-format
 msgctxt "action"
 msgid "File"
-msgstr "ملفّ"
+msgstr "ملف"
 
 #. i18n: context: text @ Action (file_new), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:7
@@ -13603,7 +13603,7 @@ msgstr "احفظ نسخة احتياطية تزايدية"
 #, kde-format
 msgctxt "action"
 msgid "&Create Template From Image..."
-msgstr "أ&نشئ قالبًا من الصّورة..."
+msgstr "أ&نشئ قالبًا من الصورة..."
 
 #. i18n: context: toolTip @ Action (create_template), Actions (File), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (create_template), Actions (File), ActionCollection (Menu)
@@ -13613,14 +13613,14 @@ msgstr "أ&نشئ قالبًا من الصّورة..."
 #, kde-format
 msgctxt "action"
 msgid "Create Template From Image"
-msgstr "أنشئ قالبًا من الصّورة"
+msgstr "أنشئ قالبًا من الصورة"
 
 #. i18n: context: text @ Action (create_copy), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:201
 #, kde-format
 msgctxt "action"
 msgid "Create Copy &From Current Image"
-msgstr "أنشئ نسخة &عن الصّورة الحاليّة"
+msgstr "أنشئ نسخة &عن الصورة الحاليّة"
 
 #. i18n: context: toolTip @ Action (create_copy), Actions (File), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (create_copy), Actions (File), ActionCollection (Menu)
@@ -13630,7 +13630,7 @@ msgstr "أنشئ نسخة &عن الصّورة الحاليّة"
 #, kde-format
 msgctxt "action"
 msgid "Create Copy From Current Image"
-msgstr "أنشئ نسخة عن الصّورة الحاليّة"
+msgstr "أنشئ نسخة عن الصورة الحاليّة"
 
 #. i18n: context: text @ Action (file_documentinfo), Actions (File), ActionCollection (Menu)
 #: krita/kritamenu.action:213
@@ -13709,7 +13709,7 @@ msgstr "أنهِ"
 #, kde-format
 msgctxt "action"
 msgid "Edit"
-msgstr "تحرير"
+msgstr "حرّر"
 
 #. i18n: context: text @ Action (edit_undo), Actions (Edit), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (edit_undo), Actions (Edit), ActionCollection (Menu)
@@ -14944,7 +14944,7 @@ msgstr "لون خلفية الصورة وشفافيتها"
 #, kde-format
 msgctxt "action"
 msgid "&Convert Image Color Space..."
-msgstr "حوّل &فضاء الصّورة اللونيّ..."
+msgstr "حوّل &فضاء الصورة اللونيّ..."
 
 #. i18n: context: toolTip @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (imagecolorspaceconversion), Actions (Image), ActionCollection (Menu)
@@ -14954,14 +14954,14 @@ msgstr "حوّل &فضاء الصّورة اللونيّ..."
 #, kde-format
 msgctxt "action"
 msgid "Convert Image Color Space"
-msgstr "حوّل فضاء الصّورة اللونيّ"
+msgstr "حوّل فضاء الصورة اللونيّ"
 
 #. i18n: context: text @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1185
 #, kde-format
 msgctxt "action"
 msgid "&Trim to Image Size"
-msgstr "ا&قتصّ إلى مقاس الصّورة"
+msgstr "ا&قتصّ إلى مقاس الصورة"
 
 #. i18n: context: toolTip @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (trim_to_image), Actions (Image), ActionCollection (Menu)
@@ -14971,7 +14971,7 @@ msgstr "ا&قتصّ إلى مقاس الصّورة"
 #, kde-format
 msgctxt "action"
 msgid "Trim to Image Size"
-msgstr "اقتصّ إلى مقاس الصّورة"
+msgstr "اقتصّ إلى مقاس الصورة"
 
 #. i18n: context: text @ Action (purge_unused_image_data), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1197
@@ -15026,7 +15026,7 @@ msgstr "اقتصّ إلى التّحديد"
 #, kde-format
 msgctxt "action"
 msgid "&Rotate Image..."
-msgstr "&دوّر الصّورة..."
+msgstr "&دوّر الصورة..."
 
 #. i18n: context: toolTip @ Action (rotateimage), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (rotateimage), Actions (Image), ActionCollection (Menu)
@@ -15036,7 +15036,7 @@ msgstr "&دوّر الصّورة..."
 #, kde-format
 msgctxt "action"
 msgid "Rotate Image"
-msgstr "دوّر الصّورة"
+msgstr "دوّر الصورة"
 
 #. i18n: context: text @ Action (rotateImageCW90), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1245
@@ -15196,7 +15196,7 @@ msgstr "غيّر مقاس اللوحة"
 #, kde-format
 msgctxt "action"
 msgid "Im&age Split "
-msgstr "&تقسيم الصّورة "
+msgstr "&تقسيم الصورة "
 
 #. i18n: context: toolTip @ Action (imagesplit), Actions (Image), ActionCollection (Menu)
 #. i18n: context: iconText @ Action (imagesplit), Actions (Image), ActionCollection (Menu)
@@ -15206,7 +15206,7 @@ msgstr "&تقسيم الصّورة "
 #, kde-format
 msgctxt "action"
 msgid "Image Split"
-msgstr "تقسيم الصّورة"
+msgstr "تقسيم الصورة"
 
 #. i18n: context: text @ Action (separate), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1365
@@ -15223,7 +15223,7 @@ msgstr "اقسم ال&صّورة..."
 #, kde-format
 msgctxt "action"
 msgid "Separate Image"
-msgstr "اقسم الصّورة"
+msgstr "اقسم الصورة"
 
 #. i18n: context: text @ Actions (Select), ActionCollection (Menu)
 #: krita/kritamenu.action:1378
@@ -20559,7 +20559,7 @@ msgstr "تغيير القطعة"
 #: libs/flake/tools/KoPathTool.cpp:131
 #, kde-format
 msgid "Edit Shape"
-msgstr "تحرير الكائن"
+msgstr "حرّر الكائن"
 
 #: libs/flake/tools/KoPathTool.cpp:645
 #, kde-format
@@ -21107,12 +21107,12 @@ msgstr "تسمية العقدة الجديدة"
 #: libs/image/kis_image.cc:867
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
-msgstr "تغيير مقاس الصّورة"
+msgstr "تغيير مقاس الصورة"
 
 #: libs/image/commands_new/kis_image_set_resolution_command.cpp:14
 msgctxt "(qtundo-format)"
 msgid "Set Image Resolution"
-msgstr "ضبط ميز الصّورة"
+msgstr "ضبط ميز الصورة"
 
 #: libs/image/commands_new/kis_move_command_common.h:28
 #: libs/ui/tool/strokes/move_stroke_strategy.cpp:214
@@ -21462,7 +21462,7 @@ msgstr "قناع طلاء"
 #: libs/image/kis_image.cc:866
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
-msgstr "اقتصاص الصّورة"
+msgstr "اقتصاص الصورة"
 
 #: libs/image/kis_image.cc:913
 msgctxt "(qtundo-format)"
@@ -21482,7 +21482,7 @@ msgstr "اقتصاص القناع"
 #: libs/image/kis_image.cc:1055
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
-msgstr "تغيير حجم الصّورة"
+msgstr "تغيير حجم الصورة"
 
 #: libs/image/kis_image.cc:1056
 msgctxt "(qtundo-format)"
@@ -21504,7 +21504,7 @@ msgstr[5] "غيّر حجم %1 طبقة"
 #: libs/image/kis_image.cc:1245
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
-msgstr "تدوير الصّورة"
+msgstr "تدوير الصورة"
 
 #: libs/image/kis_image.cc:1255
 msgctxt "(qtundo-format)"
@@ -21553,7 +21553,7 @@ msgstr "حوّل فضاء ألوان الطّبقة"
 #: libs/image/kis_image.cc:1439
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
-msgstr "تحويل فضاء الصّورة اللونيّ"
+msgstr "تحويل فضاء الصورة اللونيّ"
 
 #: libs/image/kis_image.cc:1440
 msgctxt "(qtundo-format)"
@@ -21719,7 +21719,7 @@ msgstr "أظهِر التلوين"
 #: libs/image/kis_layer_properties_icons.cpp:36
 #, kde-format
 msgid "Open File"
-msgstr "افتح ملفًّا"
+msgstr "افتح ملفًا"
 
 #: libs/image/kis_layer_properties_icons.cpp:37
 #: plugins/python/plugin_importer/plugin_importer_extension.py:82
@@ -21803,7 +21803,7 @@ msgstr "تسطيح الطّبقة"
 #: libs/image/kis_layer_utils.cpp:2203
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
-msgstr "تسطيح الصّورة"
+msgstr "تسطيح الصورة"
 
 #: libs/image/kis_layer_utils.cpp:2437
 msgctxt "(qtundo-format)"
@@ -21823,7 +21823,7 @@ msgstr "يعالج"
 #: libs/image/kis_psd_layer_style.cpp:106
 #: libs/ui/dialogs/KisDlgCreateNewDocument.cpp:32
 #: libs/ui/dialogs/KisDlgCreateNewDocument.cpp:38
-#: libs/ui/KisApplicationArguments.cpp:384 libs/ui/KisMainWindow.cpp:1465
+#: libs/ui/KisApplicationArguments.cpp:384 libs/ui/KisMainWindow.cpp:1487
 #: plugins/impex/libkra/kis_kra_saver.cpp:90
 #, kde-format
 msgid "Unnamed"
@@ -22144,7 +22144,7 @@ msgctxt "image conversion warning"
 msgid ""
 "This image has <b>animated layers</b>. Animation cannot be saved to this "
 "format."
-msgstr "في الصّورة <b>طبقات حركة</b>. لا يمكن حفظ الحركة بهذا النّسق."
+msgstr "في الصورة <b>طبقات حركة</b>. لا يمكن حفظ الحركة بهذا النّسق."
 
 #: libs/impex/CheckImageSize.h:27 libs/impex/ImageSizeCheck.h:26
 #, kde-format
@@ -22153,7 +22153,7 @@ msgid ""
 "This image is larger than <b>%1 x %2</b>. Images this size cannot be saved "
 "to this format."
 msgstr ""
-"هذه الصّورة أكبر من <b>%1 × %2</b>. الصّور بهذا المقاس لا يمكن حفظها بهذا "
+"هذه الصورة أكبر من <b>%1 × %2</b>. الصّور بهذا المقاس لا يمكن حفظها بهذا "
 "النّسق."
 
 #: libs/impex/ColorModelCheck.h:31
@@ -22164,7 +22164,7 @@ msgid ""
 "format. Your image will be converted."
 msgstr ""
 "لا يمكن حفظ النّموذج اللونيّ <b>%1</b> أو عمق القنوات <b>%2</b> بهذا النّسق. "
-"ستُحوّل الصّورة."
+"ستُحوّل الصورة."
 
 #: libs/impex/ColorModelHomogenousCheck.h:112
 #, kde-format
@@ -22173,7 +22173,7 @@ msgid ""
 "Your image contains layers with a color model that is different from the "
 "image. The layers will be converted."
 msgstr ""
-"تحتوي الصّورة على طبقات نموذجها اللونيّ يختلف عن الصّورة نفسها. ستُحوّل الطّبقات."
+"تحتوي الصورة على طبقات نموذجها اللونيّ يختلف عن الصورة نفسها. ستُحوّل الطّبقات."
 
 #: libs/impex/ColorModelPerLayerCheck.h:116
 #, kde-format
@@ -22190,14 +22190,14 @@ msgstr ""
 msgctxt "image conversion warning"
 msgid ""
 "The image contains <b>compositions</b>. The compositions will not be saved."
-msgstr "تحتوي الصّورة على <b>تركيبات</b>. لن تُحفظ هذه التّركيبات."
+msgstr "تحتوي الصورة على <b>تركيبات</b>. لن تُحفظ هذه التّركيبات."
 
 #: libs/impex/ExifCheck.h:28
 #, kde-format
 msgctxt "image conversion warning"
 msgid ""
 "The image contains <b>Exif</b> metadata. The metadata will not be saved."
-msgstr "تحتوي الصّورة على بيانات <b>Exif</b> وصفيّة. لن تُحفظ البيانات الوصفيّة."
+msgstr "تحتوي الصورة على بيانات <b>Exif</b> وصفيّة. لن تُحفظ البيانات الوصفيّة."
 
 #: libs/impex/ExifCheck.h:75
 #, kde-format
@@ -22255,7 +22255,7 @@ msgstr "المجموعة"
 #: libs/impex/KisExportCheckRegistry.cpp:117 libs/ui/kis_layer_manager.cc:1036
 #, kde-format
 msgid "File Layer"
-msgstr "طبقة ملفّ"
+msgstr "طبقة ملف"
 
 #: libs/impex/KisExportCheckRegistry.cpp:119 libs/ui/kis_layer_manager.cc:728
 #: plugins/impex/svg/kis_svg_import.cc:93
@@ -22334,7 +22334,7 @@ msgid ""
 "The image contains layers of unsupported type <b>%1</b>. Only the rendered "
 "result will be saved."
 msgstr ""
-"تحتوي الصّورة على طبقات من النّوع <b>%1</b> غير المدعوم. ستُحفظ النّتيجة المصيّرة "
+"تحتوي الصورة على طبقات من النّوع <b>%1</b> غير المدعوم. ستُحفظ النّتيجة المصيّرة "
 "فقط."
 
 #: libs/impex/PSDLayerStylesCheck.h:104
@@ -22342,7 +22342,7 @@ msgstr ""
 msgctxt "image conversion warning"
 msgid ""
 "The image contains <b>layer styles</b>. The layer styles will not be saved."
-msgstr "تحتوي الصّورة على <b>أنماط طبقات</b>. لن تُحفظ أنماط الطّبقات."
+msgstr "تحتوي الصورة على <b>أنماط طبقات</b>. لن تُحفظ أنماط الطّبقات."
 
 #: libs/impex/ShapeLayerTypeCheck.h:118
 #, kde-format
@@ -22437,7 +22437,7 @@ msgstr "Spriter SCML"
 #, kde-format
 msgctxt "description of a file type"
 msgid "Starview Metafile"
-msgstr "ملفّ Starview وصفيّ"
+msgstr "ملف Starview وصفيّ"
 
 #: libs/koplugin/KisMimeDatabase.cpp:224
 #, kde-format
@@ -22595,8 +22595,8 @@ msgctxt "description of a file type"
 msgid "Radiance RGBE Image"
 msgstr "صورة إضاءة RGBE"
 
-#: libs/libkis/Document.cpp:986 libs/ui/KisMainWindow.cpp:2225
-#: libs/ui/KisMainWindow.cpp:2306
+#: libs/libkis/Document.cpp:986 libs/ui/KisMainWindow.cpp:2247
+#: libs/ui/KisMainWindow.cpp:2328
 #, kde-format
 msgid "Import frames"
 msgstr "استورِد الإطارات"
@@ -23936,7 +23936,7 @@ msgstr "الموارد المحلية"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:773
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:401
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1202
-#: libs/ui/input/kis_tablet_debugger.cpp:106 libs/ui/kis_clipboard.cc:779
+#: libs/ui/input/kis_tablet_debugger.cpp:121 libs/ui/kis_clipboard.cc:779
 #: libs/ui/kis_custom_pattern.cc:126 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:326
 #: libs/ui/kis_layer_manager.cc:1044 libs/ui/kis_node_manager.cpp:1316
@@ -23946,11 +23946,11 @@ msgstr "الموارد المحلية"
 #: libs/ui/KisApplication.cpp:1334 libs/ui/KisDocument.cpp:1057
 #: libs/ui/KisDocument.cpp:1072 libs/ui/KisDocument.cpp:2039
 #: libs/ui/KisDocument.cpp:2082 libs/ui/KisDocument.cpp:2093
-#: libs/ui/KisMainWindow.cpp:1027 libs/ui/KisMainWindow.cpp:1097
-#: libs/ui/KisMainWindow.cpp:1241 libs/ui/KisMainWindow.cpp:1338
-#: libs/ui/KisMainWindow.cpp:2085 libs/ui/KisMainWindow.cpp:2094
-#: libs/ui/KisMainWindow.cpp:2233 libs/ui/KisMainWindow.cpp:2294
-#: libs/ui/KisMainWindow.cpp:2313 libs/ui/KisMainWindow.cpp:2957
+#: libs/ui/KisMainWindow.cpp:1049 libs/ui/KisMainWindow.cpp:1119
+#: libs/ui/KisMainWindow.cpp:1263 libs/ui/KisMainWindow.cpp:1360
+#: libs/ui/KisMainWindow.cpp:2107 libs/ui/KisMainWindow.cpp:2116
+#: libs/ui/KisMainWindow.cpp:2255 libs/ui/KisMainWindow.cpp:2316
+#: libs/ui/KisMainWindow.cpp:2335 libs/ui/KisMainWindow.cpp:2982
 #: libs/ui/KisPart.cpp:553 libs/ui/KisPart.cpp:556
 #: libs/ui/KisReferenceImage.cpp:197 libs/ui/KisRemoteFileFetcher.cpp:40
 #: libs/ui/KisRemoteFileFetcher.cpp:64 libs/ui/KisRemoteFileFetcher.cpp:91
@@ -24111,7 +24111,7 @@ msgstr "الاسم"
 #: libs/resources/KisTagResourceModel.cpp:629
 #, kde-format
 msgid "File Name"
-msgstr "اسم الملفّ"
+msgstr "اسم الملف"
 
 #: libs/resources/KisResourceModel.cpp:106
 #: libs/resources/KisTagResourceModel.cpp:631
@@ -24144,7 +24144,7 @@ msgstr "الحالة"
 #: libs/resources/KisResourceModel.cpp:112
 #: libs/resources/KisStorageModel.cpp:514
 #: libs/resources/KisTagResourceModel.cpp:637
-#: libs/resourcewidgets/KisIconToolTip.cpp:115
+#: libs/resourcewidgets/KisIconToolTip.cpp:116
 #, kde-format
 msgid "Location"
 msgstr "المكان"
@@ -24174,7 +24174,7 @@ msgstr "تدقيق MD5"
 #. i18n: ectx: attribute (title), widget (QWidget, tabTags)
 #: libs/resources/KisResourceModel.cpp:122
 #: libs/resources/KisTagResourceModel.cpp:647
-#: libs/resourcewidgets/KisIconToolTip.cpp:99
+#: libs/resourcewidgets/KisIconToolTip.cpp:100
 #: plugins/extensions/dbexplorer/WdgDbExplorer.ui:139
 #, kde-format
 msgid "Tags"
@@ -24198,7 +24198,7 @@ msgstr "غير نظيف"
 #: libs/resources/KisResourceModel.cpp:128
 #: libs/resources/KisTagResourceModel.cpp:653
 #: libs/ui/animation/VideoImportDialog.ui:149
-#: plugins/dockers/logdocker/LogDockerDock.cpp:311
+#: plugins/dockers/logdocker/LogDockerDock.cpp:315
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:262
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:1019
 #: plugins/impex/webp/kis_wdg_options_webp.ui:818
@@ -24461,13 +24461,13 @@ msgstr "اسم المصدر"
 msgid "Tag File Name"
 msgstr "اسم ملف الوسم"
 
-#: libs/resourcewidgets/KisIconToolTip.cpp:107
+#: libs/resourcewidgets/KisIconToolTip.cpp:108
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:957
 #, kde-format
 msgid "Resource is broken!"
 msgstr "المورد معطوب!"
 
-#: libs/resourcewidgets/KisIconToolTip.cpp:112
+#: libs/resourcewidgets/KisIconToolTip.cpp:113
 #, kde-format
 msgctxt "a placeholder name for the default storage of resources"
 msgid "resource folder"
@@ -24496,13 +24496,13 @@ msgid "Delete resource"
 msgstr "احذف المورد"
 
 #: libs/resourcewidgets/KisResourceItemChooser.cpp:339
-#: libs/ui/KisMainWindow.cpp:2754
+#: libs/ui/KisMainWindow.cpp:2776
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:407
 #: qmlmodules/components/TagFilterProxyModelQmlWrapper.cpp:347
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
-msgstr "اختر ملفًّا لإضافته"
+msgstr "اختر ملفًا لإضافته"
 
 #: libs/resourcewidgets/KisResourceItemChooserContextMenu.cpp:75
 #: libs/widgets/KisTagSelectionWidget.cpp:123
@@ -25001,7 +25001,7 @@ msgid "Failed to render animation frames! Output files are incomplete."
 msgstr "فشل عرض إطارات الحركة! ملفات الخرج ناقصة."
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:65
-#: libs/ui/KisMainWindow.cpp:2336
+#: libs/ui/KisMainWindow.cpp:2358
 #, kde-format
 msgid "Render Animation"
 msgstr "تصيير الحركة"
@@ -26354,7 +26354,7 @@ msgid ""
 "Select the file format for the image sequence. If you want to render to "
 "video or animated gif, you can only select PNG"
 msgstr ""
-"اختر نسق ملفّات تتابع الصّور. إن أردت تصيير فديو أو GIF متحرّك، فيمكنك اختيار "
+"اختر نسق ملفات تتابع الصّور. إن أردت تصيير فديو أو GIF متحرّك، فيمكنك اختيار "
 "PNG فقط"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnExportOptions)
@@ -26367,7 +26367,7 @@ msgstr "حدّد خيارات تصدير الإطار"
 #: libs/ui/animation/wdg_animationrenderer.ui:168
 #, kde-format
 msgid "Image location:"
-msgstr "مكان الصّورة:"
+msgstr "مكان الصورة:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/animation/wdg_animationrenderer.ui:178
@@ -26561,7 +26561,7 @@ msgstr "احذف الدليل"
 #: libs/ui/canvas/kis_change_guides_command.cpp:104
 msgctxt "(qtundo-format)"
 msgid "Edit Guides"
-msgstr "تحرير الأدلّة"
+msgstr "حرّر الأدلّة"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:543
 #: libs/ui/canvas/kis_mirror_axis.cpp:331
@@ -26633,12 +26633,12 @@ msgstr "المربّع المحيطيّ"
 #: libs/ui/canvas/kis_guides_manager.cpp:786
 #, kde-format
 msgid "Image Bounds"
-msgstr "حدود الصّورة"
+msgstr "حدود الصورة"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:787
 #, kde-format
 msgid "Image Center"
-msgstr "وسم الصّورة"
+msgstr "وسط الصورة"
 
 #: libs/ui/dialogs/kis_about_application.cpp:35
 #, kde-format
@@ -26654,13 +26654,15 @@ msgstr "<html ><head/><body><h1 align=\"center\">من إنشاء</h1></p><p>"
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "صفا الفليج,مترجمون سابقون:,محمد سعد,يوسف الشهيبي"
+msgstr "صفا الفليج,مترجمون سابقون:,محمد سعد,يوسف الشهيبي,زايد السعيدي"
 
 #: libs/ui/dialogs/kis_about_application.cpp:67
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "safa1996alfulaij@gmail.com,,metehyi@free.fr,chahibi@gmail.com"
+msgstr ""
+"safa1996alfulaij@gmail.com,,metehyi@free.fr,chahibi@gmail.com,zayed."
+"alsaidi@gmail.com"
 
 #: libs/ui/dialogs/kis_about_application.cpp:72
 #, kde-format
@@ -26675,16 +26677,12 @@ msgid ""
 "internationalization visit <a href=\"http://l10n.kde.org\">http://l10n.kde."
 "org</a></p>"
 msgstr ""
-"<p>يُعرب المتطوعون سطح مكتب بلازما وبرامج كيدي حتى يتمكن الناطقون بالعربية من "
-"الاستفادة والتفاعل مع مجتمع كيدي العالمي.</p>\n"
-"<p>بدأت عملية التعريب مع بداية الألفية بواسطة <a href=\"https://www.arabeyes."
-"org\">فريق عربآيز</a>وهو فريق من متطوّعين من كافة الدول العربية وغيرها . فلهم "
-"جزيل الشكر والعرفان</p>\n"
-"<p>تُدار عملية التعريب حاليا على موقع كيدي الرسمي .</p><p>لمزيد من المعلومات "
-"زُر <a  href=\"https://l10n.kde.org/team-infos.php?teamcode=ar\">https://l10n."
-"kde.org/team-infos.php?teamcode=ar</a>.</p><p>رجاءً أبلغ عن أخطاء الترجمة على "
-"<a href=\"https://mail.kde.org/cgi-bin/mailman/listinfo/kde-l10n-ar"
-"\">القائمة البريدية العربية</a></p>"
+"<p>يُعرب المتطوعون برنامج كريتا حتى يتمكن الناطقون بالعربية من الاستفادة وهذا "
+"التطبيق.</p><p>تُدار عملية التعريب على موقع كيدي الرسمي .</p><p>لمزيد من "
+"المعلومات زُر <a  href=\"https://l10n.kde.org/team-infos.php?teamcode=ar"
+"\">https://l10n.kde.org/team-infos.php?teamcode=ar</a>.</p><p>رجاءً أبلغ عن "
+"أخطاء الترجمة على <a href=\"https://mail.kde.org/cgi-bin/mailman/listinfo/"
+"kde-l10n-ar\">القائمة البريدية العربية</a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:93
 #, kde-format
@@ -26785,7 +26783,7 @@ msgstr "أغلق، لا تحفظ"
 #: libs/ui/dialogs/kis_delayed_save_dialog.ui:31
 #, kde-format
 msgid "Waiting for image operation to complete..."
-msgstr "ينتظر اكتمال العمليّة على الصّورة..."
+msgstr "ينتظر اكتمال العمليّة على الصورة..."
 
 #: libs/ui/dialogs/kis_dlg_adj_layer_props.cc:68
 #, kde-format
@@ -26951,7 +26949,7 @@ msgid "Numerical"
 msgstr "عدديّ"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:141
-#: libs/ui/KisMainWindow.cpp:1206
+#: libs/ui/KisMainWindow.cpp:1228
 #, kde-format
 msgid "Import Images"
 msgstr "استورد الصور"
@@ -27068,7 +27066,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "أدخِل اسم النّمط الجديد"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:319 libs/ui/KisMainWindow.cpp:2765
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:319 libs/ui/KisMainWindow.cpp:2787
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -27084,7 +27082,7 @@ msgstr "نمط جديد"
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:444
 #, kde-format
 msgid "Select ASL file"
-msgstr "اختر ملفّ ASL"
+msgstr "اختر ملف ASL"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:402
 #, kde-format
@@ -27308,13 +27306,13 @@ msgid "Show session manager"
 msgstr "أظهِر مدير الجلسات"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:573
-#: plugins/dockers/layerdocker/NodeToolTip.cpp:47
+#: plugins/dockers/layerdocker/NodeToolTip.cpp:48
 #, kde-format
 msgid "Yes"
 msgstr "نعم"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:574
-#: plugins/dockers/layerdocker/NodeToolTip.cpp:47
+#: plugins/dockers/layerdocker/NodeToolTip.cpp:48
 #, kde-format
 msgid "No"
 msgstr "لا"
@@ -27818,7 +27816,7 @@ msgid "Display"
 msgstr "العرض"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:2729
-#: plugins/dockers/logdocker/LogDockerDock.cpp:319
+#: plugins/dockers/logdocker/LogDockerDock.cpp:323
 #, kde-format
 msgid "Color Management"
 msgstr "إدارة الألوان"
@@ -27831,7 +27829,7 @@ msgstr "اللون"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:2739
 #: libs/ui/dialogs/kis_dlg_preferences.cc:2741
-#: plugins/dockers/logdocker/LogDockerDock.cpp:315
+#: plugins/dockers/logdocker/LogDockerDock.cpp:319
 #, kde-format
 msgid "Performance"
 msgstr "الأداء"
@@ -27930,7 +27928,7 @@ msgid ""
 "\n"
 "Rendering cancelled."
 msgstr ""
-"فشل حذف ملفّ إطار قديم:\n"
+"فشل حذف ملف إطار قديم:\n"
 "\n"
 "%1\n"
 "\n"
@@ -28924,8 +28922,8 @@ msgid ""
 "with it. If you do not select a profile, Krita will assume that the image "
 "data is encoded in the import profile defined in the Settings dialog."
 msgstr ""
-"ليس في بيانات الصّورة التي تريد لصقها تشكيلة ICM مرتبطة بها. إن لم تحدّد "
-"تشكيلة فسيفترض «كريتا» أنّ بيانات الصّورة مرمّزة بلاحة الاستيراد المحدّدة في "
+"ليس في بيانات الصورة التي تريد لصقها تشكيلة ICM مرتبطة بها. إن لم تحدّد "
+"تشكيلة فسيفترض «كريتا» أنّ بيانات الصورة مرمّزة بلاحة الاستيراد المحدّدة في "
 "حواريّ الإعدادات."
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfile)
@@ -29204,13 +29202,13 @@ msgstr "التّشكيلة:"
 #: libs/ui/forms/wdgcolorspaceselector.ui:119
 #, kde-format
 msgid "Install a new profile from a file"
-msgstr "ثبّت تشكيلة جديدة من ملفّ"
+msgstr "ثبّت تشكيلة جديدة من ملف"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, bnInstallProfile)
 #: libs/ui/forms/wdgcolorspaceselector.ui:122
 #, kde-format
 msgid "Install a new profile from a file."
-msgstr "ثبّت تشكيلة جديدة من ملفّ."
+msgstr "ثبّت تشكيلة جديدة من ملف."
 
 #. i18n: ectx: property (text), widget (QPushButton, bnAdvanced)
 #: libs/ui/forms/wdgcolorspaceselector.ui:134
@@ -29405,7 +29403,7 @@ msgstr "الطّبقة الحاليّة"
 #: libs/ui/forms/wdgcustompattern.ui:48
 #, kde-format
 msgid "Entire Image"
-msgstr "كامل الصّورة"
+msgstr "كامل الصورة"
 
 #. i18n: ectx: property (text), widget (QLabel, lblWarning)
 #: libs/ui/forms/wdgcustompattern.ui:118
@@ -29816,7 +29814,7 @@ msgstr "اسم ال&طّبقة:"
 #: libs/ui/forms/wdgdlgfilelayer.ui:51
 #, kde-format
 msgid "File:"
-msgstr "الملفّ:"
+msgstr "الملف:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblWarning)
 #: libs/ui/forms/wdgdlgfilelayer.ui:87
@@ -29846,7 +29844,7 @@ msgstr "دون تغيير الحجم"
 #: libs/ui/forms/wdgdlgfilelayer.ui:128
 #, kde-format
 msgid "Scale to Image Size"
-msgstr "حجّم إلى مقاس الصّورة"
+msgstr "حجّم إلى مقاس الصورة"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioScalePPI)
 #: libs/ui/forms/wdgdlgfilelayer.ui:135
@@ -30122,7 +30120,7 @@ msgstr ""
 #: libs/ui/forms/wdggeneralsettings.ui:197
 #, kde-format
 msgid "Compress .kra files more (slows loading/saving)"
-msgstr "اضغط ملفّات ‎.kra أكثر (يبطئ التّحميل والحفظ)"
+msgstr "اضغط ملفات ‎.kra أكثر (يبطئ التّحميل والحفظ)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkTrimKra)
 #: libs/ui/forms/wdggeneralsettings.ui:207
@@ -30752,7 +30750,7 @@ msgid ""
 "Warning: if you enable this setting and the file dialogs do weird stuff, do "
 "not report a bug."
 msgstr ""
-"تحذير: إن مكّنت هذا الإعداد ورأيت حواريّات الملفّات تتصرّف بغرابة، لا تُبلغ عن "
+"تحذير: إن مكّنت هذا الإعداد ورأيت حواريّات الملفات تتصرّف بغرابة، لا تُبلغ عن "
 "علّة."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_chkNativeFileDialog)
@@ -31066,7 +31064,7 @@ msgstr "عدد الطبقات:"
 #: libs/ui/forms/wdgimageproperties.ui:216
 #, kde-format
 msgid "Image Color Space"
-msgstr "فضاء الصّورة اللونيّ"
+msgstr "فضاء الصورة اللونيّ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkConvertLayers)
 #: libs/ui/forms/wdgimageproperties.ui:225
@@ -31519,7 +31517,7 @@ msgstr "تذكّر"
 #: plugins/extensions/layersplit/wdg_layersplit.ui:18
 #, kde-format
 msgid "Image Size"
-msgstr "مقاس الصّورة"
+msgstr "مقاس الصورة"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: libs/ui/forms/wdgnewimage.ui:60
@@ -31740,7 +31738,7 @@ msgstr "إعداد الفرشاة المسبق الحالي"
 
 #. i18n: ectx: property (text), widget (QPushButton, updateBrushNameButton)
 #. i18n: ectx: property (toolTip), widget (QToolButton, bnSaveMask)
-#: libs/ui/forms/wdgpaintopsettings.ui:184 libs/ui/KisMainWindow.cpp:1072
+#: libs/ui/forms/wdgpaintopsettings.ui:184 libs/ui/KisMainWindow.cpp:1094
 #: libs/ui/widgets/kis_workspace_chooser.cpp:134
 #: libs/ui/widgets/kis_workspace_chooser.cpp:209
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
@@ -31975,7 +31973,7 @@ msgid ""
 "When undo information reaches this limit, it will be stored in a temporary "
 "file and memory will be freed. Undo will be slower."
 msgstr ""
-"عندما تصل معلومات الإعادة أقصاها، ستُخزّن في ملفّ مؤقّت وستُفرّغ الذّاكرة. سيجعل "
+"عندما تصل معلومات الإعادة أقصاها، ستُخزّن في ملف مؤقّت وستُفرّغ الذّاكرة. سيجعل "
 "هذا الإعادة أبطأ."
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -32748,7 +32746,7 @@ msgstr "حمّل مصغرة المفكّرة"
 #, kde-format
 msgctxt "Load Image as Thumbnail button"
 msgid "Load Image"
-msgstr "حمّل الصّورة"
+msgstr "حمّل الصورة"
 
 #. i18n: ectx: property (text), widget (QPushButton, loadIconLibraryThumbnailButton)
 #: libs/ui/forms/wdgsavebrushpreset.ui:164
@@ -33283,54 +33281,25 @@ msgstr "اضبط مقاس الطّباعة لوحده"
 msgid "Add shortcut..."
 msgstr "أضف اختصارًا..."
 
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:70
-#, kde-format
-msgctxt "Shortcut type"
-msgid "Key Combination"
-msgstr "تجميعة مفاتيح"
-
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:73
-#, kde-format
-msgctxt "Shortcut type"
-msgid "Mouse Button"
-msgstr "زر الفأرة"
-
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:76
-#, kde-format
-msgctxt "Shortcut type"
-msgid "Mouse Wheel"
-msgstr "عجلة الفأرة"
-
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:79
-#, kde-format
-msgctxt "Shortcut type"
-msgid "Gesture"
-msgstr "إيماء"
-
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:82
-#, kde-format
-msgid "Unknown Input"
-msgstr "دخل مجهول"
-
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:181
+#: libs/ui/input/config/kis_action_shortcuts_model.cpp:167
 #, kde-format
 msgctxt "Type of shortcut"
 msgid "Type"
 msgstr "النّوع"
 
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:184
+#: libs/ui/input/config/kis_action_shortcuts_model.cpp:170
 #, kde-format
 msgctxt "Input for shortcut"
 msgid "Input"
 msgstr "الدّخل"
 
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:187
+#: libs/ui/input/config/kis_action_shortcuts_model.cpp:173
 #, kde-format
 msgctxt "Action to trigger with shortcut"
 msgid "Action"
 msgstr "الإجراء"
 
-#: libs/ui/input/config/kis_action_shortcuts_model.cpp:271
+#: libs/ui/input/config/kis_action_shortcuts_model.cpp:257
 #, kde-format
 msgid "A conflict exists between two or more shortcuts."
 msgstr "يوجد تعارض بين اثنين أو أكثر من ألاختصارات."
@@ -33437,30 +33406,6 @@ msgstr "<html><head/><body><p>وصف الإجراء</p></body></html>"
 msgid "Action Name"
 msgstr "اسم الإجراء"
 
-#: libs/ui/input/config/kis_input_type_delegate.cpp:35
-#, kde-format
-msgid "Key Combination"
-msgstr "تجميعة المفاتيح"
-
-#. i18n: ectx: property (text), widget (QLabel, mouseLabel)
-#: libs/ui/input/config/kis_input_type_delegate.cpp:36
-#: libs/ui/input/config/kis_mouse_input_editor.ui:63
-#, kde-format
-msgid "Mouse Button"
-msgstr "زر الفأرة"
-
-#. i18n: ectx: property (text), widget (QLabel, wheelLabel)
-#: libs/ui/input/config/kis_input_type_delegate.cpp:37
-#: libs/ui/input/config/kis_wheel_input_editor.ui:40
-#, kde-format
-msgid "Mouse Wheel"
-msgstr "عجلة الفأرة"
-
-#: libs/ui/input/config/kis_input_type_delegate.cpp:38
-#, kde-format
-msgid "Gesture"
-msgstr "الإيماء"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/input/config/kis_key_input_editor.ui:33
 #, kde-format
@@ -33480,11 +33425,23 @@ msgstr "المفاتيح"
 msgid "Modifiers"
 msgstr "المعدِّلات"
 
+#. i18n: ectx: property (text), widget (QLabel, mouseLabel)
+#: libs/ui/input/config/kis_mouse_input_editor.ui:63
+#, kde-format
+msgid "Mouse Button"
+msgstr "زر الفأرة"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/input/config/kis_mouse_input_editor.ui:79
 #, kde-format
 msgid "Edit Mouse Input"
 msgstr "حرر دخل الفأرة"
+
+#. i18n: ectx: property (text), widget (QLabel, wheelLabel)
+#: libs/ui/input/config/kis_wheel_input_editor.ui:40
+#, kde-format
+msgid "Mouse Wheel"
+msgstr "عجلة الفأرة"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: libs/ui/input/config/kis_wheel_input_editor.ui:56
@@ -33492,7 +33449,7 @@ msgstr "حرر دخل الفأرة"
 msgid "Edit Mouse Wheel Input"
 msgstr "حرر دخل عجلة الفأرة"
 
-#: libs/ui/input/kis_abstract_input_action.cpp:38
+#: libs/ui/input/kis_abstract_input_action.cpp:39
 #: libs/ui/input/kis_tool_invocation_action.cpp:42
 #, kde-format
 msgid "Activate"
@@ -33584,6 +33541,7 @@ msgstr ""
 "”حجم الفرشاة“ لأداة الفرشاة."
 
 #: libs/ui/input/kis_change_primary_setting_action.cpp:28
+#: libs/ui/input/kis_temporary_straight_ruler_action.cpp:62
 #, kde-format
 msgid "Normal"
 msgstr "عادي"
@@ -33659,74 +33617,72 @@ msgstr "غاما -0٫2"
 msgid "Reset Exposure and Gamma"
 msgstr "صفّر التّعريض وغاما"
 
-#: libs/ui/input/kis_pan_action.cpp:40
+#: libs/ui/input/kis_pan_action.cpp:42
 #, kde-format
 msgid "Pan Canvas"
 msgstr "تحريك اللوحة"
 
-#: libs/ui/input/kis_pan_action.cpp:41
+#: libs/ui/input/kis_pan_action.cpp:43
 #, kde-format
 msgid "The <i>Pan Canvas</i> action pans the canvas."
 msgstr "إجراء <i>تحريك اللوحة</i> يحرك اللوحة."
 
-#: libs/ui/input/kis_pan_action.cpp:44
+#: libs/ui/input/kis_pan_action.cpp:46
 #, kde-format
 msgid "Pan Mode"
 msgstr "وضع التحريك"
 
-#: libs/ui/input/kis_pan_action.cpp:45
+#: libs/ui/input/kis_pan_action.cpp:47
 #, kde-format
 msgid "Pan Left"
 msgstr "وزع لليسار"
 
-#: libs/ui/input/kis_pan_action.cpp:46
+#: libs/ui/input/kis_pan_action.cpp:48
 #, kde-format
 msgid "Pan Right"
 msgstr "وزع لليمين"
 
-#: libs/ui/input/kis_pan_action.cpp:47
+#: libs/ui/input/kis_pan_action.cpp:49
 #, kde-format
 msgid "Pan Up"
 msgstr "تحريك لأعلى"
 
-#: libs/ui/input/kis_pan_action.cpp:48
+#: libs/ui/input/kis_pan_action.cpp:50
 #, kde-format
 msgid "Pan Down"
 msgstr "تحريك لأسفل"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:43
+#: libs/ui/input/kis_rotate_canvas_action.cpp:45
 #, kde-format
 msgid "Rotate Canvas"
 msgstr "دوّر اللوحة"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:44
+#: libs/ui/input/kis_rotate_canvas_action.cpp:46
 #, kde-format
 msgid "The <i>Rotate Canvas</i> action rotates the canvas."
 msgstr "يدوّر إجراء <i>دوّر اللوحة</i> رقعةَ الرّسم."
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:47
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:41
+#: libs/ui/input/kis_rotate_canvas_action.cpp:49
 #, kde-format
 msgid "Rotate Mode"
 msgstr "وضع التّدوير"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:48
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:42
+#: libs/ui/input/kis_rotate_canvas_action.cpp:50
 #, kde-format
 msgid "Discrete Rotate Mode"
 msgstr "أهمل وضع التّدوير"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:49
+#: libs/ui/input/kis_rotate_canvas_action.cpp:51
 #, kde-format
 msgid "Rotate Left"
 msgstr "دوّر لليسار"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:50
+#: libs/ui/input/kis_rotate_canvas_action.cpp:52
 #, kde-format
 msgid "Rotate Right"
 msgstr "دوّر لليمين"
 
-#: libs/ui/input/kis_rotate_canvas_action.cpp:51
+#: libs/ui/input/kis_rotate_canvas_action.cpp:53
 #, kde-format
 msgid "Reset Rotation"
 msgstr "صفّر التّدوير"
@@ -33777,61 +33733,61 @@ msgctxt "Menu entry for the select layer under cursor canvas input action"
 msgid "Select all layers"
 msgstr "حدِّد كل الطبقات"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:293
+#: libs/ui/input/kis_shortcut_configuration.cpp:300
 #, kde-format
 msgctxt "Separator in the list of mouse buttons for shortcut"
 msgid " + "
 msgstr " + "
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:298
+#: libs/ui/input/kis_shortcut_configuration.cpp:305
 #, kde-format
 msgctxt "Left Mouse Button"
 msgid "Left"
 msgstr "اليسار"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:307
+#: libs/ui/input/kis_shortcut_configuration.cpp:314
 #, kde-format
 msgctxt "Right Mouse Button"
 msgid "Right"
 msgstr "اليمين"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:315
+#: libs/ui/input/kis_shortcut_configuration.cpp:322
 #, kde-format
 msgctxt "Middle Mouse Button"
 msgid "Middle"
 msgstr "المنتصف"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:323
+#: libs/ui/input/kis_shortcut_configuration.cpp:330
 #, kde-format
 msgctxt "Mouse Back Button"
 msgid "Back"
 msgstr "عُد"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:331
+#: libs/ui/input/kis_shortcut_configuration.cpp:338
 #, kde-format
 msgctxt "Mouse Forward Button"
 msgid "Forward"
 msgstr "تقدّم"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:339
+#: libs/ui/input/kis_shortcut_configuration.cpp:346
 #, kde-format
 msgctxt "Mouse Task Button"
 msgid "Task"
 msgstr "المهمّة"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:346
+#: libs/ui/input/kis_shortcut_configuration.cpp:353
 #, kde-format
 msgctxt "Mouse Button"
 msgid "Mouse %1"
 msgstr "الفأرة %1"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:352
+#: libs/ui/input/kis_shortcut_configuration.cpp:359
 #, kde-format
 msgctxt "No mouse buttons for shortcut"
 msgid "None"
 msgstr "بلا"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:358
+#: libs/ui/input/kis_shortcut_configuration.cpp:365
 #, kde-format
 msgctxt ""
 "%1 = List of mouse buttons for shortcut. Plural form is chosen upon the "
@@ -33845,174 +33801,222 @@ msgstr[3] "%1 أزرار"
 msgstr[4] "%1 زرًّا"
 msgstr[5] "%1 زرّ"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:375
+#: libs/ui/input/kis_shortcut_configuration.cpp:382
 #, kde-format
 msgctxt "Separator in the list of keys for shortcut"
 msgid " + "
 msgstr " + "
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:380
+#: libs/ui/input/kis_shortcut_configuration.cpp:387
 #, kde-format
 msgctxt "Ctrl key"
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:384
+#: libs/ui/input/kis_shortcut_configuration.cpp:391
 #, kde-format
 msgctxt "Meta key"
 msgid "Meta"
 msgstr "Meta"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:388
+#: libs/ui/input/kis_shortcut_configuration.cpp:395
 #, kde-format
 msgctxt "Alt key"
 msgid "Alt"
 msgstr "Alt"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:392
+#: libs/ui/input/kis_shortcut_configuration.cpp:399
 #, kde-format
 msgctxt "Shift key"
 msgid "Shift"
 msgstr "Shift"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:404
+#: libs/ui/input/kis_shortcut_configuration.cpp:411
 #, kde-format
 msgctxt "No keys for shortcut"
 msgid "None"
 msgstr "بلا"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:414
+#: libs/ui/input/kis_shortcut_configuration.cpp:421
 #, kde-format
 msgid "Mouse Wheel Up"
 msgstr "عجلة الفأرة لأعلى"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:418
+#: libs/ui/input/kis_shortcut_configuration.cpp:425
 #, kde-format
 msgid "Mouse Wheel Down"
 msgstr "عجلة الفأرة لأسفل"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:422
+#: libs/ui/input/kis_shortcut_configuration.cpp:429
 #, kde-format
 msgid "Mouse Wheel Left"
 msgstr "عجلة الفأرة لليسار"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:426
+#: libs/ui/input/kis_shortcut_configuration.cpp:433
 #, kde-format
 msgid "Mouse Wheel Right"
 msgstr "عجلة الفأرة لليمين"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:430
-#, kde-format
-msgid "Trackpad Pan"
-msgstr "تحريك لوحة التتبع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:434
+#: libs/ui/input/kis_shortcut_configuration.cpp:437
 #, kde-format
 msgctxt "No mouse wheel buttons for shortcut"
 msgid "None"
 msgstr "بلا"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:446
+#: libs/ui/input/kis_shortcut_configuration.cpp:449
 #, kde-format
 msgctxt "%1 = modifier keys in shortcut; %2 = mouse buttons in shortcut"
 msgid "%1 + %2"
 msgstr "%1 + %2"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:462
+#: libs/ui/input/kis_shortcut_configuration.cpp:465
 #, kde-format
 msgctxt "%1 = modifier keys in shortcut; %2 = mouse wheel buttons in shortcut"
 msgid "%1 + %2"
 msgstr "%1 + %2"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:476
+#: libs/ui/input/kis_shortcut_configuration.cpp:478
 #, kde-format
 msgid "Pinch Gesture"
 msgstr "إيماءة القرص"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:478
-#, kde-format
-msgid "Pan Gesture"
-msgstr "إيماءة التحريك"
-
 #: libs/ui/input/kis_shortcut_configuration.cpp:480
-#, kde-format
-msgid "Rotate Gesture"
-msgstr "إيماءة التدوير"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:482
 #, kde-format
 msgid "Smart Zoom Gesture"
 msgstr "إيماءة التكبير الذكي"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:485
-#, kde-format
-msgid "One Finger Tap"
-msgstr "نقر بإصبع واحد"
+#: libs/ui/input/kis_shortcut_configuration.cpp:482
+#, fuzzy, kde-format
+#| msgid "Touch Gestures"
+msgid "Touchpad Scroll Gesture"
+msgstr "إيماءات اللمس"
 
-#: libs/ui/input/kis_shortcut_configuration.cpp:487
-#, kde-format
-msgid "Two Finger Tap"
-msgstr "طَرق أصبعين"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:489
-#, kde-format
-msgid "Three Finger Tap"
-msgstr "نقر بثلاثة أصابع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:491
-#, kde-format
-msgid "Four Finger Tap"
-msgstr "نقر بأربعة أصابع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:493
-#, kde-format
-msgid "Five Finger Tap"
-msgstr "نقر بخمسة أصابع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:495
-#, kde-format
-msgid "One Finger Drag"
-msgstr "سحب بإصبع واحد"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:497
-#, kde-format
-msgid "Two Finger Drag"
-msgstr "سحب بإصبعين"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:499
-#, kde-format
-msgid "Three Finger Drag"
-msgstr "سحب بثلاثة أصابع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:501
-#, kde-format
-msgid "Four Finger Drag"
-msgstr "سحب بأربعة أصابع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:503
-#, kde-format
-msgid "Five Finger Drag"
-msgstr "سحب بخمسة أصابع"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:505
-#, kde-format
-msgid "One Finger Hold"
-msgstr "إمساك بإصبع واحد"
-
-#: libs/ui/input/kis_shortcut_configuration.cpp:508
+#: libs/ui/input/kis_shortcut_configuration.cpp:484
+#: libs/ui/input/kis_shortcut_configuration.cpp:514
 #, kde-format
 msgid "No Gesture"
 msgstr "لا إيماءة"
 
-#: libs/ui/input/kis_tablet_debugger.cpp:107
+#: libs/ui/input/kis_shortcut_configuration.cpp:492
+#, kde-format
+msgid "One Finger Tap"
+msgstr "نقر بإصبع واحد"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:494
+#, kde-format
+msgid "Two Finger Tap"
+msgstr "طَرق أصبعين"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:496
+#, kde-format
+msgid "Three Finger Tap"
+msgstr "نقر بثلاثة أصابع"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:498
+#, kde-format
+msgid "Four Finger Tap"
+msgstr "نقر بأربعة أصابع"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:500
+#, kde-format
+msgid "Five Finger Tap"
+msgstr "نقر بخمسة أصابع"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:502
+#, kde-format
+msgid "One Finger Drag"
+msgstr "سحب بإصبع واحد"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:504
+#, kde-format
+msgid "Two Finger Drag"
+msgstr "سحب بإصبعين"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:506
+#, kde-format
+msgid "Three Finger Drag"
+msgstr "سحب بثلاثة أصابع"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:508
+#, kde-format
+msgid "Four Finger Drag"
+msgstr "سحب بأربعة أصابع"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:510
+#, kde-format
+msgid "Five Finger Drag"
+msgstr "سحب بخمسة أصابع"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:512
+#, kde-format
+msgid "One Finger Hold"
+msgstr "إمساك بإصبع واحد"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:522
+#, kde-format
+msgctxt "Shortcut type"
+msgid "Key Combination"
+msgstr "تجميعة مفاتيح"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:525
+#, kde-format
+msgctxt "Shortcut type"
+msgid "Mouse Button"
+msgstr "زر الفأرة"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:528
+#, kde-format
+msgctxt "Shortcut type"
+msgid "Mouse Wheel"
+msgstr "عجلة الفأرة"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:531
+#, fuzzy, kde-format
+#| msgid "Touch Gestures"
+msgctxt "Shortcut type"
+msgid "Touch Gesture"
+msgstr "إيماءات اللمس"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:534
+#, fuzzy, kde-format
+#| msgid "Touch Gestures"
+msgctxt "Shortcut type"
+msgid "Touchpad Gesture"
+msgstr "إيماءات اللمس"
+
+#: libs/ui/input/kis_shortcut_configuration.cpp:537
+#, kde-format
+msgid "Unknown Input"
+msgstr "دخل مجهول"
+
+#: libs/ui/input/kis_tablet_debugger.cpp:122
 #, kde-format
 msgid "Tablet Event Logging Enabled"
 msgstr "فُعّل تسجيل أحداث اللوحيّ"
 
-#: libs/ui/input/kis_tablet_debugger.cpp:108
+#: libs/ui/input/kis_tablet_debugger.cpp:123
 #, kde-format
 msgid "Tablet Event Logging Disabled"
 msgstr "عُطّل تسجيل أحداث اللوحيّ"
+
+#: libs/ui/input/kis_temporary_straight_ruler_action.cpp:58
+#, fuzzy, kde-format
+#| msgid "Temporary Resources"
+msgid "Temporary Straight Ruler"
+msgstr "موارد مؤقتة"
+
+#: libs/ui/input/kis_temporary_straight_ruler_action.cpp:59
+#, kde-format
+msgid ""
+"The <i>Temporary Straight Ruler</i> action creates a transient ruler for "
+"constrained painting."
+msgstr ""
+
+#: libs/ui/input/kis_temporary_straight_ruler_action.cpp:63
+#, fuzzy, kde-format
+#| msgid "End angle:"
+msgid "Snapped Angle"
+msgstr "زاوية النّهاية:"
 
 #: libs/ui/input/kis_tool_invocation_action.cpp:38
 #, kde-format
@@ -34094,80 +34098,128 @@ msgstr "نشط أداة التحديد الحر"
 msgid "Activate with Other Color"
 msgstr "نشط بلون آخر"
 
-#: libs/ui/input/kis_zoom_action.cpp:68
+#: libs/ui/input/kis_zoom_action.cpp:49
 #, kde-format
 msgid "Zoom Canvas"
 msgstr "كبر لوحة الرسم"
 
-#: libs/ui/input/kis_zoom_action.cpp:69
+#: libs/ui/input/kis_zoom_action.cpp:50
 #, kde-format
 msgid "The <i>Zoom Canvas</i> action zooms the canvas."
 msgstr "إجراء <i>تكبير لوحة الرسم</i> يكبر لوحة الرسم."
 
-#: libs/ui/input/kis_zoom_action.cpp:72
+#: libs/ui/input/kis_zoom_action.cpp:53
 #, kde-format
 msgid "Zoom Mode"
 msgstr "وضع تغيير التّقريب"
 
-#: libs/ui/input/kis_zoom_action.cpp:73
+#: libs/ui/input/kis_zoom_action.cpp:54
 #, kde-format
 msgid "Discrete Zoom Mode"
 msgstr "وضع التكبير المتقطع"
 
-#: libs/ui/input/kis_zoom_action.cpp:74
+#: libs/ui/input/kis_zoom_action.cpp:55
 #, kde-format
 msgid "Relative Zoom Mode"
 msgstr "وضع تغيير التّقريب النّسبيّ"
 
-#: libs/ui/input/kis_zoom_action.cpp:75
+#: libs/ui/input/kis_zoom_action.cpp:56
 #, kde-format
 msgid "Relative Discrete Zoom Mode"
 msgstr "وضع التكبير المتقطع النسبي"
 
-#: libs/ui/input/kis_zoom_action.cpp:76
+#: libs/ui/input/kis_zoom_action.cpp:57
 #, kde-format
 msgid "Zoom In"
 msgstr "قرب"
 
-#: libs/ui/input/kis_zoom_action.cpp:77
+#: libs/ui/input/kis_zoom_action.cpp:58
 #, kde-format
 msgid "Zoom Out"
 msgstr "بعّد"
 
-#: libs/ui/input/kis_zoom_action.cpp:78
+#: libs/ui/input/kis_zoom_action.cpp:59
 #, kde-format
 msgid "Zoom In To Cursor"
 msgstr "كبر إلى المؤشر"
 
-#: libs/ui/input/kis_zoom_action.cpp:79
+#: libs/ui/input/kis_zoom_action.cpp:60
 #, kde-format
 msgid "Zoom Out From Cursor"
 msgstr "صغر من المؤشر"
 
-#: libs/ui/input/kis_zoom_action.cpp:80 libs/ui/kis_popup_palette.cpp:214
+#: libs/ui/input/kis_zoom_action.cpp:61 libs/ui/kis_popup_palette.cpp:214
 #, kde-format
 msgid "Zoom to 100%"
 msgstr "قرّب إلى 100٪"
 
-#: libs/ui/input/kis_zoom_action.cpp:81
+#: libs/ui/input/kis_zoom_action.cpp:62
 #, kde-format
 msgid "Fit to View"
 msgstr "احتواء إلى العرض"
 
-#: libs/ui/input/kis_zoom_action.cpp:82
+#: libs/ui/input/kis_zoom_action.cpp:63
 #, kde-format
 msgid "Fit to View Width"
 msgstr "احتواء لعرض العرض"
 
-#: libs/ui/input/kis_zoom_action.cpp:83
+#: libs/ui/input/kis_zoom_action.cpp:64
 #, kde-format
 msgid "Fit to View Height"
 msgstr "احتواء لارتفاع العرض"
 
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:39
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:56
 #, kde-format
 msgid "Zoom and Rotate Canvas"
 msgstr "تكبير وتدوير لوحة الرسم"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:58
+#, fuzzy, kde-format
+#| msgid "Rotate Mode"
+msgid "Pan, Zoom, Rotate Mode"
+msgstr "وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:59
+#, fuzzy, kde-format
+#| msgid "Discrete Rotate Mode"
+msgid "Pan, Zoom, Discrete Rotate Mode"
+msgstr "أهمل وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:60
+#, fuzzy, kde-format
+#| msgid "Discrete Rotate Mode"
+msgid "Pan, Discrete Zoom, Rotate Mode"
+msgstr "أهمل وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:61
+#, fuzzy, kde-format
+#| msgid "Discrete Rotate Mode"
+msgid "Pan, Discrete Zoom, Discrete Rotate Mode"
+msgstr "أهمل وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:62
+#, fuzzy, kde-format
+#| msgid "Rotate Mode"
+msgid "Zoom, Rotate Mode"
+msgstr "وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:63
+#, fuzzy, kde-format
+#| msgid "Discrete Rotate Mode"
+msgid "Zoom, Discrete Rotate Mode"
+msgstr "أهمل وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:64
+#, fuzzy, kde-format
+#| msgid "Discrete Rotate Mode"
+msgid "Discrete Zoom, Rotate Mode"
+msgstr "أهمل وضع التّدوير"
+
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:65
+#, fuzzy, kde-format
+#| msgid "Discrete Rotate Mode"
+msgid "Discrete Zoom, Discrete Rotate Mode"
+msgstr "أهمل وضع التّدوير"
 
 #: libs/ui/input/KisCanvasOnlyAction.cpp:17
 #, kde-format
@@ -34320,7 +34372,7 @@ msgstr "التوزع: %1٪"
 #: libs/ui/kis_change_file_layer_command.h:24
 msgctxt "(qtundo-format)"
 msgid "Change File Layer"
-msgstr "تغيير الطّبقة الملفّ"
+msgstr "تغيير الطّبقة الملف"
 
 #: libs/ui/kis_clipboard.cc:780 libs/ui/KisView.cpp:684
 #, kde-format
@@ -34476,7 +34528,7 @@ msgstr "طبّق المرّشح مجدّدًا: %1"
 #: libs/ui/kis_image_manager.cc:107
 #, kde-format
 msgid "Import Image"
-msgstr "استيراد الصّورة"
+msgstr "استيراد الصورة"
 
 #: libs/ui/kis_image_manager.cc:198 libs/ui/widgets/KoDualColorButton.cpp:77
 #, kde-format
@@ -34515,12 +34567,12 @@ msgstr "خصائص طبقة التّرشيح"
 #: libs/ui/kis_layer_manager.cc:315
 #, kde-format
 msgid "File Layer Properties"
-msgstr "خصائص الطّبقة الملفّ."
+msgstr "خصائص الطّبقة الملف."
 
 #: libs/ui/kis_layer_manager.cc:326 libs/ui/kis_layer_manager.cc:1044
 #, kde-format
 msgid "No file name specified"
-msgstr "لم يُحدّد اسم الملفّ"
+msgstr "لم يُحدّد اسم الملف"
 
 #: libs/ui/kis_layer_manager.cc:364
 #, kde-format
@@ -34548,13 +34600,13 @@ msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr ""
-"اختر المكان الذي تريد حفظ الطّبقات فيه. بعد ذلك سيُشار إلى مكان الطّبقة الملفّ "
+"اختر المكان الذي تريد حفظ الطّبقات فيه. بعد ذلك سيُشار إلى مكان الطّبقة الملف "
 "الجديدة."
 
 #: libs/ui/kis_layer_manager.cc:620
 msgctxt "(qtundo-format)"
 msgid "Convert to a file layer"
-msgstr "التّحويل إلى طبقة ملفّ"
+msgstr "التّحويل إلى طبقة ملف"
 
 #: libs/ui/kis_layer_manager.cc:752
 #, kde-format
@@ -34570,14 +34622,14 @@ msgstr "طبقة طلاء"
 #, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
-msgstr "سطّح الصّورة"
+msgstr "سطّح الصورة"
 
 #: libs/ui/kis_layer_manager.cc:828
 #, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
-msgstr "تحتوي الصّورة على طبقات مخفيّة وستُفقد. أتريد تسطيح الصّورة؟"
+msgstr "تحتوي الصورة على طبقات مخفيّة وستُفقد. أتريد تسطيح الصورة؟"
 
 #: libs/ui/kis_layer_manager.cc:906
 #, kde-format
@@ -35180,7 +35232,7 @@ msgid ""
 "<html><head/><body><p><b><span style=\" color:%1;\">Recent Files</span></b></"
 "p>"
 msgstr ""
-"<html dir=\"rtl\"><head/><body><p><b><span style=\" color:%1;\">آخر الملفّات</"
+"<html dir=\"rtl\"><head/><body><p><b><span style=\" color:%1;\">آخر الملفات</"
 "span></b></p>"
 
 #: libs/ui/kis_splash_screen.cpp:210
@@ -35548,7 +35600,7 @@ msgstr "فشل تصيير إطارات الحركة!"
 #: libs/ui/KisApplication.cpp:821 libs/ui/KisApplication.cpp:1100
 #, kde-format
 msgid "File layer"
-msgstr "طبقة ملفّ"
+msgstr "طبقة ملف"
 
 #: libs/ui/KisApplication.cpp:829 libs/ui/KisApplication.cpp:834
 #: libs/ui/KisApplication.cpp:1094 libs/ui/KisApplication.cpp:1108
@@ -35642,12 +35694,12 @@ msgid ""
 msgstr ""
 "فشلح مسح %1\n"
 "\n"
-"رجاءً تحقّق من عدم استخدام أيّ برنامج آخر للملفّ وجرّب مجدّدًا."
+"رجاءً تحقّق من عدم استخدام أيّ برنامج آخر للملف وجرّب مجدّدًا."
 
 #: libs/ui/KisApplication.cpp:1335
 #, kde-format
 msgid "Do you want to clear the settings file?"
-msgstr "أتريد مسح ملفّ الإعدادات؟"
+msgstr "أتريد مسح ملف الإعدادات؟"
 
 #: libs/ui/KisApplicationArguments.cpp:69
 #, kde-format
@@ -35754,7 +35806,7 @@ msgstr "الملف(الملفات) أو عنوان (عناوين) URL لفتحه
 #, kde-format
 msgctxt "@title:window"
 msgid "Recover Files"
-msgstr "استعد الملفّات"
+msgstr "استعد الملفات"
 
 #: libs/ui/KisAutoSaveRecoveryDialog.cpp:179
 #, kde-format
@@ -35764,12 +35816,12 @@ msgstr "أهمل الكلّ"
 #: libs/ui/KisAutoSaveRecoveryDialog.cpp:184
 #, kde-format
 msgid "The following autosave file can be recovered:"
-msgstr "يمكن استرجاع ملفّ الحفظ الآليّ الآتي:"
+msgstr "يمكن استرجاع ملف الحفظ الآليّ الآتي:"
 
 #: libs/ui/KisAutoSaveRecoveryDialog.cpp:187
 #, kde-format
 msgid "The following autosave files can be recovered:"
-msgstr "يمكن استرجاع ملفّات الحفظ الآليّ الآتية:"
+msgstr "يمكن استرجاع ملفات الحفظ الآليّ الآتية:"
 
 #: libs/ui/KisAutoSaveRecoveryDialog.cpp:241
 #, kde-format
@@ -36210,7 +36262,7 @@ msgstr "يحفظ المستند..."
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
-msgstr "تحتوي الصّورة على <b>مساعِدات</b>. لن تُحفظ هذه المساعِدات."
+msgstr "تحتوي الصورة على <b>مساعِدات</b>. لن تُحفظ هذه المساعِدات."
 
 #: libs/ui/KisImportExportManager.cpp:567
 #, kde-format
@@ -36224,7 +36276,7 @@ msgstr "تحتوي الصورة على <b>صور مرجعية</b>. لن تُحف
 #, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
-msgstr "تحتوي الصّورة على <b>أدلّة</b>. لن تُحفظ الأدلّة."
+msgstr "تحتوي الصورة على <b>أدلّة</b>. لن تُحفظ الأدلّة."
 
 #: libs/ui/KisImportExportManager.cpp:573
 #, kde-format
@@ -36232,7 +36284,7 @@ msgctxt "image conversion warning"
 msgid ""
 "The image contains a <b>custom grid configuration</b>. The configuration "
 "will not be saved."
-msgstr "تحتوي الصّورة على <b>ضبط شبكة مخصّص</b>. لن يُحفظ هذا الضّبط."
+msgstr "تحتوي الصورة على <b>ضبط شبكة مخصّص</b>. لن يُحفظ هذا الضّبط."
 
 #: libs/ui/KisImportExportManager.cpp:591
 #, kde-format
@@ -36267,7 +36319,7 @@ msgstr ""
 #: libs/ui/KisImportExportManager.cpp:613
 #, kde-format
 msgid "Error: cannot save this image as a %1."
-msgstr "خطأ: تعذّر حفظ هذه الصّورة كَ‍ %1."
+msgstr "خطأ: تعذّر حفظ هذه الصورة كَ‍ %1."
 
 #: libs/ui/KisImportExportManager.cpp:614
 #: libs/ui/KisImportExportManager.cpp:657
@@ -36290,7 +36342,7 @@ msgstr "تحذير: الحفظ كـ %1 سيفقد معلومات من صورتك
 #: libs/ui/KisImportExportManager.cpp:651
 #, kde-format
 msgid "You will lose information when saving this image as a %1."
-msgstr "ستفقد المعلومات بحفظ الصّورة كَ‍ %1."
+msgstr "ستفقد المعلومات بحفظ الصورة كَ‍ %1."
 
 #: libs/ui/KisImportExportManager.cpp:654
 #, kde-format
@@ -36316,7 +36368,7 @@ msgstr "تغيير المقاس"
 #: libs/ui/KisImportExportManager.cpp:686
 #, kde-format
 msgid "Also save your image as a Krita file."
-msgstr "وأيضًا احفظ الصّورة كملفّ كريتا."
+msgstr "وأيضًا احفظ الصورة كملف كريتا."
 
 #: libs/ui/KisImportExportUtils.cpp:48
 #, kde-format
@@ -36338,62 +36390,62 @@ msgctxt "(qtundo-format)"
 msgid "Update layer thumbnails"
 msgstr "حدّث مصغرات الطبقة"
 
-#: libs/ui/KisMainWindow.cpp:195
+#: libs/ui/KisMainWindow.cpp:196
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Styles"
 msgstr "الأنماط"
 
-#: libs/ui/KisMainWindow.cpp:196
+#: libs/ui/KisMainWindow.cpp:197
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Dockers"
 msgstr "الأرص&فة"
 
-#: libs/ui/KisMainWindow.cpp:197
+#: libs/ui/KisMainWindow.cpp:198
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Window"
 msgstr "&نافذة"
 
-#: libs/ui/KisMainWindow.cpp:198
+#: libs/ui/KisMainWindow.cpp:199
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "New &View"
 msgstr "من&ظور جديد"
 
-#: libs/ui/KisMainWindow.cpp:199
+#: libs/ui/KisMainWindow.cpp:200
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Wor&kspace"
 msgstr "م&ساحة العمل"
 
-#: libs/ui/KisMainWindow.cpp:594
+#: libs/ui/KisMainWindow.cpp:595
 #, kde-format
 msgid "Show %1 Toolbar"
 msgstr "اعرض شريط أدوات %1"
 
-#: libs/ui/KisMainWindow.cpp:596
+#: libs/ui/KisMainWindow.cpp:597
 #, kde-format
 msgid "Hide %1 Toolbar"
 msgstr "أخفِ شريط أدوات %1"
 
-#: libs/ui/KisMainWindow.cpp:1069
+#: libs/ui/KisMainWindow.cpp:1091
 #, kde-format
 msgid "Save as %1"
 msgstr "احفظ ك‍َ %1"
 
-#: libs/ui/KisMainWindow.cpp:1097
+#: libs/ui/KisMainWindow.cpp:1119
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr "الملف %1 ليس موجودا."
 
-#: libs/ui/KisMainWindow.cpp:1206
+#: libs/ui/KisMainWindow.cpp:1228
 #, kde-format
 msgid "Open Images"
 msgstr "افتح الصور"
 
-#: libs/ui/KisMainWindow.cpp:1339
+#: libs/ui/KisMainWindow.cpp:1361
 #, kde-format
 msgid ""
 "You are saving a file while the image is still rendering. The saved file may "
@@ -36401,34 +36453,34 @@ msgid ""
 "\n"
 "Please select a location where the original file will not be overridden!"
 msgstr ""
-"أنت تحفظ ملفًّا بينما الصّورة ما زالت تُصيّر. قد يكون الملفّ المحفوظ غير مكتمل أو "
+"أنت تحفظ ملفًا بينما الصورة ما زالت تُصيّر. قد يكون الملف المحفوظ غير مكتمل أو "
 "تالف.\n"
 "\n"
-"رجاءً اختر مكانًا حيث الملفّ الأصليّ سيبقى في مأمن!"
+"رجاءً اختر مكانًا حيث الملف الأصليّ سيبقى في مأمن!"
 
-#: libs/ui/KisMainWindow.cpp:1400
+#: libs/ui/KisMainWindow.cpp:1422
 #, kde-format
 msgid "Exporting"
 msgstr "التّصدير"
 
-#: libs/ui/KisMainWindow.cpp:1400
+#: libs/ui/KisMainWindow.cpp:1422
 #, kde-format
 msgid "Saving As"
 msgstr "الحفظ باسم"
 
-#: libs/ui/KisMainWindow.cpp:2054
+#: libs/ui/KisMainWindow.cpp:2076
 #, kde-format
 msgid "Layers/Masks"
 msgstr "الطبقات/الأقنعة"
 
-#: libs/ui/KisMainWindow.cpp:2080
+#: libs/ui/KisMainWindow.cpp:2102
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:201
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:365
 #, kde-format
 msgid "You don't have any resource bundles enabled."
 msgstr "ليس لديك أي حزم موارد ممكّنة."
 
-#: libs/ui/KisMainWindow.cpp:2084
+#: libs/ui/KisMainWindow.cpp:2106
 #, kde-format
 msgid ""
 "\n"
@@ -36439,7 +36491,7 @@ msgstr ""
 "لا تتوفر إعدادات مبدئية للفُرَش. فعّل حزمة تحتوي على إعدادات مبدئية قبل "
 "المتابعة.\n"
 
-#: libs/ui/KisMainWindow.cpp:2094
+#: libs/ui/KisMainWindow.cpp:2116
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:211
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:377
 #, kde-format
@@ -36450,7 +36502,7 @@ msgstr ""
 "\n"
 "مواردك المحلية فقط متوفرة."
 
-#: libs/ui/KisMainWindow.cpp:2233 libs/ui/KisMainWindow.cpp:2313
+#: libs/ui/KisMainWindow.cpp:2255 libs/ui/KisMainWindow.cpp:2335
 #, kde-format
 msgid ""
 "Could not finish import animation:\n"
@@ -36459,59 +36511,59 @@ msgstr ""
 "تعذّر إنهاء استيراد الحركة:\n"
 "%1"
 
-#: libs/ui/KisMainWindow.cpp:2294
+#: libs/ui/KisMainWindow.cpp:2316
 #, kde-format
 msgid "Failed to create new document. Animation import aborted."
 msgstr "فشل إنشاء مستند جديد. أُلغِي استيراد الرسوم المتحركة."
 
-#: libs/ui/KisMainWindow.cpp:2745
+#: libs/ui/KisMainWindow.cpp:2767
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "ا&ستورد مساحة عمل..."
 
-#: libs/ui/KisMainWindow.cpp:2760
+#: libs/ui/KisMainWindow.cpp:2782
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "مساحة عمل ج&ديدة..."
 
-#: libs/ui/KisMainWindow.cpp:2764
+#: libs/ui/KisMainWindow.cpp:2786
 #, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "مساحة عمل جديدة..."
 
-#: libs/ui/KisMainWindow.cpp:2808
+#: libs/ui/KisMainWindow.cpp:2830
 #, kde-format
 msgid "&%1 %2"
 msgstr "&%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2811
+#: libs/ui/KisMainWindow.cpp:2833
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: libs/ui/KisMainWindow.cpp:2980
+#: libs/ui/KisMainWindow.cpp:3005
 #, kde-format
 msgid ""
 "The Krita LittleCMS color management plugin is not installed. Krita will "
 "quit now."
 msgstr "مُلحَق إدارة الألوان LittleCMS الخاص بكريتا غير مُثَبَّت. سيُغلِق كريتا الآن."
 
-#: libs/ui/KisMainWindow.cpp:2996
+#: libs/ui/KisMainWindow.cpp:3021
 #, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "خطأ تثبيت"
 
-#: libs/ui/KisMainWindow.cpp:3109
+#: libs/ui/KisMainWindow.cpp:3134
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr "ال&سمات"
 
-#: libs/ui/KisMainWindow.cpp:3195
+#: libs/ui/KisMainWindow.cpp:3220
 #, kde-format
 msgid "Expanding Spacer"
 msgstr "فراغ موسع"
@@ -36576,7 +36628,7 @@ msgctxt "@title:dialog"
 msgid "Removing Swatch Group"
 msgstr "إزالة مجموعة العينات"
 
-#: libs/ui/KisPaletteEditor.cpp:280 libs/widgets/kis_palette_view.cpp:175
+#: libs/ui/KisPaletteEditor.cpp:280 libs/widgets/kis_palette_view.cpp:202
 #, kde-format
 msgctxt "Shows up when deleting a swatch group"
 msgid "Keep the Colors"
@@ -36589,14 +36641,14 @@ msgid "Color %1"
 msgstr "اللون %1"
 
 #: libs/ui/KisPaletteEditor.cpp:391 libs/ui/KisPaletteEditor.cpp:437
-#: libs/widgets/kis_palette_view.cpp:102
+#: libs/widgets/kis_palette_view.cpp:129
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new Color Swatch"
 msgstr "أضف عينة لون جديدة"
 
 #: libs/ui/KisPaletteEditor.cpp:406 libs/ui/KisPaletteEditor.cpp:456
-#: libs/widgets/kis_palette_view.cpp:113
+#: libs/widgets/kis_palette_view.cpp:140
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -36607,31 +36659,31 @@ msgstr ""
 "العكس يسمى لون العملية."
 
 #: libs/ui/KisPaletteEditor.cpp:410 libs/ui/KisPaletteEditor.cpp:459
-#: libs/widgets/kis_palette_view.cpp:115
+#: libs/widgets/kis_palette_view.cpp:142
 #, kde-format
 msgid "Swatch ID:"
 msgstr "رقم عينة اللون:"
 
 #: libs/ui/KisPaletteEditor.cpp:411 libs/ui/KisPaletteEditor.cpp:460
-#: libs/widgets/kis_palette_view.cpp:116
+#: libs/widgets/kis_palette_view.cpp:143
 #, kde-format
 msgid "Color swatch name:"
 msgstr "اسم حامل الألوان:"
 
 #: libs/ui/KisPaletteEditor.cpp:412 libs/ui/KisPaletteEditor.cpp:461
-#: libs/widgets/kis_palette_view.cpp:117
+#: libs/widgets/kis_palette_view.cpp:144
 #, kde-format
 msgctxt "Color as the Color of a Swatch in a Palette"
 msgid "Color:"
 msgstr "اللون:"
 
 #: libs/ui/KisPaletteEditor.cpp:413 libs/ui/KisPaletteEditor.cpp:462
-#: libs/widgets/kis_palette_view.cpp:118
+#: libs/widgets/kis_palette_view.cpp:145
 #, kde-format
 msgid "Spot color:"
 msgstr "لون البقعة:"
 
-#: libs/ui/KisPaletteEditor.cpp:458 libs/widgets/kis_palette_view.cpp:114
+#: libs/ui/KisPaletteEditor.cpp:458 libs/widgets/kis_palette_view.cpp:141
 #, kde-format
 msgid "Swatch Group:"
 msgstr "مجموعة حامل ألوان:"
@@ -37927,7 +37979,7 @@ msgstr "&عاين"
 #, kde-format
 msgctxt "@title:group In Layer Style"
 msgid "Pattern"
-msgstr "الصّورة النّمطيّة"
+msgstr "الصورة النّمطيّة"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
@@ -37937,7 +37989,7 @@ msgstr "الصّورة النّمطيّة"
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:78
 #, kde-format
 msgid "Pattern:"
-msgstr "الصّورة النمطيّة:"
+msgstr "الصورة النمطيّة:"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSnapToOrigin)
 #: libs/ui/layerstyles/WdgPatternOverlay.ui:122
@@ -38018,19 +38070,19 @@ msgstr "ال&عمق:"
 msgid "Li&nk with Layer"
 msgstr "ارب&ط مع الطّبقة"
 
-#: libs/ui/opengl/kis_opengl.cpp:170
+#: libs/ui/opengl/kis_opengl.cpp:172
 #, kde-format
 msgid ""
 "Texture buffers are explicitly disabled on ANGLE renderer due to performance "
 "issues."
 msgstr "تُعطَّل مخازن النسيج المؤقتة صراحةً على مُصَيِّر ANGLE بسبب مشكلات الأداء."
 
-#: libs/ui/opengl/kis_opengl.cpp:687
+#: libs/ui/opengl/kis_opengl.cpp:689
 #, kde-format
 msgid "The Intel graphics driver in use is known to have issues with OpenGL."
 msgstr "مشغّل رسوميّات «إنتل» المستخدم معروف عنه بمواجهته مشاكل مع «أوبن‌جي‌إل.»"
 
-#: libs/ui/opengl/kis_opengl.cpp:689
+#: libs/ui/opengl/kis_opengl.cpp:691
 #, kde-format
 msgid ""
 "Intel graphics drivers tend to have issues with OpenGL so ANGLE will be used "
@@ -38040,14 +38092,14 @@ msgstr ""
 "عادةً ما تواجه مشغلات رسوميات Intel مشاكل مع OpenGL، لذا سيُستَخدَم ANGLE "
 "مبدئيًا. يمكن أن تحوّل يدويًا إلى OpenGL ولكن لا نضمن عمله بشكل صحيح."
 
-#: libs/ui/opengl/kis_opengl.cpp:1172
+#: libs/ui/opengl/kis_opengl.cpp:1174
 #, kde-format
 msgid ""
 "Preferred renderer doesn't support requested surface format. Another "
 "renderer has been selected."
 msgstr "المصَيِّر المفضل لا يدعم صيغة السطح المطلوبة. اُختير مصَيِّر آخر."
 
-#: libs/ui/opengl/kis_opengl.cpp:1174
+#: libs/ui/opengl/kis_opengl.cpp:1176
 #, kde-format
 msgid "Preferred output format is not supported by available renderers"
 msgstr "صيغة الإخراج المفضلة غير متاحة من قِبَل المُصَيِّرَات المتاحة"
@@ -38105,7 +38157,7 @@ msgstr "لا خيارات"
 msgid "Local selection is locked."
 msgstr "التّحديد المحليّ مقفل."
 
-#: libs/ui/tool/kis_tool_freehand.cc:215
+#: libs/ui/tool/kis_tool_freehand.cc:332
 #, kde-format
 msgid ""
 "The brush tool cannot paint on this layer.  Please select a paint layer or "
@@ -38113,7 +38165,7 @@ msgid ""
 msgstr ""
 "لا يمكن لأداة الفرشاة الطّلاء على هذه الطّبقة. من فضلك اختر طبقة تلوين أو قناع."
 
-#: libs/ui/tool/kis_tool_freehand.cc:220
+#: libs/ui/tool/kis_tool_freehand.cc:337
 #: libs/ui/tool/kis_tool_polyline_base.cpp:122
 #: libs/ui/tool/kis_tool_rectangle_base.cpp:164
 #: libs/ui/tool/KisToolOutlineBase.cpp:169
@@ -39373,7 +39425,7 @@ msgstr "أدرِج كطبقة جديدة"
 #: libs/ui/widgets/kis_canvas_drop.cpp:34
 #, kde-format
 msgid "Insert as New File Layer"
-msgstr "أدرِج كطبقة ملفّ جديدة"
+msgstr "أدرِج كطبقة ملف جديدة"
 
 #: libs/ui/widgets/kis_canvas_drop.cpp:35
 #, kde-format
@@ -39393,7 +39445,7 @@ msgstr "أدرِج عددًا من الطّبقات"
 #: libs/ui/widgets/kis_canvas_drop.cpp:39
 #, kde-format
 msgid "Insert Many File Layers"
-msgstr "أدرِج عددًا من طبقات الملفّات"
+msgstr "أدرِج عددًا من طبقات الملفات"
 
 #: libs/ui/widgets/kis_canvas_drop.cpp:40
 #, kde-format
@@ -40504,37 +40556,37 @@ msgstr "اختر ملفا لتحميله..."
 msgid "Select a directory to load..."
 msgstr "اختر دليلًا لتحميله..."
 
-#: libs/widgets/kis_palette_view.cpp:106
+#: libs/widgets/kis_palette_view.cpp:133
 #, kde-format
 msgctxt "Name for default swatch group"
 msgid "Default"
 msgstr "المبدئيّ"
 
-#: libs/widgets/kis_palette_view.cpp:120
+#: libs/widgets/kis_palette_view.cpp:147
 #, kde-format
 msgctxt "Prefix of a color swatch default name, as in Color 1"
 msgid "Color"
 msgstr "اللون"
 
-#: libs/widgets/kis_palette_view.cpp:146
+#: libs/widgets/kis_palette_view.cpp:173
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Add a new group"
 msgstr "أضف مجموعة جديدة"
 
-#: libs/widgets/kis_palette_view.cpp:149
+#: libs/widgets/kis_palette_view.cpp:176
 #, kde-format
 msgctxt "Part of default name for a new group"
 msgid "Color Group"
 msgstr "مجموعة الألوان"
 
-#: libs/widgets/kis_palette_view.cpp:150
+#: libs/widgets/kis_palette_view.cpp:177
 #, kde-format
 msgctxt "Name for a group"
 msgid "Name"
 msgstr "الاسم"
 
-#: libs/widgets/kis_palette_view.cpp:172
+#: libs/widgets/kis_palette_view.cpp:199
 #, kde-format
 msgctxt "@title:dialog"
 msgid "Removing Group"
@@ -40879,7 +40931,7 @@ msgstr "أضف اللون إلى اللوحة"
 #: libs/widgets/KoEditColorSetDialog.cpp:201
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only. "
-msgstr "تعذّرت الكتابة في ملفّ اللوحة %1. قد يكون للقراءة فقط. "
+msgstr "تعذّرت الكتابة في ملف اللوحة %1. قد يكون للقراءة فقط. "
 
 #. i18n: ectx: property (text), widget (QLabel, paletteLabel)
 #: libs/widgets/KoEditColorSetDialog.cpp:201
@@ -40949,13 +41001,13 @@ msgstr ""
 #: libs/widgets/wdg_file_name_requester.ui:39
 #, kde-format
 msgid "Selected file name"
-msgstr "اسم الملفّ المحدّد"
+msgstr "اسم الملف المحدّد"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnSelectFile)
 #: libs/widgets/wdg_file_name_requester.ui:46
 #, kde-format
 msgid "Select file name..."
-msgstr "اختر اسم ملفّ..."
+msgstr "اختر اسم ملف..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_channel)
 #: libs/widgets/WdgDlgInternalColorSelector.ui:57
@@ -42694,7 +42746,7 @@ msgstr ""
 #: plugins/dockers/advancedcolorselector/kis_common_colors.cpp:36
 #, kde-format
 msgid "Create a list of colors from the image"
-msgstr "أنشئ قائمة ألوان من الصّورة"
+msgstr "أنشئ قائمة ألوان من الصورة"
 
 #: plugins/dockers/advancedcolorselector/kis_shade_selector_line.cpp:199
 #, kde-format
@@ -42789,7 +42841,7 @@ msgstr "استخدم لونًا مخصصًا لخلفية المحدد."
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:233
 #, kde-format
 msgid "Color Selector Uses Different Color Space than Ima&ge"
-msgstr "يس&تخدم منتقي الألوان نطاقًا لونيًّا مختلفًا عن الصّورة"
+msgstr "يس&تخدم منتقي الألوان نطاقًا لونيًّا مختلفًا عن الصورة"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_general)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:259
@@ -42993,7 +43045,7 @@ msgstr "افصل سجل الألوان لكل مستند"
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:829
 #, kde-format
 msgid "Colors from Image"
-msgstr "الألوان من الصّورة"
+msgstr "الألوان من الصورة"
 
 #. i18n: ectx: property (title), widget (QGroupBox, commonColorsShow)
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:838
@@ -43351,41 +43403,41 @@ msgstr[3] "أدرج %1 إطارات"
 msgstr[4] "أدرج %1 إطارًا"
 msgstr[5] "أدرج %1 إطار"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:188
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:189
 #, kde-format
 msgid "Edit Layers:"
 msgstr "عدّل الطبقات:"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:234
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:235
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Zoom Timeline. Hold down and drag left or right."
 msgstr "كبّر الخط الزمني. اضغط باستمرار واسحب لليسار أو لليمين."
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1521
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1522
 #, kde-format
 msgctxt "@title:window"
 msgid "Insert or Remove Hold Frames"
 msgstr "أدرج أو أزل إطارات التثبيت"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1522
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1523
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Enter number of frames"
 msgstr "أدخل عدد الإطارات"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1629
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1630
 #, kde-format
 msgid "Edit Frames:"
 msgstr "عدّل الإطارات:"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1656
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1657
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Keyframes"
 msgstr "أطر رئيسة"
 
-#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1664
+#: plugins/dockers/animation/KisAnimTimelineFramesView.cpp:1665
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Hold Frames"
@@ -44301,7 +44353,7 @@ msgstr "&بدِّل بين الأقفال والمظهر"
 msgid "&Add"
 msgstr "أ&ضف"
 
-#: plugins/dockers/layerdocker/NodeDelegate.cpp:1361
+#: plugins/dockers/layerdocker/NodeDelegate.cpp:1357
 #, kde-format
 msgid "%1 %"
 msgstr "‏%1 ٪"
@@ -44414,24 +44466,31 @@ msgstr "عرض الصورة"
 msgid "Scripting"
 msgstr "البرمجة"
 
-#: plugins/dockers/logdocker/LogDockerDock.cpp:295
-#, kde-format
-msgid "Input handling"
-msgstr "معالجة المدخلات"
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab2)
-#: plugins/dockers/logdocker/LogDockerDock.cpp:299
+#: plugins/dockers/logdocker/LogDockerDock.cpp:295
 #: plugins/extensions/pykrita/plugin/info.ui:17
 #, kde-format
 msgid "Actions"
 msgstr "الإجراءات"
 
-#: plugins/dockers/logdocker/LogDockerDock.cpp:303
+#: plugins/dockers/logdocker/LogDockerDock.cpp:299
 #, kde-format
 msgid "Tablet Handling"
 msgstr "معالجة اللوحة الرقمية"
 
+#: plugins/dockers/logdocker/LogDockerDock.cpp:303
+#, fuzzy, kde-format
+#| msgid "Input handling"
+msgid "Input Filtering"
+msgstr "معالجة المدخلات"
+
 #: plugins/dockers/logdocker/LogDockerDock.cpp:307
+#, fuzzy, kde-format
+#| msgid "Input handling"
+msgid "Input Matching"
+msgstr "معالجة المدخلات"
+
+#: plugins/dockers/logdocker/LogDockerDock.cpp:311
 #, kde-format
 msgid "GPU Canvas"
 msgstr "لوحة الـ GPU"
@@ -44473,13 +44532,13 @@ msgstr "إدارة LUT"
 #: plugins/dockers/lut/lutdocker_dock.cpp:100
 #, kde-format
 msgid "Select custom configuration file."
-msgstr "اختر ملفّ ضبط مخصّص."
+msgstr "اختر ملف ضبط مخصّص."
 
 #: plugins/dockers/lut/lutdocker_dock.cpp:107
 #: plugins/dockers/lut/lutdocker_dock.cpp:611
 #, kde-format
 msgid "Select LUT file"
-msgstr "اختر ملفّ LUT"
+msgstr "اختر ملف LUT"
 
 #: plugins/dockers/lut/lutdocker_dock.cpp:120
 #, kde-format
@@ -44491,7 +44550,7 @@ msgstr "حدّد التعريض (الوقفات) لصور HDR."
 msgid ""
 "Select the amount of gamma modification for display. This does not affect "
 "the pixels of your image."
-msgstr "حدّد مقدار تعديل غاما للعرض. لا يؤثّر هذا على البكسلات في الصّورة."
+msgstr "حدّد مقدار تعديل غاما للعرض. لا يؤثّر هذا على البكسلات في الصورة."
 
 #: plugins/dockers/lut/lutdocker_dock.cpp:258
 #, kde-format
@@ -44577,7 +44636,7 @@ msgstr "الضّبط:"
 #: plugins/dockers/lut/wdglut.ui:209
 #, kde-format
 msgid "LUT file:"
-msgstr "ملفّ LUT:"
+msgstr "ملف LUT:"
 
 #. i18n: ectx: property (text), widget (QLabel, m_lblView)
 #: plugins/dockers/lut/wdglut.ui:283
@@ -45159,7 +45218,7 @@ msgstr "اسم التّشكيلة:"
 #: plugins/dockers/recorder/recorder_profile_settings.ui:216
 #, kde-format
 msgid "File extension:"
-msgstr "امتداد الملفّ:"
+msgstr "امتداد الملف:"
 
 #: plugins/dockers/recorder/recorder_snapshots_manager.cpp:82
 #, kde-format
@@ -48557,12 +48616,12 @@ msgstr "انسخ إلى الحافظة"
 #: plugins/extensions/buginfo/dlg_buginfo.cpp:76
 #, kde-format
 msgid "Save to file"
-msgstr "احفظ في ملفّ"
+msgstr "احفظ في ملف"
 
 #: plugins/extensions/buginfo/dlg_buginfo.cpp:87
 #, kde-format
 msgid "Unable to open file"
-msgstr "تعذّر فتح الملفّ"
+msgstr "تعذّر فتح الملف"
 
 #: plugins/extensions/buginfo/DlgAndroidLogcatDumper.cpp:30
 #, kde-format
@@ -48650,7 +48709,7 @@ msgstr "استنسخ %1، %2"
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:18
 #, kde-format
 msgid "Rotate Image"
-msgstr "دوّر الصّورة"
+msgstr "دوّر الصورة"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: plugins/extensions/clonesarray/wdg_clonesarray.ui:32
@@ -48940,7 +48999,7 @@ msgstr "الوسم:"
 #: plugins/extensions/imagesplit/dlg_imagesplit.cpp:34
 #, kde-format
 msgid "Image Split"
-msgstr "تقسيم الصّورة"
+msgstr "تقسيم الصورة"
 
 #: plugins/extensions/imagesplit/imagesplit.cpp:74
 #, kde-format
@@ -49003,7 +49062,7 @@ msgstr "السّابقة"
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:69
 #, kde-format
 msgid "File Type"
-msgstr "نوع الملفّات"
+msgstr "نوع الملفات"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoSave)
 #: plugins/extensions/imagesplit/wdg_imagesplit.ui:152
@@ -50077,7 +50136,7 @@ msgstr "تقليص بمقدار"
 #: plugins/extensions/modify_selection/wdg_shrink_selection.ui:127
 #, kde-format
 msgid "Shrink from image border"
-msgstr "قلّصّ من حدود الصّورة"
+msgstr "قلّصّ من حدود الصورة"
 
 #: plugins/extensions/offsetimage/offsetimage.cpp:56
 msgctxt "(qtundo-format)"
@@ -51042,7 +51101,7 @@ msgstr "اختر دليلًا لحفظ الحزمة فيه"
 #: plugins/extensions/resourcemanager/page_metadata_info.cpp:107
 #, kde-format
 msgid "Select file to use as bundle icon"
-msgstr "اختر ملفًّا لاستخدامه كأيقونة للحزمة"
+msgstr "اختر ملفًا لاستخدامه كأيقونة للحزمة"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/extensions/resourcemanager/pagebundlesaver.ui:46
@@ -51316,12 +51375,12 @@ msgstr "سكربتات SeExpr"
 #: plugins/extensions/rotateimage/rotateimage.cc:120
 msgctxt "(qtundo-format)"
 msgid "Mirror Image Vertically"
-msgstr "عكس الصّورة عموديًا"
+msgstr "عكس الصورة عموديًا"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:129
 msgctxt "(qtundo-format)"
 msgid "Mirror Image Horizontally"
-msgstr "عكس الصّورة أفقيًّا"
+msgstr "عكس الصورة أفقيًّا"
 
 #: plugins/extensions/rotateimage/rotateimage.cc:148
 #, kde-format
@@ -51381,12 +51440,12 @@ msgstr "م&خصّص:"
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:75
 #, kde-format
 msgid "Separate Image"
-msgstr "اقسم الصّورة"
+msgstr "اقسم الصورة"
 
 #: plugins/extensions/separate_channels/kis_channel_separator.cc:197
 msgctxt "(qtundo-format)"
 msgid "Separate Image"
-msgstr "قسم الصّورة"
+msgstr "قسم الصورة"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/extensions/separate_channels/wdg_separations.ui:23
@@ -52572,7 +52631,7 @@ msgstr "نقل الألوان"
 #: plugins/filters/fastcolortransfer/wdgfastcolortransfer.ui:36
 #, kde-format
 msgid "Reference image:"
-msgstr "الصّورة المرجع:"
+msgstr "الصورة المرجع:"
 
 #. i18n: context: text @ Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
 #. i18n: context: toolTip @ Action (krita_filter_gaussianhighpass), Actions (Filters), ActionCollection (Krita)
@@ -54831,7 +54890,7 @@ msgid ""
 "the final EXR file</warning></p>"
 msgstr ""
 "<p>تحتوي الطّبقات الآتية على نوع لا يدعمه نسق EXR:</p><r><ul>%1</ul></"
-"p><p><warning><b>لم</b> تُحفظ هذه الطّبقات في ملفّ EXR النّهائيّ</warning></p>"
+"p><p><warning><b>لم</b> تُحفظ هذه الطّبقات في ملف EXR النّهائيّ</warning></p>"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, flatten)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkFlatten)
@@ -54845,7 +54904,7 @@ msgid ""
 "otherwise other applications might not be able to read your file correctly."
 msgstr ""
 "سيدمج هذا الخيار كلّ الطّبقات. من المستحسن تأشير هذا الخيار وإلّا فقد لا تتمكّن "
-"التّطبيقات الأخرى من قراءة الملفّ كما ينبغي."
+"التّطبيقات الأخرى من قراءة الملف كما ينبغي."
 
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
 #. i18n: ectx: property (text), widget (QCheckBox, chkFlatten)
@@ -55147,7 +55206,7 @@ msgstr "حوِّل إلى sRGB لتوافق إضافي"
 #: plugins/impex/heightmap/kis_heightmap_import.cpp:70
 #, kde-format
 msgid "Unknown file type"
-msgstr "نوع الملفّ مجهول"
+msgstr "نوع الملف مجهول"
 
 #: plugins/impex/heightmap/kis_heightmap_import.cpp:89
 #, kde-format
@@ -55162,7 +55221,7 @@ msgstr "خطأ: "
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.cpp:105
 #, kde-format
 msgid "Input does not match file size"
-msgstr "لا يطابق الدّخل حجم الملفّ"
+msgstr "لا يطابق الدّخل حجم الملف"
 
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.cpp:107
 #, kde-format
@@ -55212,13 +55271,13 @@ msgstr "لم نستطع حساب عرض مناسب. الملف لا يتضمّن
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:33
 #, kde-format
 msgid "File size:"
-msgstr "حجم الملفّ:"
+msgstr "حجم الملف:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, fileSizeLabel)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:46
 #, kde-format
 msgid "File size (bytes)"
-msgstr "حجم الملفّ (بالبايت)"
+msgstr "حجم الملف (بالبايت)"
 
 #. i18n: ectx: property (text), widget (QLabel, endiannessLabel)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:56
@@ -55257,7 +55316,7 @@ msgid ""
 "Guess width and height based on file size and bits per pixel. Only values "
 "set to 0 will be updated."
 msgstr ""
-"خمّن العرض والارتفاع حسب حجم الملفّ والبِتّات في كلّ بكسل. ستُحدّث القيم المضبوطة "
+"خمّن العرض والارتفاع حسب حجم الملف والبِتّات في كلّ بكسل. ستُحدّث القيم المضبوطة "
 "على 0 فقط."
 
 #. i18n: ectx: property (text), widget (QPushButton, guessButton)
@@ -55270,13 +55329,13 @@ msgstr "خمّن المقاسات"
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:132
 #, kde-format
 msgid "Height of image in pixels."
-msgstr "ارتفاع الصّورة بالبكسل."
+msgstr "ارتفاع الصورة بالبكسل."
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, widthInput)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:155
 #, kde-format
 msgid "Width of image in pixels."
-msgstr "عرض الصّورة بالبكسل."
+msgstr "عرض الصورة بالبكسل."
 
 #. i18n: ectx: property (text), widget (QLabel, bppDescLabel)
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:182
@@ -55848,7 +55907,7 @@ msgstr "احفظ باسم:"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:46
 #, kde-format
 msgid "Flattened image"
-msgstr "سطّح الصّورة"
+msgstr "سطّح الصورة"
 
 #. i18n: ectx: property (text), widget (QRadioButton, haveAnimation)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:56
@@ -56816,7 +56875,7 @@ msgid ""
 "parsing error in the keyframe file %1 at line %2, column %3\n"
 "Error message: %4"
 msgstr ""
-"خطأ تحليل في ملفّ الإطارات الرئيسة %1 عند سطر %2، عمود %3\n"
+"خطأ تحليل في ملف الإطارات الرئيسة %1 عند سطر %2، عمود %3\n"
 "رسالة الخطأ: %4"
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:854
@@ -56832,17 +56891,17 @@ msgstr "ليس للصّورة اسم."
 #: plugins/impex/libkra/kis_kra_loader.cpp:216
 #, kde-format
 msgid "Image does not specify a width."
-msgstr "لا تحدّد الصّورة عرضًا لها."
+msgstr "لا تحدّد الصورة عرضًا لها."
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:222
 #, kde-format
 msgid "Image does not specify a height."
-msgstr "لا تحدّد الصّورة ارتفاعًا لها."
+msgstr "لا تحدّد الصورة ارتفاعًا لها."
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:272
 #, kde-format
 msgid "Image specifies an unsupported color model: %1."
-msgstr "تحدّد الصّورة نموذجًا لونيًّا غير متاح: %1."
+msgstr "تحدّد الصورة نموذجًا لونيًّا غير متاح: %1."
 
 #: plugins/impex/libkra/kis_kra_loader.cpp:593
 #, kde-format
@@ -56933,7 +56992,7 @@ msgid ""
 "\n"
 "Do you want to locate it manually?"
 msgstr ""
-"لم يُعثر الملفّ المرتبط مع الطّبقة الملفّ بالاسم ”%1“.\n"
+"لم يُعثر الملف المرتبط مع الطّبقة الملف بالاسم ”%1“.\n"
 "\n"
 "المسار المتوقّع:\n"
 "%2\n"
@@ -57137,12 +57196,12 @@ msgstr "لا يمكن حفظ المساعدين."
 #: plugins/impex/libkra/kra_converter.cpp:73
 #, kde-format
 msgid "Not a valid Krita file"
-msgstr "ليس ملفّ «كريتا» صالح"
+msgstr "ليس ملف «كريتا» صالح"
 
 #: plugins/impex/libkra/kra_converter.cpp:91
 #, kde-format
 msgid "Invalid document: no file 'maindoc.xml'."
-msgstr "المستند غير صالح: لا ملفّ ’maindoc.xml‘."
+msgstr "المستند غير صالح: لا ملف ’maindoc.xml‘."
 
 #: plugins/impex/libkra/kra_converter.cpp:147
 #, kde-format
@@ -57172,7 +57231,7 @@ msgstr ""
 #: plugins/impex/libkra/kra_converter.cpp:362
 #, kde-format
 msgid "The format is not supported or the file is corrupted"
-msgstr "إمّا أنّ النّسق غير متاح أو أنّ الملفّ معطوب"
+msgstr "إمّا أنّ النّسق غير متاح أو أنّ الملف معطوب"
 
 #: plugins/impex/libkra/kra_converter.cpp:373
 #, kde-format
@@ -57193,7 +57252,7 @@ msgstr "ليس في الملف صورة."
 #: plugins/impex/pdf/kis_pdf_import.cpp:78
 #, kde-format
 msgid "A password is required to read that pdf"
-msgstr "كلمة السر مطلوبة لقراءة ملفّ PDF"
+msgstr "كلمة السر مطلوبة لقراءة ملف PDF"
 
 #: plugins/impex/pdf/kis_pdf_import.cpp:87
 #, kde-format
@@ -57371,14 +57430,14 @@ msgstr "وقّع ببيانات المؤلّف"
 #, kde-format
 msgctxt "The file will save fast but will not be compressed a lot"
 msgid "Large file size"
-msgstr "حجم ملفّ كبير"
+msgstr "حجم ملف كبير"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:142
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:127
 #, kde-format
 msgid "Disable to get smaller files if your image has no transparency"
-msgstr "عطّله لتحصل على ملفّات أصغر إن لم يكن في الصّورة شفافيّة"
+msgstr "عطّله لتحصل على ملفات أصغر إن لم يكن في الصورة شفافيّة"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alpha)
 #: plugins/impex/png/kis_wdg_options_png.ui:146
@@ -57407,7 +57466,7 @@ msgstr "خزّن قناة ألفا (الشّفافيّة)"
 #, kde-format
 msgctxt "The compression will take a long time; saving the file will be slow."
 msgid "Small file size"
-msgstr "حجم ملفّ صغير"
+msgstr "حجم ملف صغير"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, chkMetaData)
 #: plugins/impex/png/kis_wdg_options_png.ui:180
@@ -57484,7 +57543,7 @@ msgctxt "image conversion warning"
 msgid ""
 "Your image contains one or more layers with a color model that is different "
 "from the image."
-msgstr "تحتوي الصّورة على طبقة أو أكثر نموذجها اللونيّ يختلف عن الصّورة نفسها."
+msgstr "تحتوي الصورة على طبقة أو أكثر نموذجها اللونيّ يختلف عن الصورة نفسها."
 
 #: plugins/impex/psd/psd_export.cc:88
 #, kde-format
@@ -58305,7 +58364,7 @@ msgstr ""
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:737
 #, kde-format
 msgid "ICC Files (*.icc; *.icm)"
-msgstr "ملفّات ICC (*.icc; *.icm)"
+msgstr "ملفات ICC (*.icc; *.icm)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:739
 #, kde-format
@@ -58387,7 +58446,7 @@ msgstr ""
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:771
 #, kde-format
 msgid "ICC Files (*.icc *.icm)"
-msgstr "ملفّات ICC ‏(*.icc; *.icm)"
+msgstr "ملفات ICC ‏(*.icc; *.icm)"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:783
 #, kde-format
@@ -64535,7 +64594,7 @@ msgstr "استورد إضافة بيثون من الويب..."
 
 #: plugins/python/plugin_importer/plugin_importer.py:143
 msgid "Desktop file"
-msgstr "ملفّ سطح المكتب"
+msgstr "ملف سطح المكتب"
 
 #: plugins/python/plugin_importer/plugin_importer.py:211
 msgid "No plugins found in archive"
@@ -68220,7 +68279,7 @@ msgstr "أداة الاقتصاص"
 #, kde-format
 msgctxt "action"
 msgid "Crop the image to an area"
-msgstr "اقصص الصّورة إلى منطقة"
+msgstr "اقصص الصورة إلى منطقة"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:66
@@ -68260,7 +68319,7 @@ msgstr "&س:"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:158
 #, kde-format
 msgid "Allow growing the image by dragging outside bounds of the image"
-msgstr "اسمَح بتنمية الصّورة بالسّحب خارج حدود الصّورة"
+msgstr "اسمَح بتنمية الصورة بالسّحب خارج حدود الصورة"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, lockWidthButton)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:339
@@ -68760,7 +68819,7 @@ msgid ""
 "thinnest lines on the image"
 msgstr ""
 "فعّل هذا للصور ذات المناطق الصلبة الشّاسعة. اضبط القيمة على عرض أرفع الخطوط "
-"على الصّورة"
+"على الصورة"
 
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush_options_widget.cpp:117
 #, kde-format
@@ -69142,25 +69201,25 @@ msgstr "اعكِس اتّجاه أداة التّشويه الحاليّة"
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Move: drag the image along the brush stroke"
-msgstr "حرّك: اسحب الصّورة على طول ضربة الفرشاة"
+msgstr "حرّك: اسحب الصورة على طول ضربة الفرشاة"
 
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:279
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Scale: grow/shrink image under cursor"
-msgstr "قياس: كبّر/صغّر الصّورة تحت المؤشّر"
+msgstr "قياس: كبّر/صغّر الصورة تحت المؤشّر"
 
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:280
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate: twirl image under cursor"
-msgstr "أدر: لُفّ الصّورة تحت المؤشّر"
+msgstr "أدر: لُفّ الصورة تحت المؤشّر"
 
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:281
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Offset: shift the image to the right of the stroke direction"
-msgstr "إزاحة: حرّك الصّورة إلى يمين اتّجاه الضّربة"
+msgstr "إزاحة: حرّك الصورة إلى يمين اتّجاه الضّربة"
 
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:282
 #, kde-format
@@ -69765,7 +69824,7 @@ msgstr "جامع عينات الألوان"
 #, kde-format
 msgctxt "action"
 msgid "Sample a color from the image or current layer"
-msgstr "عيّن لونًا من الصّورة أو الطّبقة الحاليّة"
+msgstr "عيّن لونًا من الصورة أو الطّبقة الحاليّة"
 
 #. i18n: context: text @ Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Tools)
 #. i18n: context: iconText @ Action (KritaFill/KisToolFill), Actions (tool-shortcuts), ActionCollection (Tools)
@@ -70008,6 +70067,25 @@ msgstr ""
 "بدّل بين النطاق الكامل والنطاق الفرعي.\n"
 "النطاق الكامل: [%1, %2]\n"
 "النطاق الفرعي: [%3, %4]"
+
+#~ msgctxt "Shortcut type"
+#~ msgid "Gesture"
+#~ msgstr "إيماء"
+
+#~ msgid "Key Combination"
+#~ msgstr "تجميعة المفاتيح"
+
+#~ msgid "Gesture"
+#~ msgstr "الإيماء"
+
+#~ msgid "Trackpad Pan"
+#~ msgstr "تحريك لوحة التتبع"
+
+#~ msgid "Pan Gesture"
+#~ msgstr "إيماءة التحريك"
+
+#~ msgid "Rotate Gesture"
+#~ msgstr "إيماءة التدوير"
 
 #~ msgctxt "action"
 #~ msgid "Ungroup"
