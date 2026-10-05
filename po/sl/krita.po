@@ -21,8 +21,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Krita trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-09-26 00:43+0000\n"
-"PO-Revision-Date: 2026-09-18 17:39+0200\n"
+"POT-Creation-Date: 2026-10-01 00:43+0000\n"
+"PO-Revision-Date: 2026-10-01 12:36+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -7259,22 +7259,22 @@ msgid "Align Right"
 msgstr "Poravnaj desno"
 
 #. i18n: context: iconText @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: context: text @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: context: iconText @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: context: text @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:26
-#, kde-format
-msgctxt "action"
-msgid "Ungroup shape(s)"
-msgstr "Razdruži like"
-
-#. i18n: context: toolTip @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
-#. i18n: context: text @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
-#. i18n: context: toolTip @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
-#. i18n: context: text @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
-#: krita/data/actions/InteractionTool.action:28
 #: krita/data/actions/InteractionTool.action:33
 #, kde-format
 msgctxt "action"
-msgid "\"Ungroups shape(s) in the context of Vector Interaction Tool\""
-msgstr "»Razdruži like v okviru orodja za vektorsko interakcijo«"
+msgid "Ungroup shapes"
+msgstr "Razdruži like"
+
+#. i18n: context: toolTip @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
+#: krita/data/actions/InteractionTool.action:28
+#, kde-format
+msgctxt "action"
+msgid "Remove the selected shape group"
+msgstr "Odstrani izbrano skupino likov"
 
 #. i18n: context: iconText @ Action (object_order_back), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (object_order_back), Actions (Interaction Tool), ActionCollection (Tools)
@@ -7327,25 +7327,22 @@ msgid "Vertically Center"
 msgstr "Usredini navpično"
 
 #. i18n: context: iconText @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: context: text @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: context: iconText @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
+#. i18n: context: text @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:66
+#: krita/data/actions/InteractionTool.action:73
 #, kde-format
 msgctxt "action"
-msgid "Group shape(s)"
+msgid "Group shapes"
 msgstr "Združi like"
 
 #. i18n: context: toolTip @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:68
 #, kde-format
-msgctxt "Groups shape(s) in the context of Vector Interaction Tool"
-msgid "Group"
-msgstr "Združi"
-
-#. i18n: context: text @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
-#: krita/data/actions/InteractionTool.action:73
-#, kde-format
-msgctxt "Group shape(s) in the context of Vector Interaction Tool"
-msgid "Group"
-msgstr "Združi"
+msgctxt "action"
+msgid "Create a shape group containing selected shapes"
+msgstr "Ustvari skupino likov, ki vsebuje izbrane like"
 
 #. i18n: context: iconText @ Action (object_align_horizontal_left), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (object_align_horizontal_left), Actions (Interaction Tool), ActionCollection (Tools)
@@ -12074,10 +12071,13 @@ msgid "Paste layer from clipboard"
 msgstr "Prilepi plast iz odložišča"
 
 #. i18n: context: text @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2914
+#. i18n: context: iconText @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: text @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: iconText @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
+#: krita/krita.action:2914 krita/krita.action:2917
 #, kde-format
 msgctxt "action"
-msgid "Group layer(s)"
+msgid "Group layers"
 msgstr "Združi plasti"
 
 #. i18n: context: toolTip @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
@@ -12087,18 +12087,14 @@ msgctxt "action"
 msgid "Create a group layer containing selected layers"
 msgstr "Ustvari skupino plasti, ki vsebuje izbrane plasti"
 
-#. i18n: context: iconText @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2917
-#, kde-format
-msgctxt "action"
-msgid "Quick Group"
-msgstr "Hitro združi"
-
 #. i18n: context: text @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2926
+#. i18n: context: iconText @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: text @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
+#. i18n: context: iconText @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
+#: krita/krita.action:2926 krita/krita.action:2929
 #, kde-format
 msgctxt "action"
-msgid "Ungroup layer(s)"
+msgid "Ungroup layers"
 msgstr "Razdruži plasti"
 
 #. i18n: context: toolTip @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
@@ -12107,13 +12103,6 @@ msgstr "Razdruži plasti"
 msgctxt "action"
 msgid "Remove grouping of the layers or remove one layer out of the group"
 msgstr "Odstranite združitev plasti ali odstranite eno plast iz skupine"
-
-#. i18n: context: iconText @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:2929
-#, kde-format
-msgctxt "action"
-msgid "Quick Ungroup"
-msgstr "Hitro razdruži"
 
 #. i18n: context: text @ Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (create_quick_clipping_group), Actions (Layers), ActionCollection (Krita)
@@ -13098,8 +13087,8 @@ msgstr "Določi kopiranje i&z …"
 #: krita/krita.action:3632
 #, kde-format
 msgctxt "action"
-msgid "Set the source for the selected clone layer(s)."
-msgstr "Nastavite vir izbranih kloniranih plasti."
+msgid "Set the source for the selected clone layers"
+msgstr "Nastavite vir izbranih kloniranih plasti"
 
 #. i18n: context: iconText @ Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3633
@@ -16373,10 +16362,9 @@ msgctxt "action"
 msgid "Change Interface Scale"
 msgstr "Spremeni merilo vmesnika"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSplash)
 #. i18n: ectx: property (windowTitle), widget (QDialog, KisRecoverNamedAutosaveDialog)
 #: krita/main.cc:719 libs/ui/dialogs/KisRecoverNamedAutosaveDialog.ui:21
-#: libs/ui/wdgsplash.ui:309
+#: libs/ui/kis_splash_screen.cpp:46
 #, kde-format
 msgid "Krita"
 msgstr "Krita"
@@ -21051,7 +21039,7 @@ msgstr "Velikost"
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:164
 #: plugins/paintops/hatching/KisHatchingOptionsWidget.cpp:27
 #: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:61
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:179
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:176
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:42
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:44
 #: plugins/paintops/libpaintop/KisDynamicSensorFactoryDistance.cpp:56
@@ -21196,7 +21184,7 @@ msgid "Node Rename"
 msgstr "Preimenuj vozlišče"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:16
-#: libs/image/kis_image.cc:867
+#: libs/image/kis_image.cc:866
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "Spremeni velikost slike"
@@ -21534,55 +21522,55 @@ msgctxt "@info:tooltip"
 msgid "Use custom values for color volume"
 msgstr "Uporabi vrednosti po meri za barvno prostornino"
 
-#: libs/image/kis_image.cc:420
+#: libs/image/kis_image.cc:419
 #, kde-format
 msgid "Imported Image"
 msgstr "Uvožena slika"
 
 #. i18n.
-#: libs/image/kis_image.cc:763 libs/ui/kis_import_catcher.cc:50
+#: libs/image/kis_image.cc:762 libs/ui/kis_import_catcher.cc:50
 #: libs/ui/KisDocument.cpp:2711 plugins/impex/psd/psd_loader.cpp:221
 #, kde-format
 msgctxt "Name for the bottom-most layer in the layerstack"
 msgid "Background"
 msgstr "Ozadje"
 
-#: libs/image/kis_image.cc:767 libs/ui/kis_layer_manager.cc:687
+#: libs/image/kis_image.cc:766 libs/ui/kis_layer_manager.cc:687
 #, kde-format
 msgid "Paint Layer"
 msgstr "Plast slikanja"
 
-#: libs/image/kis_image.cc:866
+#: libs/image/kis_image.cc:865
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "Obreži sliko"
 
-#: libs/image/kis_image.cc:913
+#: libs/image/kis_image.cc:912
 msgctxt "(qtundo-format)"
 msgid "Purge Unused Data"
 msgstr "Počisti neuporabljene podatke"
 
-#: libs/image/kis_image.cc:1017
+#: libs/image/kis_image.cc:1016
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "Obreži plast"
 
-#: libs/image/kis_image.cc:1018
+#: libs/image/kis_image.cc:1017
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "Obreži masko"
 
-#: libs/image/kis_image.cc:1055
+#: libs/image/kis_image.cc:1054
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "Spremeni merilo slike"
 
-#: libs/image/kis_image.cc:1056
+#: libs/image/kis_image.cc:1055
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "Spremeni ločljivost slike"
 
-#: libs/image/kis_image.cc:1106
+#: libs/image/kis_image.cc:1105
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
@@ -21592,17 +21580,17 @@ msgstr[1] "Spremeni merilo %1 plasti"
 msgstr[2] "Spremeni merilo %1 plasti"
 msgstr[3] "Spremeni merilo %1 plasti"
 
-#: libs/image/kis_image.cc:1245
+#: libs/image/kis_image.cc:1244
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "Zavrti sliko"
 
-#: libs/image/kis_image.cc:1255
+#: libs/image/kis_image.cc:1254
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "Zavrti masko"
 
-#: libs/image/kis_image.cc:1258
+#: libs/image/kis_image.cc:1257
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
@@ -21612,12 +21600,12 @@ msgstr[1] "Zavrti %1 plast"
 msgstr[2] "Zavrti %1 plasti"
 msgstr[3] "Zavrti %1 plasti"
 
-#: libs/image/kis_image.cc:1359
+#: libs/image/kis_image.cc:1358
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "Ostriži masko"
 
-#: libs/image/kis_image.cc:1363
+#: libs/image/kis_image.cc:1362
 #, kde-format
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
@@ -21627,42 +21615,42 @@ msgstr[1] "Ostriži %1 plast"
 msgstr[2] "Ostriži %1 plasti"
 msgstr[3] "Ostriži %1 plasti"
 
-#: libs/image/kis_image.cc:1370
+#: libs/image/kis_image.cc:1369
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "Ostriži sliko"
 
-#: libs/image/kis_image.cc:1388
+#: libs/image/kis_image.cc:1387
 msgctxt "(qtundo-format)"
 msgid "Convert Layer Color Space"
 msgstr "Pretvori barvni prostor plasti"
 
-#: libs/image/kis_image.cc:1439
+#: libs/image/kis_image.cc:1438
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "Pretvori barvni prostor slike"
 
-#: libs/image/kis_image.cc:1440
+#: libs/image/kis_image.cc:1439
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "Pretvori barvni prostor projekcije"
 
-#: libs/image/kis_image.cc:1492
+#: libs/image/kis_image.cc:1491
 msgctxt "(qtundo-format)"
 msgid "Unify Layers Color Space"
 msgstr "Poenoti barvni prostor plasti"
 
-#: libs/image/kis_image.cc:1522
+#: libs/image/kis_image.cc:1521
 msgctxt "(qtundo-format)"
 msgid "Assign Profile to Layer"
 msgstr "Dodeli profil plasti"
 
-#: libs/image/kis_image.cc:1563
+#: libs/image/kis_image.cc:1562
 msgctxt "(qtundo-format)"
 msgid "Assign Profile"
 msgstr "Dodeli profil"
 
-#: libs/image/kis_image.cc:2635
+#: libs/image/kis_image.cc:2634
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
 msgstr "Obreži izbore"
@@ -22379,7 +22367,7 @@ msgstr "Preoblikuj masko"
 #: libs/impex/KisExportCheckRegistry.cpp:131 libs/ui/kis_mask_manager.cc:217
 #: libs/ui/kis_node_manager.cpp:1391
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:214
-#: plugins/impex/psd/psd_loader.cpp:593
+#: plugins/impex/psd/psd_loader.cpp:599
 #: plugins/impex/tiff/kis_tiff_import.cc:565
 #, kde-format
 msgid "Transparency Mask"
@@ -23994,7 +23982,7 @@ msgctxt "Automatically created layer name when saving into PSD"
 msgid "Background"
 msgstr "Ozadje"
 
-#: libs/psd/psd_layer_section.cpp:967 libs/psd/psd_layer_section.cpp:1145
+#: libs/psd/psd_layer_section.cpp:973 libs/psd/psd_layer_section.cpp:1151
 #, kde-format
 msgid "Unnamed Layer"
 msgstr "Neimenovana plast"
@@ -24027,14 +24015,14 @@ msgstr "Krajevni viri"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:773
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:401
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1202
-#: libs/ui/input/kis_tablet_debugger.cpp:121 libs/ui/kis_clipboard.cc:779
+#: libs/ui/input/kis_tablet_debugger.cpp:121 libs/ui/kis_clipboard.cc:777
 #: libs/ui/kis_custom_pattern.cc:126 libs/ui/kis_filter_manager.cc:234
 #: libs/ui/kis_filter_manager.cc:243 libs/ui/kis_layer_manager.cc:327
 #: libs/ui/kis_layer_manager.cc:1045 libs/ui/kis_node_manager.cpp:1316
-#: libs/ui/kis_node_manager.cpp:1379 libs/ui/KisApplication.cpp:1237
-#: libs/ui/KisApplication.cpp:1240 libs/ui/KisApplication.cpp:1256
-#: libs/ui/KisApplication.cpp:1288 libs/ui/KisApplication.cpp:1302
-#: libs/ui/KisApplication.cpp:1330 libs/ui/KisDocument.cpp:1057
+#: libs/ui/kis_node_manager.cpp:1379 libs/ui/KisApplication.cpp:1230
+#: libs/ui/KisApplication.cpp:1233 libs/ui/KisApplication.cpp:1249
+#: libs/ui/KisApplication.cpp:1281 libs/ui/KisApplication.cpp:1295
+#: libs/ui/KisApplication.cpp:1323 libs/ui/KisDocument.cpp:1057
 #: libs/ui/KisDocument.cpp:1072 libs/ui/KisDocument.cpp:2039
 #: libs/ui/KisDocument.cpp:2082 libs/ui/KisDocument.cpp:2093
 #: libs/ui/KisMainWindow.cpp:1049 libs/ui/KisMainWindow.cpp:1119
@@ -24587,9 +24575,9 @@ msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "Izbriši vir"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:339
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:338
 #: libs/ui/KisMainWindow.cpp:2776
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:407
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:369
 #: qmlmodules/components/TagFilterProxyModelQmlWrapper.cpp:347
 #, kde-format
 msgctxt "@title:window"
@@ -25174,8 +25162,12 @@ msgstr "Video z merami, večjimi od 1920 slikovnih točk, ni širše podprt."
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:712
 #: libs/ui/dialogs/kis_dlg_preferences.cc:2421
 #, kde-format
-msgid "Warning(s):"
-msgstr "Opozorila:"
+msgid "Warning:"
+msgid_plural "Warnings:"
+msgstr[0] "Opozorila:"
+msgstr[1] "Opozorilo:"
+msgstr[2] "Opozorili:"
+msgstr[3] "Opozorila:"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:723
 #, kde-format
@@ -26561,6 +26553,7 @@ msgstr "Različica FFMpeg:"
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:284
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:628
 #: plugins/dockers/widegamutcolorselector/WdgWGSelectorSettings.ui:845
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:120
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:36
 #: plugins/impex/webp/kis_wdg_options_webp.ui:451
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:447
@@ -26745,34 +26738,117 @@ msgstr "Meje slike"
 msgid "Image Center"
 msgstr "Središče slike"
 
-#: libs/ui/dialogs/kis_about_application.cpp:35
+#: libs/ui/dialogs/kis_about_application.cpp:40
 #, kde-format
 msgid "About Krita"
 msgstr "O programu Krita"
 
-#: libs/ui/dialogs/kis_about_application.cpp:46
+#: libs/ui/dialogs/kis_about_application.cpp:51
+#, kde-format
+msgid "<p><b>Using Krita</b></p>"
+msgstr "<p><b>Uporaba Krite</b></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:58
+#, kde-format
+msgid ""
+"<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
+"underline;\">Support Krita's Development!</span></a></p>"
+msgstr ""
+"<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
+"underline;\">Podprite razvoj Krite!</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:59
+#, kde-format
+msgid ""
+"<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline;"
+"\">Krita Website</span></a></p>"
+msgstr ""
+"<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline;"
+"\">Spletišče Krita</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:63
+#, kde-format
+msgid ""
+"<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
+"\"><span style=\" text-decoration: underline;\">Getting Started</span></a></"
+"p>"
+msgstr ""
+"<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
+"\"><span style=\" text-decoration: underline;\">Prvi koraki</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:64
+#, kde-format
+msgid ""
+"<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
+"underline;\">Manual</span></a></p>"
+msgstr ""
+"<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
+"underline;\">Priročnik</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:66
+#, kde-format
+msgid "<p><b>Coding Krita</b></p>"
+msgstr "<p><b>Pisanje kode za Krito</b></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:67
+#, kde-format
+msgid ""
+"<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
+"underline;\">User Community</span></a></p>"
+msgstr ""
+"<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
+"underline;\">Skupnost uporabnikov</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:68
+#, kde-format
+msgid ""
+"<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
+"decoration: underline;;\">Source Code</span></a></p>"
+msgstr ""
+"<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
+"decoration: underline;\">Izvorna koda</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:69
+#, kde-format
+msgid ""
+"<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
+"text-decoration: underline;\">Scripting API</span></a></p>"
+msgstr ""
+"<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
+"text-decoration: underline;\">API za skriptno izvajanje</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:70
+#, kde-format
+msgid ""
+"<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
+"\" text-decoration: underline;;\">Scripting School</span></a></p>"
+msgstr ""
+"<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
+"\" text-decoration: underline;\">Šolo pisanja skriptov Krita</span></a></p>"
+
+#: libs/ui/dialogs/kis_about_application.cpp:83
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\">Created By</h1></p><p>"
 msgstr "<html><head/><body><h1 align=\"center\">Ustvarjalci</h1></p><p>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:66
+#: libs/ui/dialogs/kis_about_application.cpp:103
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Martin Srebotnjak,Andrej Mernik,Matjaž Jeran"
 
-#: libs/ui/dialogs/kis_about_application.cpp:67
+#: libs/ui/dialogs/kis_about_application.cpp:104
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "miles@filmsi.net,andrejm@ubuntu.si,matjaz.jeran@amis.net"
 
-#: libs/ui/dialogs/kis_about_application.cpp:72
+#: libs/ui/dialogs/kis_about_application.cpp:109
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\"><b>Translators</b></h1><p><ul>"
 msgstr "<html><head/><body><h1 align=\"center\"><b>Prevajalci</b></h1><p><ul>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:84
+#: libs/ui/dialogs/kis_about_application.cpp:121
 #, kde-format
 msgid ""
 "<p>KDE is translated into many languages thanks to the work of the "
@@ -26784,7 +26860,7 @@ msgstr ""
 "skupin po vsem svetu.</p><p>Za več informacij o internacionalizaciji KDE "
 "obiščite <a href=\"http://l10n.kde.org\">http://l10n.kde.org</a></p>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:93
+#: libs/ui/dialogs/kis_about_application.cpp:130
 #, kde-format
 msgid ""
 "<html><head/><body><h1 align=\"center\">Development Fund</h1><p align="
@@ -26809,12 +26885,12 @@ msgstr ""
 "\"http://www.asifa-hollywood.org/\"><img src=\":/asifa.png\"></a> </body></"
 "html>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:105
+#: libs/ui/dialogs/kis_about_application.cpp:142
 #, kde-format
 msgid "<html><head/><body><h1 align=\"center\">Thanks To</h1><p>"
 msgstr "<html><head/><body><h1 align=\"center\">Zahvale</h1><p>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:128
+#: libs/ui/dialogs/kis_about_application.cpp:165
 #, kde-format
 msgid ""
 ".</p><p><i>For supporting Krita development with advice, icons, brush sets "
@@ -26823,7 +26899,7 @@ msgstr ""
 ".</p><p><i>Za podporo razvoju Krite z nasveti, ikonami, nabori čopičev in "
 "mnogo čem drugim.</i></p>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:132
+#: libs/ui/dialogs/kis_about_application.cpp:169
 #, kde-format
 msgid ""
 "<html><head/><body><h1 align=\"center\"><b>Your Rights</b></h1><p>Krita is "
@@ -26857,7 +26933,7 @@ msgstr ""
 "komercialne programske opreme, ki bodo prepovedale vaše delo v komercialnih "
 "okoliščinah.</p><br/><hr/><pre>"
 
-#: libs/ui/dialogs/kis_about_application.cpp:167
+#: libs/ui/dialogs/kis_about_application.cpp:204
 #, kde-format
 msgid ""
 "<html><head/><body><h1 align=\"center\"><b>Third-party Libraries used by "
@@ -27604,7 +27680,7 @@ msgstr "Bitna globina površine platna (zahteva ponoven zagon):"
 #: libs/ui/dialogs/kis_dlg_preferences.cc:1425
 #: libs/ui/widgets/KisDitherWidget.ui:119
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:72
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:257
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:244
 #, kde-format
 msgid "Auto"
 msgstr "Samodejno"
@@ -29727,7 +29803,7 @@ msgstr "Barva 2:"
 #: plugins/dockers/storyboarddocker/wdgexportstoryboard.ui:50
 #: plugins/generators/pattern/wdgpatternoptions.ui:248
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:172
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2010
 #, kde-format
 msgid "Size:"
@@ -31147,7 +31223,7 @@ msgstr "Merilo:"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #. i18n: ectx: property (text), widget (QLabel, dimensionLbl)
 #: libs/ui/forms/wdgimageproperties.ui:28 libs/ui/forms/wdgnewimage.ui:46
-#: plugins/impex/brush/wdg_export_gih.ui:161
+#: plugins/impex/brush/wdg_export_gih.ui:175
 #: plugins/impex/pdf/pdfimportwidgetbase.ui:64
 #, kde-format
 msgid "Dimensions"
@@ -31682,10 +31758,7 @@ msgid "Portrait"
 msgstr "Pokončno"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpClipboard)
-#. i18n: ectx: property (text), widget (QPushButton, clipboardButton)
 #: libs/ui/forms/wdgnewimage.ui:320
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:94
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:324
 #, kde-format
 msgid "Clipboard"
 msgstr "Odložišče"
@@ -31824,8 +31897,6 @@ msgstr "Shrani novo postavitev okna"
 #: plugins/extensions/pykrita/plugin/info.ui:217
 #: plugins/extensions/resourcemanager/WdgDlgResourceManager.ui:240
 #: plugins/impex/brush/wdg_export_gih.ui:41
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:117
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:99
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:418
 #, kde-format
 msgid "Name:"
@@ -31875,8 +31946,6 @@ msgstr "Trenutna prednastavitev čopiča"
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:232
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:75
 #: plugins/generators/seexpr/wdgseexpr.ui:172
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:162
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:137
 #: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:26
 #, kde-format
 msgid "Save"
@@ -33657,23 +33726,23 @@ msgstr "Vzorec barve ospredja iz spojene slike"
 msgid "Sample Background Color from Merged Image"
 msgstr "Vzorec barve ozadja iz spojene slike"
 
-#: libs/ui/input/kis_change_frame_action.cpp:26
+#: libs/ui/input/kis_change_frame_action.cpp:27
 #, kde-format
 msgid "Switch Time"
 msgstr "Preklopi čas"
 
-#: libs/ui/input/kis_change_frame_action.cpp:27
+#: libs/ui/input/kis_change_frame_action.cpp:28
 #, kde-format
 msgid ""
 "The <i>Switch Time</i> action changes the current time of the animation."
 msgstr "Dejanje <i>Preklopi čas</i> spremeni trenutni čas animacije."
 
-#: libs/ui/input/kis_change_frame_action.cpp:30
+#: libs/ui/input/kis_change_frame_action.cpp:31
 #, kde-format
 msgid "Next Frame"
 msgstr "Naslednja sličica"
 
-#: libs/ui/input/kis_change_frame_action.cpp:31
+#: libs/ui/input/kis_change_frame_action.cpp:32
 #, kde-format
 msgid "Previous Frame"
 msgstr "Prejšnja sličica"
@@ -34460,6 +34529,11 @@ msgstr "Orodje Prostoročni izbor"
 msgid "Activate Transform Tool"
 msgstr "Aktiviraj orodje Preoblikovanje"
 
+#: libs/ui/input/KisTouchGestureAction.cpp:36 libs/ui/kis_mirror_manager.cpp:37
+#, kde-format
+msgid "Mirror View"
+msgstr "Zrcalni pogled"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, TabletTest)
 #: libs/ui/input/wintab/drawpile_tablettester/tablettest.ui:18
 #: libs/ui/input/wintab/drawpile_tablettester/tablettester.cpp:18
@@ -34513,7 +34587,7 @@ msgctxt "(qtundo-format)"
 msgid "Change File Layer"
 msgstr "Spremeni plast datoteke"
 
-#: libs/ui/kis_clipboard.cc:780 libs/ui/KisView.cpp:684
+#: libs/ui/kis_clipboard.cc:778 libs/ui/KisView.cpp:684
 #, kde-format
 msgid ""
 "Could not open %2.\n"
@@ -34859,11 +34933,6 @@ msgstr "Maska barvnega prekrivanja"
 msgid "Filter Mask Properties"
 msgstr "Lastnosti maske filtrov"
 
-#: libs/ui/kis_mirror_manager.cpp:37
-#, kde-format
-msgid "Mirror View"
-msgstr "Zrcalni pogled"
-
 #: libs/ui/kis_mirror_manager.cpp:43
 #, kde-format
 msgid "Mirror View Around Cursor"
@@ -35144,7 +35213,7 @@ msgstr "Tok: {n} %"
 #: libs/ui/kis_paintop_box.cc:269 libs/ui/kis_paintop_box.cc:276
 #: plugins/filters/blur/wdg_lens_blur.ui:84
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:529
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:178
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:165
 #: plugins/tools/basictools/wdgmultihandtool.ui:129
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2099
 #, kde-format
@@ -35359,108 +35428,13 @@ msgctxt "(qtundo-format)"
 msgid "Select Opaque"
 msgstr "Izberi prekrivno"
 
-#: libs/ui/kis_splash_screen.cpp:167
-#, kde-format
-msgid ""
-"<html><head/><body><p><b><span style=\" color:%1;\">Recent Files</span></b></"
-"p>"
-msgstr ""
-"<html><head/><body><p><b><span style=\" color:%1;\">Nedavne datoteke</span></"
-"b></p>"
-
-#: libs/ui/kis_splash_screen.cpp:210
-#, kde-format
-msgid "<p><span style=\" color:%1;\"><b>Using Krita</b></span></p>"
-msgstr "<p><span style=\" color:%1;\"><b>Uporaba Krite</b></span></p>"
-
-#: libs/ui/kis_splash_screen.cpp:217
-#, kde-format
-msgid ""
-"<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Support Krita's Development!</span></a></p>"
-msgstr ""
-"<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Podprite razvoj Krite!</span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:218
-#, kde-format
-msgid ""
-"<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline; "
-"color:%1;\">Krita Website</span></a></p>"
-msgstr ""
-"<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline; "
-"color:%1;\">Spletišče Krita</span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:222
-#, kde-format
-msgid ""
-"<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
-"\"><span style=\" text-decoration: underline; color:%1;\">Getting Started</"
-"span></a></p>"
-msgstr ""
-"<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
-"\"><span style=\" text-decoration: underline; color:%1;\">Prvi koraki</"
-"span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:223
-#, kde-format
-msgid ""
-"<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Manual</span></a></p>"
-msgstr ""
-"<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Priročnik</span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:225
-#, kde-format
-msgid "<p><span style=\" color:%1;\"><b>Coding Krita</b></span></p>"
-msgstr "<p><span style=\" color:%1;\"><b>Pisanje kode za Krito</b></span></p>"
-
-#: libs/ui/kis_splash_screen.cpp:226
-#, kde-format
-msgid ""
-"<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
-"underline; color:%1;\">User Community</span></a></p>"
-msgstr ""
-"<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
-"underline; color:%1;\">Skupnost uporabnikov</span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:227
-#, kde-format
-msgid ""
-"<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
-"decoration: underline; color:%1;\">Source Code</span></a></p>"
-msgstr ""
-"<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
-"decoration: underline; color:%1;\">Izvorna koda</span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:228
-#, kde-format
-msgid ""
-"<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
-"text-decoration: underline; color:%1;\">Scripting API</span></a></p>"
-msgstr ""
-"<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
-"text-decoration: underline; color:%1;\">API za skriptno izvajanje</span></"
-"a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:229
-#, kde-format
-msgid ""
-"<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
-"\" text-decoration: underline; color:%1;\">Scripting School</span></a></p>"
-msgstr ""
-"<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
-"\" text-decoration: underline; color:%1;\">Šolo pisanja skriptov Krita</"
-"span></a></p>"
-
-#: libs/ui/kis_splash_screen.cpp:273
+#: libs/ui/kis_splash_screen.cpp:134
 #, kde-format
 msgctxt "Normal splash artist name"
 msgid "Tyson Tan"
 msgstr "Tyson Tan"
 
-#: libs/ui/kis_splash_screen.cpp:294
+#: libs/ui/kis_splash_screen.cpp:155
 #, kde-format
 msgctxt "splash image credit"
 msgid "Artwork by: %1"
@@ -35730,20 +35704,20 @@ msgstr "Vrste mime ni mogoče najti, poskusite z možnostjo -mimetype"
 msgid "Failed to render animation frames!"
 msgstr "Upodabljanja sličic animacije je spodletelo!"
 
-#: libs/ui/KisApplication.cpp:817 libs/ui/KisApplication.cpp:1096
+#: libs/ui/KisApplication.cpp:817 libs/ui/KisApplication.cpp:1089
 #, kde-format
 msgid "File layer"
 msgstr "Plast datoteke"
 
 #: libs/ui/KisApplication.cpp:825 libs/ui/KisApplication.cpp:830
-#: libs/ui/KisApplication.cpp:1090 libs/ui/KisApplication.cpp:1104
-#: libs/ui/KisApplication.cpp:1109
+#: libs/ui/KisApplication.cpp:1083 libs/ui/KisApplication.cpp:1097
+#: libs/ui/KisApplication.cpp:1102
 #, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "Krita: opozorilo"
 
-#: libs/ui/KisApplication.cpp:826 libs/ui/KisApplication.cpp:1105
+#: libs/ui/KisApplication.cpp:826 libs/ui/KisApplication.cpp:1098
 #, kde-format
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr "%1 ni mogoče dodati kot plast datoteke: datoteka ne obstaja."
@@ -35780,32 +35754,32 @@ msgstr ""
 "Novo datoteko lahko ustvarite z možnostjo --new-image ali pa odprete "
 "obstoječo datoteko."
 
-#: libs/ui/KisApplication.cpp:1091
+#: libs/ui/KisApplication.cpp:1084
 #, kde-format
 msgid "Couldn't open file %1"
 msgstr "Datoteke %1 ni mogoče odpreti"
 
-#: libs/ui/KisApplication.cpp:1110
+#: libs/ui/KisApplication.cpp:1103
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr "Plasti datoteke ni mogoče dodati: noben dokument ni odprt."
 
-#: libs/ui/KisApplication.cpp:1238
+#: libs/ui/KisApplication.cpp:1231
 #, kde-format
 msgid "No template found for: %1"
 msgstr "Ni najdene predloge za: %1"
 
-#: libs/ui/KisApplication.cpp:1241
+#: libs/ui/KisApplication.cpp:1234
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr "Preveč predlog najdenih za %1"
 
-#: libs/ui/KisApplication.cpp:1257
+#: libs/ui/KisApplication.cpp:1250
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr "Nalaganje predloge %1 je spodletelo."
 
-#: libs/ui/KisApplication.cpp:1289
+#: libs/ui/KisApplication.cpp:1282
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -35820,7 +35794,7 @@ msgstr ""
 "\n"
 "Znova zaženite Krito, da spremembe začnejo veljati."
 
-#: libs/ui/KisApplication.cpp:1303
+#: libs/ui/KisApplication.cpp:1296
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -35832,7 +35806,7 @@ msgstr ""
 "Prepričajte se, da noben drug program ne uporablja datoteke, in poskusite "
 "znova."
 
-#: libs/ui/KisApplication.cpp:1331
+#: libs/ui/KisApplication.cpp:1324
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr "Ali želite počistiti datoteko z nastavitvami?"
@@ -38517,42 +38491,6 @@ msgstr ""
 "Nov program AppImage je bil prenesen v %1. Če želite dokončati posodobitev, "
 "zaprite Krito in zaženite novi AppImage."
 
-#. i18n: ectx: property (text), widget (QLabel, lblLinks)
-#: libs/ui/wdgsplash.ui:439
-#, kde-format
-msgid ""
-"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-"\">Links</span></p></body></html>"
-msgstr ""
-"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-"\">Povezave</span></p></body></html>"
-
-#. i18n: ectx: property (text), widget (QLabel, lblRecent)
-#: libs/ui/wdgsplash.ui:493
-#, kde-format
-msgid ""
-"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-"\">Recent files</span></p></body></html>"
-msgstr ""
-"<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-"\">Nedavne datoteke</span></p></body></html>"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkShowAtStartup)
-#: libs/ui/wdgsplash.ui:594
-#, kde-format
-msgid "Hide after startup."
-msgstr "Skrij po zagonu."
-
-#. i18n: ectx: property (text), widget (QPushButton, bnClose)
-#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#. i18n: ectx: property (text), widget (QPushButton, closeButton)
-#: libs/ui/wdgsplash.ui:1016
-#: plugins/extensions/pykrita/plugin/krita/excepthook.ui:61
-#: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:63
-#, kde-format
-msgid "&Close"
-msgstr "&Zapri"
-
 #: libs/ui/widgets/gradient/KisGenericGradientEditor.cpp:125
 #, kde-format
 msgctxt ""
@@ -40171,8 +40109,6 @@ msgstr ""
 
 #: libs/ui/widgets/kis_workspace_chooser.cpp:204
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings.cpp:144
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:160
-#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:135
 #, kde-format
 msgid "Overwrite"
 msgstr "Prepiši"
@@ -40719,37 +40655,37 @@ msgstr "%1:"
 msgid "Color name:"
 msgstr "Ime barve:"
 
-#: libs/widgets/kis_color_input.cpp:421
+#: libs/widgets/kis_color_input.cpp:429
 #, kde-format
 msgctxt "@label:slider Abbreviation for 'Hue'"
 msgid "H:"
 msgstr "H (O):"
 
-#: libs/widgets/kis_color_input.cpp:422
+#: libs/widgets/kis_color_input.cpp:430
 #, kde-format
 msgctxt "@label:slider Abbreviation for 'Saturation'"
 msgid "S:"
 msgstr "S (N):"
 
-#: libs/widgets/kis_color_input.cpp:501
+#: libs/widgets/kis_color_input.cpp:509
 #, kde-format
 msgctxt "@label:slider Abbreviation for 'Lightness' of HSL color model"
 msgid "L:"
 msgstr "L (S):"
 
-#: libs/widgets/kis_color_input.cpp:504
+#: libs/widgets/kis_color_input.cpp:512
 #, kde-format
 msgctxt "@label:slider Abbreviation for 'Luma' of HSY color model"
 msgid "Y:"
 msgstr "Y (luma):"
 
-#: libs/widgets/kis_color_input.cpp:507
+#: libs/widgets/kis_color_input.cpp:515
 #, kde-format
 msgctxt "@label:slider Abbreviation for 'Intensity' of HSI color model"
 msgid "I:"
 msgstr "I:"
 
-#: libs/widgets/kis_color_input.cpp:511
+#: libs/widgets/kis_color_input.cpp:519
 #, kde-format
 msgctxt "@label:slider Abbreviation for 'Value' of HSV color model"
 msgid "V:"
@@ -45134,8 +45070,12 @@ msgstr "sl. točk"
 #: plugins/dockers/recorder/recorder_export.cpp:560
 #, kde-format
 msgctxt "The suffix after number of frames"
-msgid "frame(s)"
-msgstr "sličic"
+msgid "frame"
+msgid_plural "frames"
+msgstr[0] "sličic"
+msgstr[1] "sličica"
+msgstr[2] "sličici"
+msgstr[3] "sličice"
 
 #: plugins/dockers/recorder/recorder_export.cpp:620
 #, kde-format
@@ -50617,6 +50557,14 @@ msgstr "Pri izvajanju skripta je prišlo do izjeme."
 msgid "Exception"
 msgstr "Izjema"
 
+#. i18n: ectx: property (text), widget (QStatusBar, statusbar)
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: plugins/extensions/pykrita/plugin/krita/excepthook.ui:61
+#: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:63
+#, kde-format
+msgid "&Close"
+msgstr "&Zapri"
+
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, ScriptEditor)
 #: plugins/extensions/pykrita/plugin/krita/sceditor/mainwindow.ui:18
 #, kde-format
@@ -50761,7 +50709,7 @@ msgid "Error: The Python engine could not be initialized"
 msgstr "Napaka: pogona Python ni bilo mogoče inicializirati"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/pykrita/plugin/manager.ui:75
+#: plugins/extensions/pykrita/plugin/manager.ui:72
 #, kde-format
 msgid ""
 "<html><head/><body><p>If you want to learn how to write Krita scripts, check "
@@ -50774,18 +50722,82 @@ msgstr ""
 "text-decoration: underline; color:#2980b9;\">Šolo pisanja skriptov Krita</"
 "span></a> (v angleškem jeziku)!</p></body></html>"
 
-#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:59
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:51
+#, kde-format
+msgctxt "@title:tab plugin manual"
+msgid "Manual"
+msgstr "Ročno"
+
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:53
+#, kde-format
+msgctxt "@title:tab plugin status"
+msgid "Status"
+msgstr "Stanje"
+
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:75
 #, kde-format
 msgid "Python Plugin Manager"
 msgstr "Upravitelj vstavkov Python"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:124
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:114
+#, kde-format
+msgctxt "%1 plugin file path"
+msgid "Location: %1"
+msgstr "Mesto: %1"
+
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:115
+#, kde-format
+msgid "Enabled: false"
+msgstr "Omogočeno: false (ni res)"
+
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:115
+#, kde-format
+msgid "Enabled: true"
+msgstr "Omogočeno: true (res)"
+
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:117
+#, kde-format
+msgctxt "%1 plugin status text"
+msgid "Status: %1"
+msgstr "Stanje: %1"
+
+#: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:119
+#, kde-format
+msgctxt "%1 plugin error message"
+msgid "Error: %1"
+msgstr "Napaka: %1"
+
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:81
+#, kde-format
+msgctxt "@item:intable plugin status"
+msgid "Broken"
+msgstr "Okvarjeno"
+
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:83
+#, kde-format
+msgctxt "@item:intable plugin status"
+msgid "Unstable"
+msgstr "Nestabilno"
+
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:85
+#, kde-format
+msgctxt "@item:intable plugin status"
+msgid "Loaded"
+msgstr "Naloženo"
+
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:87
+#, kde-format
+msgctxt "@item:intable plugin status"
+msgid "Not loaded"
+msgstr "Ni naloženo"
+
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:150
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Unable to find the module specified <application>%1</application>"
 msgstr "Ni mogoče najti navedenega modula <application>%1</application>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:147
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:173
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50795,13 +50807,13 @@ msgstr ""
 "<p>Navedena različica ima neveljavno obliko za odvisnost <application>%1</"
 "application>: <icode>%2.</icode> Preskočeno</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:174
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:200
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<title>Dependency check</title>"
 msgstr "<title>Preverjanje odvisnosti</title>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:205
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:231
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50813,14 +50825,14 @@ msgstr ""
 "modul nima atributa PEP396. <code>__version__</code>. Ne bo onemogočen, je "
 "pa vedenje nepredvidljivo ...</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:219
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:245
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "<p><application>%1</application>: Unexpected module's version format"
 msgstr ""
 "<p><application>%1</application>: nepričakovana oblika različice modula"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:232
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:258
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50830,7 +50842,7 @@ msgstr ""
 "<p><application>%1</application>: ni mogoče najti ustrezne različice. "
 "Zahtevana je različica %2 %3, vendar je najdena %4</p>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:247
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:273
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -50839,29 +50851,35 @@ msgstr ""
 "<p>Napaka pri nalaganju modula <application>%1</application>:</p><pre>%2</"
 "pre>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:356
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:382
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Internal engine failure"
 msgstr "Odpoved notranjega pogona"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:360
+#: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:386
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Module not loaded:<br/>%1"
-msgstr "Modul ni naložen:<br/>%1"
+msgid "Module not loaded:<br/><code>%1</code>"
+msgstr "Modul ni naložen:<br/><code>%1</code>"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:51
+#: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:53
 #, kde-format
 msgctxt "@title:column"
 msgid "Name"
 msgstr "Ime"
 
-#: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:53
+#: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:55
 #, kde-format
 msgctxt "@title:column"
 msgid "Comment"
 msgstr "Komentar"
+
+#: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:57
+#, kde-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr "Stanje"
 
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:230
 msgctxt "(qtundo-format)"
@@ -55018,33 +55036,31 @@ msgstr "&Barva:"
 msgid "Brush selection information for animated brushes"
 msgstr "Informacije o izboru čopičev za animirane čopiče"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:33
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:209
+#: plugins/impex/brush/KisWdgOptionsBrush.cpp:107
+#, kde-format
+msgctxt "@label %1 number of animation frames"
+msgid "Frames: %1"
+msgstr "Sličic:e %1"
+
+#: plugins/impex/brush/KisWdgOptionsBrush.h:43
 #, kde-format
 msgid "Constant"
 msgstr "Konstanta"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:34
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:214
+#: plugins/impex/brush/KisWdgOptionsBrush.h:44
 #: plugins/paintops/mypaint/MyPaintSensorPack.h:20
 #, kde-format
 msgid "Random"
 msgstr "Naključno"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:35
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:219
+#: plugins/impex/brush/KisWdgOptionsBrush.h:45
 #, kde-format
 msgid "Incremental"
 msgstr "Naraščajoče"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #. i18n: ectx: property (text), widget (QToolButton, liquifyAmountPressureBox)
 #. i18n: ectx: property (text), widget (QToolButton, liquifySizePressureBox)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:36
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:224
+#: plugins/impex/brush/KisWdgOptionsBrush.h:46
 #: plugins/paintops/mypaint/MyPaintSensorPack.h:17
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2017
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2339
@@ -55052,19 +55068,17 @@ msgstr "Naraščajoče"
 msgid "Pressure"
 msgstr "Pritisk"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
-#: plugins/impex/brush/KisWdgOptionsBrush.h:37
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:229
+#: plugins/impex/brush/KisWdgOptionsBrush.h:47
 #, kde-format
 msgid "Angular"
 msgstr "Kot"
 
-#: plugins/impex/brush/KisWdgOptionsBrush.h:38
+#: plugins/impex/brush/KisWdgOptionsBrush.h:48
 #, kde-format
 msgid "Velocity"
 msgstr "Hitrost"
 
-#: plugins/impex/brush/KisWdgOptionsBrush.h:55
+#: plugins/impex/brush/KisWdgOptionsBrush.h:65
 #, kde-format
 msgid "Rank"
 msgstr "Rang"
@@ -55077,9 +55091,7 @@ msgstr "Rang"
 #: plugins/impex/brush/wdg_export_gih.ui:31
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:379
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:153
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:107
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:82
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:219
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:206
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:152
 #: plugins/paintops/roundmarker/kis_roundmarker_option.ui:36
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2367
@@ -55087,54 +55099,50 @@ msgstr "Rang"
 msgid "Spacing:"
 msgstr "Razmik:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, colorAsmask)
 #. i18n: ectx: property (text), widget (QCheckBox, colorAsMask)
 #: plugins/impex/brush/wdg_export_gih.ui:51
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:88
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:92
 #, kde-format
 msgid "Create mask from color"
 msgstr "Ustvari masko iz barve"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/impex/brush/wdg_export_gih.ui:66
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:130
+#. i18n: ectx: property (text), widget (QCheckBox, preserveAlpha)
+#: plugins/impex/brush/wdg_export_gih.ui:61
+#, kde-format
+msgid "Preserve alpha channel"
+msgstr "Ohranite kanal alfa"
+
+#. i18n: ectx: property (title), widget (QGroupBox, styleGroupBox)
+#: plugins/impex/brush/wdg_export_gih.ui:76
 #, kde-format
 msgid "Brush Style"
 msgstr "Slog čopiča"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, styleLbl)
-#: plugins/impex/brush/wdg_export_gih.ui:89
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:150
+#: plugins/impex/brush/wdg_export_gih.ui:99
 #, kde-format
 msgid "Style:"
 msgstr "Slog:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/impex/brush/wdg_export_gih.ui:106
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:167
+#: plugins/impex/brush/wdg_export_gih.ui:116
 #, kde-format
 msgid "Regular"
 msgstr "Običajno"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, brushStyle)
-#: plugins/impex/brush/wdg_export_gih.ui:111
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:172
+#: plugins/impex/brush/wdg_export_gih.ui:121
 #, kde-format
 msgid "Animated"
 msgstr "Animirano"
 
 #. i18n: ectx: property (title), widget (QGroupBox, animStyleGroup)
-#: plugins/impex/brush/wdg_export_gih.ui:124
+#: plugins/impex/brush/wdg_export_gih.ui:134
 #, kde-format
 msgid "Animated style options"
 msgstr "Možnosti animiranega sloga"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), widget (QLabel, selectionModeLbl)
-#: plugins/impex/brush/wdg_export_gih.ui:213
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:186
+#: plugins/impex/brush/wdg_export_gih.ui:227
 #, kde-format
 msgid "Selection mode:"
 msgstr "Način izbiranja:"
@@ -60774,12 +60782,6 @@ msgstr "Gibanje drgeta"
 msgid "Aspect ratio:"
 msgstr "Razmerje stranic:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, preserveAlpha)
-#: plugins/paintops/libpaintop/forms/wdgclipboardbrush.ui:133
-#, kde-format
-msgid "Preserve alpha"
-msgstr "Ohrani alfo"
-
 #. i18n: ectx: property (text), widget (QCheckBox, randomHSVCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:33
 #, kde-format
@@ -60976,12 +60978,6 @@ msgstr "Uporabi krivuljo pri vseh nastavitvah"
 msgid "X Range:"
 msgstr "Obseg X:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, preserveAlpha)
-#: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:115
-#, kde-format
-msgid "Preserve alpha channel"
-msgstr "Ohranite kanal alfa"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:28
 #, kde-format
@@ -61044,46 +61040,46 @@ msgstr ""
 "slikanjem v eni potezi, druga izbira vam daje enakomerno barvo v eni potezi, "
 "tudi če greste vedno znova čez isto mesto.</p></html>"
 
-#. i18n: ectx: property (text), widget (QPushButton, stampButton)
+#. i18n: ectx: property (text), widget (QPushButton, customButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:307
 #, kde-format
-msgid "Stamp"
-msgstr "Ožigosaj"
+msgctxt "@action:button create new brushtip"
+msgid "Create New"
+msgstr "Ustvari novo"
 
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, brushTipNameLabel)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:132
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:119
 #, kde-format
 msgid "Current Brush Tip"
 msgstr "Trenutna konica čopiča"
 
 #. i18n: ectx: property (text), widget (QLabel, brushDetailsLabel)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:147
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:134
 #, kde-format
 msgid "Brush Details"
 msgstr "Podrobnosti čopiča"
 
 #. i18n: ectx: property (text), widget (QCheckBox, preserveBrushPresetSettings)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:192
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:179
 #, kde-format
 msgid "Preserve brush preset settings"
 msgstr "Ohrani prednastavitve čopiča"
 
 #. i18n: ectx: property (text), widget (QPushButton, resetBrushButton)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:212
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:199
 #, kde-format
 msgid "Reset Predefined Tip"
 msgstr "Ponastavi vnaprej določeno konico"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpBrushMode)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:226
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:213
 #, kde-format
 msgctxt "Predefined Brush tip mode"
 msgid "Brush mode"
 msgstr "Način čopiča"
 
 #. i18n: ectx: property (text), widget (QPushButton, btnResetAdjustments)
-#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:275
+#: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:262
 #, kde-format
 msgid "Reset Adjustments"
 msgstr "Ponastavi prilagoditve"
@@ -61221,7 +61217,7 @@ msgstr "Samodejni razmik"
 msgid "Brush Tip"
 msgstr "Konica čopiča"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:47
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:45
 #, kde-format
 msgid ""
 "Precision Level 1 (fastest)\n"
@@ -61236,7 +61232,7 @@ msgstr ""
 "\n"
 "Optimalno za zelo velike čopiče"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:55
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:53
 #, kde-format
 msgid ""
 "Precision Level 2\n"
@@ -61251,7 +61247,7 @@ msgstr ""
 "\n"
 "Optimalno za velike čopiče"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:63
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:61
 #, kde-format
 msgid ""
 "Precision Level 3\n"
@@ -61262,7 +61258,7 @@ msgstr ""
 "Natančnost slikovnih podtočk: onemogočeno\n"
 "Natančnost velikosti čopiča: natančno"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:69
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:67
 #, kde-format
 msgid ""
 "Precision Level 4 (optimal)\n"
@@ -61277,7 +61273,7 @@ msgstr ""
 "\n"
 "Daje do 50 % boljšo učinkovitost v primerjavi s stopnjo 5"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:77
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:75
 #, kde-format
 msgid ""
 "Precision Level 5 (best quality)\n"
@@ -61292,47 +61288,73 @@ msgstr ""
 "\n"
 "Najpočasnejša obdelava. Najboljša kakovost."
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:141
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:139
 #, kde-format
 msgctxt "Autobrush Brush tip mode"
 msgid "Auto"
 msgstr "Samodejno"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:143
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:141
 #, kde-format
 msgctxt "Predefined Brush tip mode"
 msgid "Predefined"
 msgstr "Vnaprej določeno"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:146
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:144
 #: plugins/paintops/libpaintop/kis_text_brush_chooser.cpp:40
 #, kde-format
 msgctxt "Text Brush tip mode"
 msgid "Text"
 msgstr "Besedilo"
 
-#: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:100
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:79
 #, kde-format
-msgid ""
-"Nothing copied\n"
-" to Clipboard"
-msgstr "Ničesar ni na odložišču."
+msgctxt "@label:listbox image source"
+msgid "Source:"
+msgstr "Vir:"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:229
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:83
 #, kde-format
-msgid ""
-"Creates a brush tip from the current image selection.\n"
-" If no selection is present the whole image will be used."
-msgstr ""
-"Ustvari konico čopiča iz trenutne izbire slike.\n"
-" Če ni nobenega izbora, bo uporabljena celotna slika."
+msgctxt "@item:inlistbox"
+msgid "Image"
+msgstr "Slika"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:233
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:84
 #, kde-format
-msgid "Creates a brush tip from the image in the clipboard."
-msgstr "Ustvari konico čopiča iz slike na odložišču."
+msgctxt "@item:inlistbox"
+msgid "Clipboard"
+msgstr "Odložišče"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:238
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:87
+#, kde-format
+msgctxt "@action:button reload image"
+msgid "Reload"
+msgstr "Ponovno naloži"
+
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:250
+#, kde-format
+msgctxt "@info empty image"
+msgid "Empty"
+msgstr "Prazno"
+
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:277
+#, kde-format
+msgctxt "@action:button"
+msgid "Overwrite"
+msgstr "Prepiši"
+
+#: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:279
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Shrani"
+
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:226
+#, kde-format
+msgid "Creates a brush tip from the current image, selection, or clipboard."
+msgstr "Ustvari konico čopiča iz trenutne slike, izbora ali odložišča."
+
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:230
 #, kde-format
 msgid ""
 "Reloads Spacing from file\n"
@@ -61343,25 +61365,25 @@ msgstr ""
 "Določi spremembo velikosti na 1,0\n"
 "Določi vrtenje na 0,0"
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:244
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:236
 #, kde-format
 msgctxt "@label:slider"
 msgid "Neutral point: "
 msgstr "Nevtralna točka: "
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:252
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:244
 #, kde-format
 msgctxt "@label:slider"
 msgid "Brightness: "
 msgstr "Svetlost: "
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:259
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:251
 #, kde-format
 msgctxt "@label:slider"
 msgid "Contrast: "
 msgstr "Kontrast: "
 
-#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:262
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:254
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -61374,6 +61396,11 @@ msgstr ""
 " Nevtralna točka: 127\n"
 " Svetlost: 0%\n"
 " Kontrast: 0%"
+
+#: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:298
+#, kde-format
+msgid "Create New Brushtip"
+msgstr "Ustvari novo konico čopiča"
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:31
 #, kde-format
@@ -65654,7 +65681,7 @@ msgid "Zoom Tool"
 msgstr "Orodje za približevanje"
 
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:62
-#: plugins/tools/basictools/kis_tool_pan.cpp:81
+#: plugins/tools/basictools/kis_tool_pan.cpp:95
 #, kde-format
 msgid "Pan Tool"
 msgstr "Orodje Zasuk"
@@ -70556,9 +70583,3 @@ msgstr ""
 "Preklopite med polnim obsegom in podobsegom.\n"
 "Celoten obseg: [%1, %2]\n"
 "Podobseg: [%3, %4]"
-
-#~ msgid "Layer name:"
-#~ msgstr "Ime plasti:"
-
-#~ msgid "No configuration options are available for this filter"
-#~ msgstr "Za ta filter ni na voljo nobenih možnosti prilagajanja"
