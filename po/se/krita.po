@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-01 00:43+0000\n"
+"POT-Creation-Date: 2026-10-10 00:43+0000\n"
 "PO-Revision-Date: 2007-05-13 00:25+0200\n"
 "Last-Translator: Børre Gaup <boerre@skolelinux.no>\n"
 "Language-Team: Northern Sami <l10n-no@nuug.no>\n"
@@ -39291,7 +39291,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, labelRepeat)
 #: libs/ui/widgets/KoFillConfigWidget.ui:255
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:91
-#: plugins/tools/basictools/kis_tool_gradient.cc:256
+#: plugins/tools/basictools/kis_tool_gradient.cc:258
 #, kde-format
 msgid "Repeat:"
 msgstr "Gearddut:"
@@ -42166,18 +42166,18 @@ msgid "Insert keyframe"
 msgstr ""
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:249
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:723
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:730
 msgctxt "(qtundo-format)"
 msgid "Adjust tangent"
 msgstr ""
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:258
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:270
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:870
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:879
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:888
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:897
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:925
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:877
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:886
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:895
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:904
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:932
 msgctxt "(qtundo-format)"
 msgid "Set interpolation mode"
 msgstr ""
@@ -50683,7 +50683,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:85
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:245
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:50
-#: plugins/tools/basictools/kis_tool_gradient.cc:241
+#: plugins/tools/basictools/kis_tool_gradient.cc:243
 #, kde-format
 msgid "Shape:"
 msgstr ""
@@ -52683,14 +52683,14 @@ msgstr ""
 
 # unreviewed-context
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:28
-#: plugins/tools/basictools/kis_tool_gradient.cc:244
+#: plugins/tools/basictools/kis_tool_gradient.cc:246
 #, kde-format
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "Lineára"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:29
-#: plugins/tools/basictools/kis_tool_gradient.cc:245
+#: plugins/tools/basictools/kis_tool_gradient.cc:247
 #, kde-format
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
@@ -52698,7 +52698,7 @@ msgstr ""
 
 # unreviewed-context
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:30
-#: plugins/tools/basictools/kis_tool_gradient.cc:246
+#: plugins/tools/basictools/kis_tool_gradient.cc:248
 #, kde-format
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
@@ -52706,42 +52706,42 @@ msgstr "Radiella"
 
 # unreviewed-context
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:31
-#: plugins/tools/basictools/kis_tool_gradient.cc:247
+#: plugins/tools/basictools/kis_tool_gradient.cc:249
 #, kde-format
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "Boksa"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:32
-#: plugins/tools/basictools/kis_tool_gradient.cc:248
+#: plugins/tools/basictools/kis_tool_gradient.cc:250
 #, kde-format
 msgctxt "the gradient will be drawn as an asymmetric cone"
 msgid "Conical"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:33
-#: plugins/tools/basictools/kis_tool_gradient.cc:249
+#: plugins/tools/basictools/kis_tool_gradient.cc:251
 #, kde-format
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:34
-#: plugins/tools/basictools/kis_tool_gradient.cc:250
+#: plugins/tools/basictools/kis_tool_gradient.cc:252
 #, kde-format
 msgctxt "the gradient will be drawn as a spiral"
 msgid "Spiral"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:35
-#: plugins/tools/basictools/kis_tool_gradient.cc:251
+#: plugins/tools/basictools/kis_tool_gradient.cc:253
 #, kde-format
 msgctxt "the gradient will be drawn as a reverse spiral"
 msgid "Reverse Spiral"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:36
-#: plugins/tools/basictools/kis_tool_gradient.cc:252
+#: plugins/tools/basictools/kis_tool_gradient.cc:254
 #, kde-format
 msgctxt "the gradient will be drawn in a selection outline"
 msgid "Shaped"
@@ -52749,21 +52749,21 @@ msgstr ""
 
 # unreviewed-context
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:39
-#: plugins/tools/basictools/kis_tool_gradient.cc:259
+#: plugins/tools/basictools/kis_tool_gradient.cc:261
 #, kde-format
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "Ii oktage"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:40
-#: plugins/tools/basictools/kis_tool_gradient.cc:260
+#: plugins/tools/basictools/kis_tool_gradient.cc:262
 #, kde-format
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:41
-#: plugins/tools/basictools/kis_tool_gradient.cc:261
+#: plugins/tools/basictools/kis_tool_gradient.cc:263
 #, kde-format
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
@@ -52813,7 +52813,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelAntiAliasThreshold)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:101
-#: plugins/tools/basictools/kis_tool_gradient.cc:266
+#: plugins/tools/basictools/kis_tool_gradient.cc:285
 #, kde-format
 msgid "Anti-alias threshold:"
 msgstr ""
@@ -63340,7 +63340,7 @@ msgid "Crop Tool"
 msgstr ""
 
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:44
-#: plugins/tools/basictools/kis_tool_gradient.h:106
+#: plugins/tools/basictools/kis_tool_gradient.h:112
 #, kde-format
 msgid "Gradient Tool"
 msgstr ""
@@ -64070,23 +64070,60 @@ msgctxt "The 'drag-fill mode' section label in fill tool options"
 msgid "Drag-fill mode"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:157
+#: plugins/tools/basictools/kis_tool_gradient.cc:158
 msgctxt "(qtundo-format)"
 msgid "Gradient"
 msgstr ""
 
-# unreviewed-context
+#: plugins/tools/basictools/kis_tool_gradient.cc:267
+#, fuzzy, kde-format
+#| msgid "Other:"
+msgid "Dither:"
+msgstr "Eara:"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:270
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "The gradient will not be dithered"
+msgid "None"
+msgstr "Ii oktage"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:271
+#, fuzzy, kde-format
+#| msgid "Noise"
+msgctxt "The gradient will be dithered with Blue Noise"
+msgid "Blue Noise"
+msgstr "Gadja"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:272
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 2x2"
+msgid "Bayer Matrix 2x2"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:273
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 4x4"
+msgid "Bayer Matrix 4x4"
+msgstr ""
+
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 8x8"
+msgid "Bayer Matrix 8x8"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:278
+#, kde-format
+msgid "Dither steps:"
+msgstr ""
+
+# unreviewed-context
+#: plugins/tools/basictools/kis_tool_gradient.cc:293
 #, kde-format
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "Maŋosguvlui"
-
-#: plugins/tools/basictools/kis_tool_gradient.cc:279
-#, kde-format
-msgctxt "the gradient will be dithered"
-msgid "Dither"
-msgstr ""
 
 #: plugins/tools/basictools/kis_tool_line.cc:53
 msgctxt "(qtundo-format)"

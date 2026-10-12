@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-01 00:43+0000\n"
+"POT-Creation-Date: 2026-10-10 00:43+0000\n"
 "PO-Revision-Date: 2010-12-26 09:39+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -43122,7 +43122,7 @@ msgstr "ਸਲਾਈਡਸ਼ੋ ਇੰਪੋਰਟ"
 #. i18n: ectx: property (text), widget (QLabel, labelRepeat)
 #: libs/ui/widgets/KoFillConfigWidget.ui:255
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:91
-#: plugins/tools/basictools/kis_tool_gradient.cc:256
+#: plugins/tools/basictools/kis_tool_gradient.cc:258
 #, kde-format
 msgid "Repeat:"
 msgstr ""
@@ -46276,7 +46276,7 @@ msgid "Insert keyframe"
 msgstr "ਸਫ਼ਾ ਸ਼ਾਮਲ"
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:249
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:723
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:730
 #, fuzzy
 #| msgid "Document"
 msgctxt "(qtundo-format)"
@@ -46285,11 +46285,11 @@ msgstr "ਡੌਕੂਮੈਂਟ"
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:258
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:270
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:870
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:879
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:888
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:897
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:925
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:877
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:886
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:895
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:904
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:932
 #, fuzzy
 #| msgid "Object Name"
 msgctxt "(qtundo-format)"
@@ -55802,7 +55802,7 @@ msgstr ""
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:85
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:245
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:50
-#: plugins/tools/basictools/kis_tool_gradient.cc:241
+#: plugins/tools/basictools/kis_tool_gradient.cc:243
 #, fuzzy, kde-format
 #| msgid "Shape"
 msgid "Shape:"
@@ -58052,7 +58052,7 @@ msgid "&Gradient..."
 msgstr "ਸਲਾਈਡਸ਼ੋ ਇੰਪੋਰਟ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:28
-#: plugins/tools/basictools/kis_tool_gradient.cc:244
+#: plugins/tools/basictools/kis_tool_gradient.cc:246
 #, fuzzy, kde-format
 #| msgid "Lines"
 msgctxt "the gradient will be drawn linearly"
@@ -58060,7 +58060,7 @@ msgid "Linear"
 msgstr "ਲਾਈਨਾਂ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:29
-#: plugins/tools/basictools/kis_tool_gradient.cc:245
+#: plugins/tools/basictools/kis_tool_gradient.cc:247
 #, fuzzy, kde-format
 #| msgid "Lines"
 msgctxt "the gradient will be drawn bilinearly"
@@ -58068,7 +58068,7 @@ msgid "Bi-Linear"
 msgstr "ਲਾਈਨਾਂ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:30
-#: plugins/tools/basictools/kis_tool_gradient.cc:246
+#: plugins/tools/basictools/kis_tool_gradient.cc:248
 #, fuzzy, kde-format
 #| msgid "Set border"
 msgctxt "the gradient will be drawn radially"
@@ -58076,7 +58076,7 @@ msgid "Radial"
 msgstr "ਬਾਰਡਰ ਸੈੱਟ ਕਰੋ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:31
-#: plugins/tools/basictools/kis_tool_gradient.cc:247
+#: plugins/tools/basictools/kis_tool_gradient.cc:249
 #, fuzzy, kde-format
 #| msgid "Create shape"
 msgctxt "the gradient will be drawn in a square around a centre"
@@ -58084,21 +58084,21 @@ msgid "Square"
 msgstr "ਸ਼ਕਲ ਬਣਾਓ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:32
-#: plugins/tools/basictools/kis_tool_gradient.cc:248
+#: plugins/tools/basictools/kis_tool_gradient.cc:250
 #, kde-format
 msgctxt "the gradient will be drawn as an asymmetric cone"
 msgid "Conical"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:33
-#: plugins/tools/basictools/kis_tool_gradient.cc:249
+#: plugins/tools/basictools/kis_tool_gradient.cc:251
 #, kde-format
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:34
-#: plugins/tools/basictools/kis_tool_gradient.cc:250
+#: plugins/tools/basictools/kis_tool_gradient.cc:252
 #, fuzzy, kde-format
 #| msgid "Shape"
 msgctxt "the gradient will be drawn as a spiral"
@@ -58106,7 +58106,7 @@ msgid "Spiral"
 msgstr "ਸ਼ਕਲ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:35
-#: plugins/tools/basictools/kis_tool_gradient.cc:251
+#: plugins/tools/basictools/kis_tool_gradient.cc:253
 #, fuzzy, kde-format
 #| msgid "Remove points"
 msgctxt "the gradient will be drawn as a reverse spiral"
@@ -58114,7 +58114,7 @@ msgid "Reverse Spiral"
 msgstr "ਬਿੰਦੂ ਹਟਾਓ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:36
-#: plugins/tools/basictools/kis_tool_gradient.cc:252
+#: plugins/tools/basictools/kis_tool_gradient.cc:254
 #, fuzzy, kde-format
 #| msgid "Shape"
 msgctxt "the gradient will be drawn in a selection outline"
@@ -58122,21 +58122,21 @@ msgid "Shaped"
 msgstr "ਸ਼ਕਲ"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:39
-#: plugins/tools/basictools/kis_tool_gradient.cc:259
+#: plugins/tools/basictools/kis_tool_gradient.cc:261
 #, kde-format
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:40
-#: plugins/tools/basictools/kis_tool_gradient.cc:260
+#: plugins/tools/basictools/kis_tool_gradient.cc:262
 #, kde-format
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr ""
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:41
-#: plugins/tools/basictools/kis_tool_gradient.cc:261
+#: plugins/tools/basictools/kis_tool_gradient.cc:263
 #, fuzzy, kde-format
 #| msgid "Document Settings"
 msgctxt "The gradient will repeat alternatingly"
@@ -58193,7 +58193,7 @@ msgstr "ਡੌਕੂਮੈਂਟ ਸੈਟਿੰਗ"
 
 #. i18n: ectx: property (text), widget (QLabel, labelAntiAliasThreshold)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:101
-#: plugins/tools/basictools/kis_tool_gradient.cc:266
+#: plugins/tools/basictools/kis_tool_gradient.cc:285
 #, fuzzy, kde-format
 #| msgid "View mode"
 msgid "Anti-alias threshold:"
@@ -70173,7 +70173,7 @@ msgid "Crop Tool"
 msgstr "ਬਿੰਦੂ ਹਿਲਾਓ"
 
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:44
-#: plugins/tools/basictools/kis_tool_gradient.h:106
+#: plugins/tools/basictools/kis_tool_gradient.h:112
 #, fuzzy, kde-format
 #| msgid "Import Slideshow"
 msgid "Gradient Tool"
@@ -71052,26 +71052,62 @@ msgctxt "The 'drag-fill mode' section label in fill tool options"
 msgid "Drag-fill mode"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:157
+#: plugins/tools/basictools/kis_tool_gradient.cc:158
 #, fuzzy
 #| msgid "Import Slideshow"
 msgctxt "(qtundo-format)"
 msgid "Gradient"
 msgstr "ਸਲਾਈਡਸ਼ੋ ਇੰਪੋਰਟ"
 
+#: plugins/tools/basictools/kis_tool_gradient.cc:267
+#, fuzzy, kde-format
+#| msgid "Line Weight"
+msgid "Dither:"
+msgstr "ਰੇਖਾ ਭਾਰ"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:270
+#, kde-format
+msgctxt "The gradient will not be dithered"
+msgid "None"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:271
+#, fuzzy, kde-format
+#| msgid "View mode"
+msgctxt "The gradient will be dithered with Blue Noise"
+msgid "Blue Noise"
+msgstr "ਵੇਖਣ ਮੋਡ"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:272
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 2x2"
+msgid "Bayer Matrix 2x2"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:273
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 4x4"
+msgid "Bayer Matrix 4x4"
+msgstr ""
+
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 8x8"
+msgid "Bayer Matrix 8x8"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:278
+#, fuzzy, kde-format
+#| msgid "Line Weight"
+msgid "Dither steps:"
+msgstr "ਰੇਖਾ ਭਾਰ"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:293
 #, fuzzy, kde-format
 #| msgid "Remove points"
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "ਬਿੰਦੂ ਹਟਾਓ"
-
-#: plugins/tools/basictools/kis_tool_gradient.cc:279
-#, fuzzy, kde-format
-#| msgid "Line Weight"
-msgctxt "the gradient will be dithered"
-msgid "Dither"
-msgstr "ਰੇਖਾ ਭਾਰ"
 
 #: plugins/tools/basictools/kis_tool_line.cc:53
 #, fuzzy
@@ -75690,6 +75726,12 @@ msgid ""
 "Full range: [%1, %2]\n"
 "Subrange: [%3, %4]"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Line Weight"
+#~ msgctxt "the gradient will be dithered"
+#~ msgid "Dither"
+#~ msgstr "ਰੇਖਾ ਭਾਰ"
 
 #, fuzzy
 #~| msgid "Page"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-01 00:43+0000\n"
-"PO-Revision-Date: 2026-09-22 23:23+0200\n"
+"POT-Creation-Date: 2026-10-10 00:43+0000\n"
+"PO-Revision-Date: 2026-10-08 16:35+0200\n"
 "Last-Translator: Mincho Kondarev <mkondarev@yahoo.de>\n"
 "Language-Team: Bulgarian <kde-i18n-doc@kde.org>\n"
 "Language: bg\n"
@@ -7249,21 +7249,17 @@ msgstr "Дясно подравняване"
 #. i18n: context: text @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:26
 #: krita/data/actions/InteractionTool.action:33
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Ungroup shapes"
+#, kde-format
 msgctxt "action"
 msgid "Ungroup shapes"
-msgstr "Разгрупиране на форми"
+msgstr "Разгрупиране на формите"
 
 #. i18n: context: toolTip @ Action (object_ungroup), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:28
-#, fuzzy, kde-format
-#| msgctxt "Group as Swatch Group in a Palette"
-#| msgid "Remove selected group"
+#, kde-format
 msgctxt "action"
 msgid "Remove the selected shape group"
-msgstr "Премахване на избраната група"
+msgstr "Премахване на избраната група форми"
 
 #. i18n: context: iconText @ Action (object_order_back), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (object_order_back), Actions (Interaction Tool), ActionCollection (Tools)
@@ -7321,21 +7317,17 @@ msgstr "Вертикално центриране"
 #. i18n: context: text @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:66
 #: krita/data/actions/InteractionTool.action:73
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Group shapes"
+#, kde-format
 msgctxt "action"
 msgid "Group shapes"
-msgstr "Групиране на форми"
+msgstr "Групиране на формите"
 
 #. i18n: context: toolTip @ Action (object_group), Actions (Interaction Tool), ActionCollection (Tools)
 #: krita/data/actions/InteractionTool.action:68
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Create a group layer containing selected layers"
+#, kde-format
 msgctxt "action"
 msgid "Create a shape group containing selected shapes"
-msgstr "Създаване на групов слой с избраните слоеве"
+msgstr "Създаване на група от избраните форми"
 
 #. i18n: context: iconText @ Action (object_align_horizontal_left), Actions (Interaction Tool), ActionCollection (Tools)
 #. i18n: context: toolTip @ Action (object_align_horizontal_left), Actions (Interaction Tool), ActionCollection (Tools)
@@ -12087,12 +12079,10 @@ msgstr "Поставяне на слой от клипборда"
 #. i18n: context: text @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2914 krita/krita.action:2917
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Group layer(s)"
+#, kde-format
 msgctxt "action"
 msgid "Group layers"
-msgstr "Групиране на слой/слоеве"
+msgstr "Групиране на слоеве"
 
 #. i18n: context: toolTip @ Action (create_quick_group), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2916
@@ -12106,12 +12096,10 @@ msgstr "Създаване на групов слой с избраните сл
 #. i18n: context: text @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
 #. i18n: context: iconText @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2926 krita/krita.action:2929
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Ungroup layer(s)"
+#, kde-format
 msgctxt "action"
 msgid "Ungroup layers"
-msgstr "Разгрупиране на слой(и)"
+msgstr "Разгрупиране на слоеве"
 
 #. i18n: context: toolTip @ Action (quick_ungroup), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:2928
@@ -13105,12 +13093,10 @@ msgstr "Задаване на копиране от..."
 
 #. i18n: context: toolTip @ Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3632
-#, fuzzy, kde-format
-#| msgctxt "action"
-#| msgid "Set the source for the selected clone layer(s)."
+#, kde-format
 msgctxt "action"
 msgid "Set the source for the selected clone layers"
-msgstr "Задайте източника за избраните клонирани слоеве."
+msgstr "Задаване на източник за избраните слоеве за клониране"
 
 #. i18n: context: iconText @ Action (set-copy-from), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3633
@@ -25214,13 +25200,11 @@ msgstr "Размерите над 1920 пиксела не са широко п�
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:712
 #: libs/ui/dialogs/kis_dlg_preferences.cc:2421
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Warning"
+#, kde-format
 msgid "Warning:"
 msgid_plural "Warnings:"
-msgstr[0] "Предупреждение"
-msgstr[1] "Предупреждение"
+msgstr[0] "Предупреждение:"
+msgstr[1] "Предупреждения:"
 
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:723
 #, kde-format
@@ -26801,118 +26785,87 @@ msgid "About Krita"
 msgstr "Относно Krita"
 
 #: libs/ui/dialogs/kis_about_application.cpp:51
-#, fuzzy, kde-format
-#| msgid "<p><span style=\" color:%1;\"><b>Using Krita</b></span></p>"
+#, kde-format
 msgid "<p><b>Using Krita</b></p>"
-msgstr "<p><span style=\" color:%1;\"><b>Използване на Krita</b></span></p>"
+msgstr "<p><b>Използване на Krita</b></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:58
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://krita.org/support-us/\"><span style=\" text-"
-#| "decoration: underline; color:%1;\">Support Krita's Development!</span></"
-#| "a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
 "underline;\">Support Krita's Development!</span></a></p>"
 msgstr ""
 "<p><a href=\"https://krita.org/support-us/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Подкрепа за разработването на Krita!</span></a></p>"
+"underline;\">Подкрепа за разработката на Krita!</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:59
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://krita.org/\"><span style=\" text-decoration: "
-#| "underline; color:%1;\">Krita Website</span></a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline;"
 "\">Krita Website</span></a></p>"
 msgstr ""
-"<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline; "
-"color:%1;\">Уебсайт на Krita</span></a></p>"
+"<p><a href=\"https://krita.org/\"><span style=\" text-decoration: underline;"
+"\">Уебсайт на Krita</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:63
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
-#| "\"><span style=\" text-decoration: underline; color:%1;\">Getting "
-#| "Started</span></a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
 "\"><span style=\" text-decoration: underline;\">Getting Started</span></a></"
 "p>"
 msgstr ""
 "<p><a href=\"https://docs.krita.org/en/user_manual/getting_started.html"
-"\"><span style=\" text-decoration: underline; color:%1;\">Първи стъпки</"
-"span></a></p>"
+"\"><span style=\" text-decoration: underline;\">Първи стъпки</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:64
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
-#| "underline; color:%1;\">Manual</span></a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
 "underline;\">Manual</span></a></p>"
 msgstr ""
 "<p><a href=\"https://docs.krita.org/\"><span style=\" text-decoration: "
-"underline; color:%1;\">Ръководство</span></a></p>"
+"underline;\">Ръководство</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:66
-#, fuzzy, kde-format
-#| msgid "<p><span style=\" color:%1;\"><b>Coding Krita</b></span></p>"
+#, kde-format
 msgid "<p><b>Coding Krita</b></p>"
-msgstr "<p><span style=\" color:%1;\"><b>Програмиране на Krita</b></span></p>"
+msgstr "<p><b>Програмиране на Krita</b></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:67
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
-#| "underline; color:%1;\">User Community</span></a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
 "underline;\">User Community</span></a></p>"
 msgstr ""
 "<p><a href=\"https://krita-artists.org\"><span style=\" text-decoration: "
-"underline; color:%1;\">Потребителска общност</span></a></p>"
+"underline;\">Потребителска общност</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:68
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
-#| "decoration: underline; color:%1;\">Source Code</span></a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
 "decoration: underline;;\">Source Code</span></a></p>"
 msgstr ""
 "<p><a href=\"https://invent.kde.org/graphics/krita\"><span style=\" text-"
-"decoration: underline; color:%1;\">Изходен код</span></a></p>"
+"decoration: underline;;\">Изходен код</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:69
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style="
-#| "\" text-decoration: underline; color:%1;\">Scripting API</span></a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
 "text-decoration: underline;\">Scripting API</span></a></p>"
 msgstr ""
 "<p><a href=\"https://api.kde.org/krita/html/classKrita.html\"><span style=\" "
-"text-decoration: underline; color:%1;\">API за скриптове</span></a></p>"
+"text-decoration: underline;\">API за скриптове</span></span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:70
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span "
-#| "style=\" text-decoration: underline; color:%1;\">Scripting School</span></"
-#| "a></p>"
+#, kde-format
 msgid ""
 "<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
 "\" text-decoration: underline;;\">Scripting School</span></a></p>"
 msgstr ""
 "<p><a href=\"https://scripting.krita.org/lessons/introduction\"><span style="
-"\" text-decoration: underline; color:%1;\">Училище по скриптинг</span></a></"
-"p>"
+"\" text-decoration: underline;;\">Училище за скриптове</span></a></p>"
 
 #: libs/ui/dialogs/kis_about_application.cpp:83
 #, kde-format
@@ -40645,7 +40598,7 @@ msgstr "Мрежов градиент"
 #. i18n: ectx: property (text), widget (QLabel, labelRepeat)
 #: libs/ui/widgets/KoFillConfigWidget.ui:255
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:91
-#: plugins/tools/basictools/kis_tool_gradient.cc:256
+#: plugins/tools/basictools/kis_tool_gradient.cc:258
 #, kde-format
 msgid "Repeat:"
 msgstr "Повторение:"
@@ -43604,18 +43557,18 @@ msgid "Insert keyframe"
 msgstr "Вмъкване на ключов кадър"
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:249
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:723
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:730
 msgctxt "(qtundo-format)"
 msgid "Adjust tangent"
 msgstr "Регулиране на тангенцата"
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:258
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:270
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:870
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:879
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:888
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:897
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:925
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:877
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:886
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:895
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:904
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:932
 msgctxt "(qtundo-format)"
 msgid "Set interpolation mode"
 msgstr "Задаване на режим на интерполация"
@@ -45215,13 +45168,12 @@ msgid "px"
 msgstr "px"
 
 #: plugins/dockers/recorder/recorder_export.cpp:560
-#, fuzzy, kde-format
-#| msgid "frame"
+#, kde-format
 msgctxt "The suffix after number of frames"
 msgid "frame"
 msgid_plural "frames"
 msgstr[0] "кадър"
-msgstr[1] "кадър"
+msgstr[1] "кадри"
 
 #: plugins/dockers/recorder/recorder_export.cpp:620
 #, kde-format
@@ -50880,19 +50832,16 @@ msgstr ""
 "скриптове на Krita</span></a>!</p></body></html>"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:51
-#, fuzzy, kde-format
-#| msgctxt "EXIF: exposure - exposure mode"
-#| msgid "Manual"
+#, kde-format
 msgctxt "@title:tab plugin manual"
 msgid "Manual"
-msgstr "Ръчно"
+msgstr "Ръководство"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:53
-#, fuzzy, kde-format
-#| msgid "Status"
+#, kde-format
 msgctxt "@title:tab plugin status"
 msgid "Status"
-msgstr "Състояние"
+msgstr "Статус"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:75
 #, kde-format
@@ -50900,67 +50849,56 @@ msgid "Python Plugin Manager"
 msgstr "Мениджър на Python добавки"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:114
-#, fuzzy, kde-format
-#| msgid "Location:"
+#, kde-format
 msgctxt "%1 plugin file path"
 msgid "Location: %1"
-msgstr "Местоположение:"
+msgstr "Местоположение: %1"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:115
-#, fuzzy, kde-format
-#| msgid "Enabled"
+#, kde-format
 msgid "Enabled: false"
-msgstr "Включено"
+msgstr "Активирано: false"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:115
-#, fuzzy, kde-format
-#| msgid "Enabled"
+#, kde-format
 msgid "Enabled: true"
-msgstr "Включено"
+msgstr "Активирано: true"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:117
-#, fuzzy, kde-format
-#| msgid "Status"
+#, kde-format
 msgctxt "%1 plugin status text"
 msgid "Status: %1"
-msgstr "Състояние"
+msgstr "Статус: %1"
 
 #: plugins/extensions/pykrita/plugin/pyqtpluginsettings.cpp:119
-#, fuzzy, kde-format
-#| msgid "Error: "
+#, kde-format
 msgctxt "%1 plugin error message"
 msgid "Error: %1"
-msgstr "Грешка: "
+msgstr "Грешка: %1"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:81
-#, fuzzy, kde-format
-#| msgctxt "Draws a line around an area"
-#| msgid "Stroke"
+#, kde-format
 msgctxt "@item:intable plugin status"
 msgid "Broken"
-msgstr "Очертаване"
+msgstr "Повреден"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:83
-#, fuzzy, kde-format
-#| msgid "Enabled"
+#, kde-format
 msgctxt "@item:intable plugin status"
 msgid "Unstable"
-msgstr "Включено"
+msgstr "Нестабилен"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:85
-#, fuzzy, kde-format
-#| msgctxt "Load Image as Thumbnail button"
-#| msgid "Load Image"
+#, kde-format
 msgctxt "@item:intable plugin status"
 msgid "Loaded"
-msgstr "Зареждане на изображение"
+msgstr "Заредено"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:87
-#, fuzzy, kde-format
-#| msgid "Not Saved"
+#, kde-format
 msgctxt "@item:intable plugin status"
 msgid "Not loaded"
-msgstr "Незапазено"
+msgstr "Незареден"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:150
 #, kde-format
@@ -51029,12 +50967,10 @@ msgid "Internal engine failure"
 msgstr "Вътрешен системен срив"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginManager.cpp:386
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "Module not loaded:<br/>%1"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Module not loaded:<br/><code>%1</code>"
-msgstr "Модулът не е зареден:<br/>%1"
+msgstr "Модулът не е зареден:<br/><code>%1</code>"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:53
 #, kde-format
@@ -51049,11 +50985,10 @@ msgid "Comment"
 msgstr "Коментар"
 
 #: plugins/extensions/pykrita/plugin/PythonPluginsModel.cpp:57
-#, fuzzy, kde-format
-#| msgid "Status"
+#, kde-format
 msgctxt "@title:column"
 msgid "Status"
-msgstr "Състояние"
+msgstr "Статус"
 
 #: plugins/extensions/qmic/kis_qmic_interface.cpp:230
 msgctxt "(qtundo-format)"
@@ -52392,7 +52327,7 @@ msgstr "Ирис"
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:85
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:245
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:50
-#: plugins/tools/basictools/kis_tool_gradient.cc:241
+#: plugins/tools/basictools/kis_tool_gradient.cc:243
 #, kde-format
 msgid "Shape:"
 msgstr "Фигура:"
@@ -54405,84 +54340,84 @@ msgid "&Gradient..."
 msgstr "&Преливка..."
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:28
-#: plugins/tools/basictools/kis_tool_gradient.cc:244
+#: plugins/tools/basictools/kis_tool_gradient.cc:246
 #, kde-format
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "Линейно"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:29
-#: plugins/tools/basictools/kis_tool_gradient.cc:245
+#: plugins/tools/basictools/kis_tool_gradient.cc:247
 #, kde-format
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr "Билинейно"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:30
-#: plugins/tools/basictools/kis_tool_gradient.cc:246
+#: plugins/tools/basictools/kis_tool_gradient.cc:248
 #, kde-format
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "Радиално"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:31
-#: plugins/tools/basictools/kis_tool_gradient.cc:247
+#: plugins/tools/basictools/kis_tool_gradient.cc:249
 #, kde-format
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "Квадрат"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:32
-#: plugins/tools/basictools/kis_tool_gradient.cc:248
+#: plugins/tools/basictools/kis_tool_gradient.cc:250
 #, kde-format
 msgctxt "the gradient will be drawn as an asymmetric cone"
 msgid "Conical"
 msgstr "Конично"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:33
-#: plugins/tools/basictools/kis_tool_gradient.cc:249
+#: plugins/tools/basictools/kis_tool_gradient.cc:251
 #, kde-format
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr "Коничен симетричен"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:34
-#: plugins/tools/basictools/kis_tool_gradient.cc:250
+#: plugins/tools/basictools/kis_tool_gradient.cc:252
 #, kde-format
 msgctxt "the gradient will be drawn as a spiral"
 msgid "Spiral"
 msgstr "Спираловидно"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:35
-#: plugins/tools/basictools/kis_tool_gradient.cc:251
+#: plugins/tools/basictools/kis_tool_gradient.cc:253
 #, kde-format
 msgctxt "the gradient will be drawn as a reverse spiral"
 msgid "Reverse Spiral"
 msgstr "Обратна спирала"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:36
-#: plugins/tools/basictools/kis_tool_gradient.cc:252
+#: plugins/tools/basictools/kis_tool_gradient.cc:254
 #, kde-format
 msgctxt "the gradient will be drawn in a selection outline"
 msgid "Shaped"
 msgstr "Очертан"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:39
-#: plugins/tools/basictools/kis_tool_gradient.cc:259
+#: plugins/tools/basictools/kis_tool_gradient.cc:261
 #, kde-format
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "Без"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:40
-#: plugins/tools/basictools/kis_tool_gradient.cc:260
+#: plugins/tools/basictools/kis_tool_gradient.cc:262
 #, kde-format
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr "Напред"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:41
-#: plugins/tools/basictools/kis_tool_gradient.cc:261
+#: plugins/tools/basictools/kis_tool_gradient.cc:263
 #, kde-format
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
@@ -54532,7 +54467,7 @@ msgstr "Относителен"
 
 #. i18n: ectx: property (text), widget (QLabel, labelAntiAliasThreshold)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:101
-#: plugins/tools/basictools/kis_tool_gradient.cc:266
+#: plugins/tools/basictools/kis_tool_gradient.cc:285
 #, kde-format
 msgid "Anti-alias threshold:"
 msgstr "Праг на заглаждане:"
@@ -55199,9 +55134,7 @@ msgid "Brush selection information for animated brushes"
 msgstr "Информация за избор на четка за анимирани четки"
 
 #: plugins/impex/brush/KisWdgOptionsBrush.cpp:107
-#, fuzzy, kde-format
-#| msgctxt "video importer: video file statistics"
-#| msgid "Frames: %1"
+#, kde-format
 msgctxt "@label %1 number of animation frames"
 msgid "Frames: %1"
 msgstr "Кадри: %1"
@@ -61257,13 +61190,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, customButton)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:81
-#, fuzzy, kde-format
-#| msgctxt "(qtundo-format)"
-#| msgid "Create shape"
-#| msgid_plural "Create %1 shapes"
+#, kde-format
 msgctxt "@action:button create new brushtip"
 msgid "Create New"
-msgstr "Създаване на форма"
+msgstr "Създаване на нов"
 
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, brushTipNameLabel)
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:119
@@ -61526,60 +61456,52 @@ msgid "Text"
 msgstr "Текст"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:79
-#, fuzzy, kde-format
-#| msgid "Source:"
+#, kde-format
 msgctxt "@label:listbox image source"
 msgid "Source:"
 msgstr "Източник:"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:83
-#, fuzzy, kde-format
-#| msgid "Image"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Image"
 msgstr "Изображение"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:84
-#, fuzzy, kde-format
-#| msgid "Clipboard"
+#, kde-format
 msgctxt "@item:inlistbox"
 msgid "Clipboard"
 msgstr "Клипборд"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:87
-#, fuzzy, kde-format
-#| msgid "Reload File"
+#, kde-format
 msgctxt "@action:button reload image"
 msgid "Reload"
-msgstr "Презареждане на файл"
+msgstr "Презареждане"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:250
-#, fuzzy, kde-format
-#| msgctxt "Empty locale"
-#| msgid "Empty"
+#, kde-format
 msgctxt "@info empty image"
 msgid "Empty"
 msgstr "Празно"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:277
-#, fuzzy, kde-format
-#| msgid "Overwrite"
+#, kde-format
 msgctxt "@action:button"
 msgid "Overwrite"
-msgstr "Презаписване"
+msgstr "Презапис"
 
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:279
-#, fuzzy, kde-format
-#| msgid "Save"
+#, kde-format
 msgctxt "@action:button"
 msgid "Save"
 msgstr "Запазване"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:226
-#, fuzzy, kde-format
-#| msgid "Creates a brush tip from the image in the clipboard."
+#, kde-format
 msgid "Creates a brush tip from the current image, selection, or clipboard."
-msgstr "Създаване на връх на четка от изображението в клипборда."
+msgstr ""
+"Създаване на връх на четка от текущото изображение, селекция или клипборд."
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:230
 #, kde-format
@@ -61625,10 +61547,9 @@ msgstr ""
 " Контраст: 0%"
 
 #: plugins/paintops/libpaintop/kis_predefined_brush_chooser.cpp:298
-#, fuzzy, kde-format
-#| msgid "Current Brush Tip"
+#, kde-format
 msgid "Create New Brushtip"
-msgstr "Текущ връх на четката"
+msgstr "Създаване на нов връх на четка"
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:31
 #, kde-format
@@ -65849,7 +65770,7 @@ msgid "Crop Tool"
 msgstr "Отрязване"
 
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:44
-#: plugins/tools/basictools/kis_tool_gradient.h:106
+#: plugins/tools/basictools/kis_tool_gradient.h:112
 #, kde-format
 msgid "Gradient Tool"
 msgstr "Преливка"
@@ -66581,22 +66502,56 @@ msgctxt "The 'drag-fill mode' section label in fill tool options"
 msgid "Drag-fill mode"
 msgstr "Режим на пълнене чрез плъзгане"
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:157
+#: plugins/tools/basictools/kis_tool_gradient.cc:158
 msgctxt "(qtundo-format)"
 msgid "Gradient"
 msgstr "Преливка"
 
+#: plugins/tools/basictools/kis_tool_gradient.cc:267
+#, kde-format
+msgid "Dither:"
+msgstr "Размиване:"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:270
+#, kde-format
+msgctxt "The gradient will not be dithered"
+msgid "None"
+msgstr "Без"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:271
+#, kde-format
+msgctxt "The gradient will be dithered with Blue Noise"
+msgid "Blue Noise"
+msgstr "Син шум"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:272
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 2x2"
+msgid "Bayer Matrix 2x2"
+msgstr "Матрица на Байер 2x2"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:273
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 4x4"
+msgid "Bayer Matrix 4x4"
+msgstr "Матрица на Байер 4x4"
+
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 8x8"
+msgid "Bayer Matrix 8x8"
+msgstr "Матрица на Байер 8x8"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:278
+#, kde-format
+msgid "Dither steps:"
+msgstr "Стъпки на размиване:"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:293
 #, kde-format
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "Обратно"
-
-#: plugins/tools/basictools/kis_tool_gradient.cc:279
-#, kde-format
-msgctxt "the gradient will be dithered"
-msgid "Dither"
-msgstr "Размиване"
 
 #: plugins/tools/basictools/kis_tool_line.cc:53
 msgctxt "(qtundo-format)"
@@ -70854,84 +70809,3 @@ msgstr ""
 "Превключване между пълен обхват и подмножество.\n"
 "Пълен обхват: [%1, %2]\n"
 "Подмножество: [%3, %4]"
-
-#~ msgid "Warning(s):"
-#~ msgstr "Предупреждение(я):"
-
-#~ msgctxt "The suffix after number of frames"
-#~ msgid "frame(s)"
-#~ msgstr "кадър(и)"
-
-#~ msgid "Preserve alpha"
-#~ msgstr "Запазване на прозрачност"
-
-#~ msgid "Stamp"
-#~ msgstr "Печат"
-
-#~ msgid ""
-#~ "Nothing copied\n"
-#~ " to Clipboard"
-#~ msgstr ""
-#~ "Нищо не се копира\n"
-#~ " в клипборда"
-
-#~ msgid ""
-#~ "Creates a brush tip from the current image selection.\n"
-#~ " If no selection is present the whole image will be used."
-#~ msgstr ""
-#~ "Създаване на връх на четка от текущата селекция на изображението.\n"
-#~ "Ако няма селекция, ще се използва цялото изображение."
-
-#~ msgctxt "action"
-#~ msgid "Ungroup shape(s)"
-#~ msgstr "Разгрупиране на форма(и)"
-
-#~ msgctxt "action"
-#~ msgid "\"Ungroups shape(s) in the context of Vector Interaction Tool\""
-#~ msgstr ""
-#~ "Разделяне на група(и) от форми във векторизиращия инструмент за "
-#~ "взаимодействие"
-
-#~ msgctxt "action"
-#~ msgid "Group shape(s)"
-#~ msgstr "Групиране на форма(и)"
-
-#~ msgctxt "Groups shape(s) in the context of Vector Interaction Tool"
-#~ msgid "Group"
-#~ msgstr "Групиране"
-
-#~ msgctxt "Group shape(s) in the context of Vector Interaction Tool"
-#~ msgid "Group"
-#~ msgstr "Групиране"
-
-#~ msgctxt "action"
-#~ msgid "Quick Group"
-#~ msgstr "Бързо групиране"
-
-#~ msgctxt "action"
-#~ msgid "Quick Ungroup"
-#~ msgstr "Бързо разгрупиране"
-
-#~ msgid ""
-#~ "<html><head/><body><p><b><span style=\" color:%1;\">Recent Files</span></"
-#~ "b></p>"
-#~ msgstr ""
-#~ "<html><head/><body><p><b><span style=\" color:%1;\">Ненавсно отваряни "
-#~ "файлове</span></b></p>"
-
-#~ msgid ""
-#~ "<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-#~ "\">Links</span></p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-#~ "\">Връзки</span></p></body></html>"
-
-#~ msgid ""
-#~ "<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-#~ "\">Recent files</span></p></body></html>"
-#~ msgstr ""
-#~ "<html><head/><body><p align=\"left\"><span style=\" font-weight:600;"
-#~ "\">Последни файлове</span></p></body></html>"
-
-#~ msgid "Hide after startup."
-#~ msgstr "Скриване след стартиране."

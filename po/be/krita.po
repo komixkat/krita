@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krita\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-10-01 00:43+0000\n"
+"POT-Creation-Date: 2026-10-10 00:43+0000\n"
 "PO-Revision-Date: 2008-01-01 23:08+0200\n"
 "Last-Translator: Darafei Praliaskouski <komzpa@gmail.com>\n"
 "Language-Team: Belarusian (Official spelling) <i18n@mova.org>\n"
@@ -39628,7 +39628,7 @@ msgstr "Градыент"
 #. i18n: ectx: property (text), widget (QLabel, labelRepeat)
 #: libs/ui/widgets/KoFillConfigWidget.ui:255
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:91
-#: plugins/tools/basictools/kis_tool_gradient.cc:256
+#: plugins/tools/basictools/kis_tool_gradient.cc:258
 #, fuzzy, kde-format
 msgid "Repeat:"
 msgstr "Чаргаванне:"
@@ -42476,7 +42476,7 @@ msgid "Insert keyframe"
 msgstr "Імя пласта:"
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:249
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:723
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:730
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Adjust tangent"
@@ -42484,11 +42484,11 @@ msgstr "Крывыя"
 
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:258
 #: plugins/dockers/animation/KisAnimCurvesModel.cpp:270
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:870
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:879
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:888
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:897
-#: plugins/dockers/animation/KisAnimCurvesView.cpp:925
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:877
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:886
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:895
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:904
+#: plugins/dockers/animation/KisAnimCurvesView.cpp:932
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Set interpolation mode"
@@ -51064,7 +51064,7 @@ msgstr "Цэгла"
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:85
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:245
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:50
-#: plugins/tools/basictools/kis_tool_gradient.cc:241
+#: plugins/tools/basictools/kis_tool_gradient.cc:243
 #, fuzzy, kde-format
 msgid "Shape:"
 msgstr "Форма:"
@@ -53067,84 +53067,84 @@ msgid "&Gradient..."
 msgstr "Градыент"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:28
-#: plugins/tools/basictools/kis_tool_gradient.cc:244
+#: plugins/tools/basictools/kis_tool_gradient.cc:246
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "Лінейны"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:29
-#: plugins/tools/basictools/kis_tool_gradient.cc:245
+#: plugins/tools/basictools/kis_tool_gradient.cc:247
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr "Білінейнае"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:30
-#: plugins/tools/basictools/kis_tool_gradient.cc:246
+#: plugins/tools/basictools/kis_tool_gradient.cc:248
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "Радыяльнае"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:31
-#: plugins/tools/basictools/kis_tool_gradient.cc:247
+#: plugins/tools/basictools/kis_tool_gradient.cc:249
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "Квадрат"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:32
-#: plugins/tools/basictools/kis_tool_gradient.cc:248
+#: plugins/tools/basictools/kis_tool_gradient.cc:250
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn as an asymmetric cone"
 msgid "Conical"
 msgstr "Канічны"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:33
-#: plugins/tools/basictools/kis_tool_gradient.cc:249
+#: plugins/tools/basictools/kis_tool_gradient.cc:251
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr "Канічнае сіметрычна"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:34
-#: plugins/tools/basictools/kis_tool_gradient.cc:250
+#: plugins/tools/basictools/kis_tool_gradient.cc:252
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn as a spiral"
 msgid "Spiral"
 msgstr "Брудны пэндзаль"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:35
-#: plugins/tools/basictools/kis_tool_gradient.cc:251
+#: plugins/tools/basictools/kis_tool_gradient.cc:253
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn as a reverse spiral"
 msgid "Reverse Spiral"
 msgstr "Выдаліць групу"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:36
-#: plugins/tools/basictools/kis_tool_gradient.cc:252
+#: plugins/tools/basictools/kis_tool_gradient.cc:254
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn in a selection outline"
 msgid "Shaped"
 msgstr "Форма:"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:39
-#: plugins/tools/basictools/kis_tool_gradient.cc:259
+#: plugins/tools/basictools/kis_tool_gradient.cc:261
 #, fuzzy, kde-format
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "Няма"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:40
-#: plugins/tools/basictools/kis_tool_gradient.cc:260
+#: plugins/tools/basictools/kis_tool_gradient.cc:262
 #, fuzzy, kde-format
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr "Чаргаваць колеры"
 
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.cpp:41
-#: plugins/tools/basictools/kis_tool_gradient.cc:261
+#: plugins/tools/basictools/kis_tool_gradient.cc:263
 #, fuzzy, kde-format
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
@@ -53194,7 +53194,7 @@ msgstr "Назоў:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelAntiAliasThreshold)
 #: plugins/generators/gradient/KisGradientGeneratorConfigWidget.ui:101
-#: plugins/tools/basictools/kis_tool_gradient.cc:266
+#: plugins/tools/basictools/kis_tool_gradient.cc:285
 #, fuzzy, kde-format
 msgid "Anti-alias threshold:"
 msgstr "Парог згладжвання:"
@@ -64041,7 +64041,7 @@ msgid "Crop Tool"
 msgstr "Кадраванне"
 
 #: plugins/python/workflow_buttons/buttons_settings_dialog.py:44
-#: plugins/tools/basictools/kis_tool_gradient.h:106
+#: plugins/tools/basictools/kis_tool_gradient.h:112
 #, fuzzy, kde-format
 msgid "Gradient Tool"
 msgstr "Градыент"
@@ -64797,23 +64797,57 @@ msgctxt "The 'drag-fill mode' section label in fill tool options"
 msgid "Drag-fill mode"
 msgstr ""
 
-#: plugins/tools/basictools/kis_tool_gradient.cc:157
+#: plugins/tools/basictools/kis_tool_gradient.cc:158
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Gradient"
 msgstr "Градыент"
 
+#: plugins/tools/basictools/kis_tool_gradient.cc:267
+#, fuzzy, kde-format
+msgid "Dither:"
+msgstr "Іншы"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:270
+#, fuzzy, kde-format
+msgctxt "The gradient will not be dithered"
+msgid "None"
+msgstr "Няма"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:271
+#, fuzzy, kde-format
+msgctxt "The gradient will be dithered with Blue Noise"
+msgid "Blue Noise"
+msgstr "Выгляд"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:272
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 2x2"
+msgid "Bayer Matrix 2x2"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:273
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 4x4"
+msgid "Bayer Matrix 4x4"
+msgstr ""
+
 #: plugins/tools/basictools/kis_tool_gradient.cc:274
+#, kde-format
+msgctxt "The gradient will be dithered with Bayer Matrix 8x8"
+msgid "Bayer Matrix 8x8"
+msgstr ""
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:278
+#, fuzzy, kde-format
+msgid "Dither steps:"
+msgstr "Іншы"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:293
 #, fuzzy, kde-format
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "Адваротны парадак"
-
-#: plugins/tools/basictools/kis_tool_gradient.cc:279
-#, fuzzy, kde-format
-msgctxt "the gradient will be dithered"
-msgid "Dither"
-msgstr "Іншы"
 
 #: plugins/tools/basictools/kis_tool_line.cc:53
 #, fuzzy
@@ -68988,6 +69022,11 @@ msgid ""
 "Full range: [%1, %2]\n"
 "Subrange: [%3, %4]"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "the gradient will be dithered"
+#~ msgid "Dither"
+#~ msgstr "Іншы"
 
 #, fuzzy
 #~ msgid "Warning(s):"
